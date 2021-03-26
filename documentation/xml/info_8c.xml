@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="info_8c" kind="file" language="C++">
+    <compoundname>info.c</compoundname>
+    <includes local="no">string.h</includes>
+    <includes refid="info_8h" local="yes">nmea/info.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>assert.h</label>
+      </node>
+      <node id="3">
+        <label>nmea/info.h</label>
+        <link refid="info_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>string.h</label>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/info.c</label>
+        <link refid="info_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>time.h</label>
+        <link refid="time_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="info_8c_1a7439b48d026e3dec177b6f3a3d07f4dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void nmea_zero_INFO</definition>
+        <argsstring>(nmeaINFO *info)</argsstring>
+        <name>nmea_zero_INFO</name>
+        <param>
+          <type><ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/info.c" line="15" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/info.c" bodystart="15" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>NMEA<sp/>library</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>URL:<sp/>http://nmea.sourceforge.net</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Tim<sp/>(xtimor@gmail.com)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Licence:<sp/>http://www.gnu.org/licenses/lgpl.html</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>info.c<sp/>17<sp/>2008-03-11<sp/>11:56:11Z<sp/>xtimor<sp/>$</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="info_8h" kindref="compound">nmea/info.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="info_8c_1a7439b48d026e3dec177b6f3a3d07f4dd" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="info_8c_1a7439b48d026e3dec177b6f3a3d07f4dd" kindref="member">nmea_zero_INFO</ref>(<ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>memset(info,<sp/>0,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref>));</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="time_8h_1a64e63026e2a1911007c428f43b1b0e65" kindref="member">nmea_time_now</ref>(&amp;info-&gt;<ref refid="struct__nmea_i_n_f_o_1aa183a2afc35c68d3b9cf2018b0ad8c71" kindref="member">utc</ref>);</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;<ref refid="struct__nmea_i_n_f_o_1a20246280a36e0e7d96efc825eb4afb44" kindref="member">sig</ref><sp/>=<sp/><ref refid="info_8h_1a472d67fd568fe912a66cab296815f9c3" kindref="member">NMEA_SIG_BAD</ref>;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;<ref refid="struct__nmea_i_n_f_o_1a66c102c95a0418353910a85753b2a8ed" kindref="member">fix</ref><sp/>=<sp/><ref refid="info_8h_1a119c386d3b14253ac16047ddb0928b00" kindref="member">NMEA_FIX_BAD</ref>;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/info.c"/>
+  </compounddef>
+</doxygen>

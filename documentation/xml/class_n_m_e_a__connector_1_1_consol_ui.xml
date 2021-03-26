@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_n_m_e_a__connector_1_1_consol_ui" kind="class" language="C#" prot="public">
+    <compoundname>NMEA_connector::ConsolUi</compoundname>
+    <basecompoundref refid="class_n_m_e_a__connector_1_1_program" prot="public" virt="non-virtual">NMEA_connector.Program</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_n_m_e_a__connector_1_1_consol_ui_1a5db39a36a71847fb6969ec5cc603e53b" prot="private" static="no" mutable="no">
+        <type><ref refid="struct_n_m_e_a__connector_1_1_struct_g_p_s_data" kindref="compound">StructGPSData</ref></type>
+        <definition>StructGPSData NMEA_connector.ConsolUi._GPSData</definition>
+        <argsstring></argsstring>
+        <name>_GPSData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" line="11" column="31" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_n_m_e_a__connector_1_1_consol_ui_1ac41f8982efc9a41527b7e66c4857ecb5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="struct_n_m_e_a__connector_1_1_struct_g_p_s_data" kindref="compound">StructGPSData</ref></type>
+        <definition>StructGPSData NMEA_connector.ConsolUi.GPSData</definition>
+        <argsstring></argsstring>
+        <name>GPSData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" line="12" column="30" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_n_m_e_a__connector_1_1_consol_ui_1a5907faf9d2b6635ec2dbce9de5ef0488" prot="public" static="yes" mutable="no">
+        <type>string[]</type>
+        <definition>string [] NMEA_connector.ConsolUi.FixQuality</definition>
+        <argsstring></argsstring>
+        <name>FixQuality</name>
+        <initializer>=
+            new string[]
+            {
+                &quot;invalid&quot;,
+                &quot;GPS fix(SPS)&quot;,
+                &quot;DGPS fix&quot;,
+                &quot;PPS fix&quot;,
+                &quot;Real Time Kinematic&quot;,
+                &quot;Float RTK&quot;,
+                &quot;estimated(dead reckoning) (2.3 feature)&quot;,
+                &quot;Manual input mode&quot;,
+                &quot;Simulation mode&quot;
+            }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" line="15" column="30" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_consol_ui_1ac7a94482622af60cd54305e8ab2a1c94" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void NMEA_connector.ConsolUi.ConsolInit</definition>
+        <argsstring>()</argsstring>
+        <name>ConsolInit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" line="30" column="21" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" bodystart="30" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_consol_ui_1a4036c3952e3969b9e55edeb967a5ceea" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>static void NMEA_connector.ConsolUi.ParseGpsCommand</definition>
+        <argsstring>(string gpsString)</argsstring>
+        <name>ParseGpsCommand</name>
+        <param>
+          <type>string</type>
+          <declname>gpsString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" line="108" column="28" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" bodystart="108" bodyend="111"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_consol_ui_1a1ae9e682a19a2d10742426b236c685ee" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>static void NMEA_connector.ConsolUi.PrintOutGpsData</definition>
+        <argsstring>()</argsstring>
+        <name>PrintOutGpsData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" line="113" column="28" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" bodystart="113" bodyend="123"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_consol_ui_1aea7b57fcbd4a03845165009f5c291ef1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int NMEA_connector.ConsolUi.GpsChecksum</definition>
+        <argsstring>(string s)</argsstring>
+        <name>GpsChecksum</name>
+        <param>
+          <type>string</type>
+          <declname>s</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" line="125" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" bodystart="125" bodyend="136"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_consol_ui_1a362c1689bfeea872daca868b33345cc5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int NMEA_connector.ConsolUi.GpsChecksumMain</definition>
+        <argsstring>()</argsstring>
+        <name>GpsChecksumMain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" line="142" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" bodystart="142" bodyend="148"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Program</label>
+        <link refid="class_n_m_e_a__connector_1_1_program"/>
+      </node>
+      <node id="1">
+        <label>NMEA_connector.ConsolUi</label>
+        <link refid="class_n_m_e_a__connector_1_1_consol_ui"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Program</label>
+        <link refid="class_n_m_e_a__connector_1_1_program"/>
+      </node>
+      <node id="1">
+        <label>NMEA_connector.ConsolUi</label>
+        <link refid="class_n_m_e_a__connector_1_1_consol_ui"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" line="10" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" bodystart="9" bodyend="152"/>
+    <listofallmembers>
+      <member refid="class_n_m_e_a__connector_1_1_consol_ui_1a5db39a36a71847fb6969ec5cc603e53b" prot="private" virt="non-virtual"><scope>NMEA_connector::ConsolUi</scope><name>_GPSData</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_consol_ui_1ac7a94482622af60cd54305e8ab2a1c94" prot="public" virt="non-virtual"><scope>NMEA_connector::ConsolUi</scope><name>ConsolInit</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_consol_ui_1a5907faf9d2b6635ec2dbce9de5ef0488" prot="public" virt="non-virtual"><scope>NMEA_connector::ConsolUi</scope><name>FixQuality</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_consol_ui_1aea7b57fcbd4a03845165009f5c291ef1" prot="private" virt="non-virtual"><scope>NMEA_connector::ConsolUi</scope><name>GpsChecksum</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_consol_ui_1a362c1689bfeea872daca868b33345cc5" prot="private" virt="non-virtual"><scope>NMEA_connector::ConsolUi</scope><name>GpsChecksumMain</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_consol_ui_1ac41f8982efc9a41527b7e66c4857ecb5" prot="public" virt="non-virtual"><scope>NMEA_connector::ConsolUi</scope><name>GPSData</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_consol_ui_1a4036c3952e3969b9e55edeb967a5ceea" prot="public" virt="non-virtual"><scope>NMEA_connector::ConsolUi</scope><name>ParseGpsCommand</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_consol_ui_1a1ae9e682a19a2d10742426b236c685ee" prot="public" virt="non-virtual"><scope>NMEA_connector::ConsolUi</scope><name>PrintOutGpsData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

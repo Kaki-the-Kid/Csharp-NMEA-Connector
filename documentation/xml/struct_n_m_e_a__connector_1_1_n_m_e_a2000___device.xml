@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device" kind="struct" language="C#" prot="public">
+    <compoundname>NMEA_connector::NMEA2000_Device</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1ac185373ce2b6f50a691548adfe2781c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceUniqueNumber</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceUniqueNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="10" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1ad842f6aa79ee4208b212d12bb3208efe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceAddress</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="11" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a90a8aebdf50099d19ba124875ba2c3f9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceManufacturer</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceManufacturer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="12" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a2c71b700ef3cdfe731f89f4eb09f9da2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceDeviceInstance</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceDeviceInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="13" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1afa538f1061e2932c444b1410efd0ed50" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceSystemInstance</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceSystemInstance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="14" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a4a4def5fb03a4c564c5a5a19e8899218" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceClass</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="15" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1ad9c97d52372d82f7f1886f423c980bf9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceFunction</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceFunction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="16" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1ad693fcfb4082b05a226b70ae328865b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceI</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="17" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1ab7701b92bec1b1ade79eea25c84b55dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceDatabaseInformation</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceDatabaseInformation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="18" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a9c2b352d3c0f9524dbd1b6a90812e851" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceProductCode</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceProductCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="19" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a9f2bca09594bda56721f2679c599a735" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceModelVersion</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceModelVersion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="20" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1af8dc0749e389beb13cebea595183acca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceModelId</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceModelId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="21" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a04b1012cad2c63f00f89e45ff3a7b224" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA2000DeviceFirmware</definition>
+        <argsstring></argsstring>
+        <name>NMEA2000DeviceFirmware</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="22" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a5944f127dc4ea6827237c6aefb7118d7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceSerial</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceSerial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="23" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1ac44624d1ce5b4d5170cbcffe5f74a5eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceCertification</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceCertification</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="24" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a3283fad5084369824109416429306e4a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceLen_mA</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceLen_mA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="25" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a2fc3b449b897710e263316ec0bf14a43" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceHeartbeat</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceHeartbeat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="26" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1ae1abad7eaf2cdf6a23df419b8c4f326f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceUpdated</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceUpdated</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="27" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a51aba0e60f8c6fa3090d435309b318b4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceinstallationDesc1</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceinstallationDesc1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="28" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a9a0fffb687b7775e46847acb19086f21" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceInstallationDesc2</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceInstallationDesc2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="29" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1abb3a4010b56a2e0a765a495e0eea99c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.NMEA2000_Device.NMEA200DeviceManufaturerInfo</definition>
+        <argsstring></argsstring>
+        <name>NMEA200DeviceManufaturerInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="30" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" line="9" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/DeviceList.cs" bodystart="8" bodyend="31"/>
+    <listofallmembers>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a04b1012cad2c63f00f89e45ff3a7b224" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA2000DeviceFirmware</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1ad842f6aa79ee4208b212d12bb3208efe" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceAddress</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1ac44624d1ce5b4d5170cbcffe5f74a5eb" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceCertification</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a4a4def5fb03a4c564c5a5a19e8899218" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceClass</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1ab7701b92bec1b1ade79eea25c84b55dc" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceDatabaseInformation</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a2c71b700ef3cdfe731f89f4eb09f9da2" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceDeviceInstance</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1ad9c97d52372d82f7f1886f423c980bf9" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceFunction</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a2fc3b449b897710e263316ec0bf14a43" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceHeartbeat</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1ad693fcfb4082b05a226b70ae328865b3" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceI</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a51aba0e60f8c6fa3090d435309b318b4" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceinstallationDesc1</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a9a0fffb687b7775e46847acb19086f21" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceInstallationDesc2</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a3283fad5084369824109416429306e4a" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceLen_mA</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a90a8aebdf50099d19ba124875ba2c3f9" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceManufacturer</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1abb3a4010b56a2e0a765a495e0eea99c6" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceManufaturerInfo</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1af8dc0749e389beb13cebea595183acca" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceModelId</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a9f2bca09594bda56721f2679c599a735" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceModelVersion</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a9c2b352d3c0f9524dbd1b6a90812e851" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceProductCode</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1a5944f127dc4ea6827237c6aefb7118d7" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceSerial</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1afa538f1061e2932c444b1410efd0ed50" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceSystemInstance</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1ac185373ce2b6f50a691548adfe2781c7" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceUniqueNumber</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1_n_m_e_a2000___device_1ae1abad7eaf2cdf6a23df419b8c4f326f" prot="public" virt="non-virtual"><scope>NMEA_connector::NMEA2000_Device</scope><name>NMEA200DeviceUpdated</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

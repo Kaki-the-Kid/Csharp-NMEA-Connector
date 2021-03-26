@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_n_m_e_a__connector_1_1gui_1_1_can_log_viewer" kind="class" language="C#" prot="public">
+    <compoundname>NMEA_connector::gui::CanLogViewer</compoundname>
+    <basecompoundref refid="class_n_m_e_a__connector_1_1gui_1_1_content_page" prot="public" virt="non-virtual">NMEA_connector.gui.ContentPage</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_n_m_e_a__connector_1_1gui_1_1_can_log_viewer_1a7f2124584a0dc7030e422107db29aaad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ObservableCollection&lt; string &gt;</type>
+        <definition>ObservableCollection&lt;string&gt; NMEA_connector.gui.CanLogViewer.Items</definition>
+        <argsstring></argsstring>
+        <name>Items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/CANLogViewer.xaml.cs" line="14" column="37" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/CANLogViewer.xaml.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1gui_1_1_can_log_viewer_1afcd3f6d75f703252b41e05f891314da1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.gui.CanLogViewer.CanLogViewer</definition>
+        <argsstring>()</argsstring>
+        <name>CanLogViewer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/CANLogViewer.xaml.cs" line="16" column="16" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/CANLogViewer.xaml.cs" bodystart="16" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1gui_1_1_can_log_viewer_1afd87e5f3fc8abca462d8b1af8e557aa9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void NMEA_connector.gui.CanLogViewer.Handle_ItemTapped</definition>
+        <argsstring>(object sender, ItemTappedEventArgs e)</argsstring>
+        <name>Handle_ItemTapped</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ItemTappedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/CANLogViewer.xaml.cs" line="32" column="20" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/CANLogViewer.xaml.cs" bodystart="32" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1gui_1_1_can_log_viewer_1abd01292b22d8fe03e04241da87d6f2c6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task NMEA_connector.gui.CanLogViewer.DisplayAlert</definition>
+        <argsstring>(string v1, string v2, string v3)</argsstring>
+        <name>DisplayAlert</name>
+        <param>
+          <type>string</type>
+          <declname>v1</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>v2</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>v3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/CANLogViewer.xaml.cs" line="43" column="22" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/CANLogViewer.xaml.cs" bodystart="43" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>NMEA_connector.gui.CanLogViewer</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_can_log_viewer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ContentPage</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_content_page"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>NMEA_connector.gui.CanLogViewer</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_can_log_viewer"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ContentPage</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_content_page"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/CANLogViewer.xaml.cs" line="13" column="1" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/CANLogViewer.xaml.cs" bodystart="12" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_n_m_e_a__connector_1_1gui_1_1_can_log_viewer_1afcd3f6d75f703252b41e05f891314da1" prot="public" virt="non-virtual"><scope>NMEA_connector::gui::CanLogViewer</scope><name>CanLogViewer</name></member>
+      <member refid="class_n_m_e_a__connector_1_1gui_1_1_content_page_1a9eac2d2f2dbfd1f04bb4e1428f8879ba" prot="public" virt="non-virtual"><scope>NMEA_connector::gui::CanLogViewer</scope><name>ContentPage</name></member>
+      <member refid="class_n_m_e_a__connector_1_1gui_1_1_can_log_viewer_1abd01292b22d8fe03e04241da87d6f2c6" prot="private" virt="non-virtual"><scope>NMEA_connector::gui::CanLogViewer</scope><name>DisplayAlert</name></member>
+      <member refid="class_n_m_e_a__connector_1_1gui_1_1_can_log_viewer_1afd87e5f3fc8abca462d8b1af8e557aa9" prot="private" virt="non-virtual"><scope>NMEA_connector::gui::CanLogViewer</scope><name>Handle_ItemTapped</name></member>
+      <member refid="class_n_m_e_a__connector_1_1gui_1_1_can_log_viewer_1a7f2124584a0dc7030e422107db29aaad" prot="public" virt="non-virtual"><scope>NMEA_connector::gui::CanLogViewer</scope><name>Items</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

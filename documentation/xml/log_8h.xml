@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="log_8h" kind="file" language="C++">
+    <compoundname>log.h</compoundname>
+    <includes local="no">stdarg.h</includes>
+    <includes local="no">tchar.h</includes>
+    <includes refid="_virtual_g_p_s_jet_2vgps_2driver_2config_8h" local="yes">config.h</includes>
+    <includedby refid="log_8c" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.c</includedby>
+    <includedby refid="vgd_8c" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.c</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>stdarg.h</label>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="_virtual_g_p_s_jet_2vgps_2driver_2config_8h"/>
+      </node>
+      <node id="3">
+        <label>tchar.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.c</label>
+        <link refid="log_8c"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h</label>
+        <link refid="log_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.c</label>
+        <link refid="vgd_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="log_8h_1a38157363baedf15ead475d80ae46c1b3" prot="public" static="no">
+        <name>LOGINIT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" line="52" column="10" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="log_8h_1a79fd49c49249a1bc0ef8a45a092b5d54" prot="public" static="no">
+        <name>LOGDONE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" line="53" column="10" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="log_8h_1aca1fd1d8935433e6ba2e3918214e07f9" prot="public" static="no" strong="no">
+        <type></type>
+        <name>LogLevel</name>
+        <enumvalue id="log_8h_1aca1fd1d8935433e6ba2e3918214e07f9aaf66d4d3cf9ca897f7aed856b280c195" prot="public">
+          <name>LevelTrace</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log_8h_1aca1fd1d8935433e6ba2e3918214e07f9a2911a13a3aeaf04494a6cef689019a98" prot="public">
+          <name>LevelWarning</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="log_8h_1aca1fd1d8935433e6ba2e3918214e07f9aa01d78e32290b7f73d7a95a9f21b8aca" prot="public">
+          <name>LevelError</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" line="10" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" bodystart="9" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="log_8h_1ab12564b0c474b05a657fc3f54ef5245d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>BOOL</type>
+        <definition>BOOL log_init</definition>
+        <argsstring>(const PTCHAR file_name)</argsstring>
+        <name>log_init</name>
+        <param>
+          <type>const PTCHAR</type>
+          <declname>file_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" line="20" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.c" bodystart="144" bodyend="144" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" declline="20" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="log_8h_1aff113dc9403d2c319fdde2a01fa6033f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void log_done</definition>
+        <argsstring>()</argsstring>
+        <name>log_done</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" line="21" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.c" bodystart="145" bodyend="145" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" declline="21" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="log_8h_1a86bb78e85ad9688b3c9587d91d17365a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void log_push</definition>
+        <argsstring>(int level, const PTCHAR format,...)</argsstring>
+        <name>log_push</name>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>const PTCHAR</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" line="23" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.c" bodystart="146" bodyend="146" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" declline="23" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="log_8h_1ae4d03c26a9588521f5130fac5c2423d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void log_args</definition>
+        <argsstring>(int level, const PTCHAR format, va_list *args)</argsstring>
+        <name>log_args</name>
+        <param>
+          <type>int</type>
+          <declname>level</declname>
+        </param>
+        <param>
+          <type>const PTCHAR</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>va_list *</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" line="24" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.c" bodystart="147" bodyend="147" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" declline="24" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="log_8h_1aeb31706190f4bbe3c18df00091a3489a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void log_trace</definition>
+        <argsstring>(const PTCHAR format,...)</argsstring>
+        <name>log_trace</name>
+        <param>
+          <type>const PTCHAR</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" line="26" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.c" bodystart="148" bodyend="148" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" declline="26" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="log_8h_1a23bf39794c68bcf3ae155e39fb8204ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void log_warning</definition>
+        <argsstring>(const PTCHAR format,...)</argsstring>
+        <name>log_warning</name>
+        <param>
+          <type>const PTCHAR</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" line="27" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.c" bodystart="149" bodyend="149" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" declline="27" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="log_8h_1ac7e87b506e381967cd2690594da6a734" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void log_error</definition>
+        <argsstring>(const PTCHAR format,...)</argsstring>
+        <name>log_error</name>
+        <param>
+          <type>const PTCHAR</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" line="28" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.c" bodystart="150" bodyend="150" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" declline="28" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="log_8h_1a088646731b28f50f7651f465b337a6ef" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void log_none</definition>
+        <argsstring>(const PTCHAR format,...)</argsstring>
+        <name>log_none</name>
+        <param>
+          <type>const PTCHAR</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>...</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" line="29" column="6" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h" declline="29" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__LOG_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__LOG_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdarg.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;tchar.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_virtual_g_p_s_jet_2vgps_2driver_2config_8h" kindref="compound">config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="log_8h_1aca1fd1d8935433e6ba2e3918214e07f9" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="log_8h_1aca1fd1d8935433e6ba2e3918214e07f9" kindref="member">LogLevel</ref></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11" refid="log_8h_1aca1fd1d8935433e6ba2e3918214e07f9aaf66d4d3cf9ca897f7aed856b280c195" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="log_8h_1aca1fd1d8935433e6ba2e3918214e07f9aaf66d4d3cf9ca897f7aed856b280c195" kindref="member">LevelTrace</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="12" refid="log_8h_1aca1fd1d8935433e6ba2e3918214e07f9a2911a13a3aeaf04494a6cef689019a98" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="log_8h_1aca1fd1d8935433e6ba2e3918214e07f9a2911a13a3aeaf04494a6cef689019a98" kindref="member">LevelWarning</ref>,</highlight></codeline>
+<codeline lineno="13" refid="log_8h_1aca1fd1d8935433e6ba2e3918214e07f9aa01d78e32290b7f73d7a95a9f21b8aca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="log_8h_1aca1fd1d8935433e6ba2e3918214e07f9aa01d78e32290b7f73d7a95a9f21b8aca" kindref="member">LevelError</ref></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal">BOOL<sp/><ref refid="log_8h_1ab12564b0c474b05a657fc3f54ef5245d" kindref="member">log_init</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PTCHAR<sp/>file_name);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="log_8h_1aff113dc9403d2c319fdde2a01fa6033f" kindref="member">log_done</ref>();</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="log_8h_1a86bb78e85ad9688b3c9587d91d17365a" kindref="member">log_push</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>level,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PTCHAR<sp/>format,<sp/>...);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="log_8h_1ae4d03c26a9588521f5130fac5c2423d8" kindref="member">log_args</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>level,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PTCHAR<sp/>format,<sp/>va_list<sp/>*args);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="log_8h_1aeb31706190f4bbe3c18df00091a3489a" kindref="member">log_trace</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PTCHAR<sp/>format,<sp/>...);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="log_8h_1a23bf39794c68bcf3ae155e39fb8204ec" kindref="member">log_warning</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PTCHAR<sp/>format,<sp/>...);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="log_8h_1ac7e87b506e381967cd2690594da6a734" kindref="member">log_error</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PTCHAR<sp/>format,<sp/>...);</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="log_8h_1a088646731b28f50f7651f465b337a6ef" kindref="member">log_none</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>PTCHAR<sp/>format,<sp/>...);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>VGD_USE_LOG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>ifdef<sp/>DEBUGMSG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>undef<sp/>DEBUGMSG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>ifdef<sp/>DEBUG_CHECK</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>undef<sp/>DEBUG_CHECK</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>LOGINIT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log_init(VGD_LOG_FILE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>LOGDONE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>log_done()</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>DEBUGMSG(z,<sp/>exp)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>log_none<sp/>exp</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>DEBUG_CHECK(cond,<sp/>exp)<sp/>if(!(cond))<sp/>{log_trace<sp/>exp;}</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52" refid="log_8h_1a38157363baedf15ead475d80ae46c1b3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>LOGINIT</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="log_8h_1a79fd49c49249a1bc0ef8a45a092b5d54" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>LOGDONE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>VGD_USE_LOG</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>__LOG_H__</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/log.h"/>
+  </compounddef>
+</doxygen>

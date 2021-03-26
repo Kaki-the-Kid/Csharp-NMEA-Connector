@@ -1,0 +1,424 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h" kind="file" language="C++">
+    <compoundname>config.h</compoundname>
+    <includes local="no">assert.h</includes>
+    <includedby refid="context_8h" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/context.h</includedby>
+    <includedby refid="time_8h" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h</includedby>
+    <includedby refid="nmea_8h" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/nmea.h</includedby>
+    <includedby refid="units_8h" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/units.h</includedby>
+    <includedby refid="tok_8h" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/tok.h</includedby>
+    <incdepgraph>
+      <node id="2">
+        <label>assert.h</label>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h</label>
+        <link refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="20">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h</label>
+        <link refid="generator_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c</label>
+        <link refid="gmath_8c"/>
+      </node>
+      <node id="28">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/time.c</label>
+        <link refid="time_8c"/>
+      </node>
+      <node id="26">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parser.h</label>
+        <link refid="parser_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/parse/main.c</label>
+        <link refid="parse_2main_8c"/>
+      </node>
+      <node id="6">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/math/main.c</label>
+        <link refid="math_2main_8c"/>
+      </node>
+      <node id="9">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/context.c</label>
+        <link refid="context_8c"/>
+      </node>
+      <node id="23">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.c</label>
+        <link refid="vgd_8c"/>
+      </node>
+      <node id="21">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h</label>
+        <link refid="vgd_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/parse_file/main.c</label>
+        <link refid="parse__file_2main_8c"/>
+      </node>
+      <node id="30">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/tok.h</label>
+        <link refid="tok_8h"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="31" relation="include">
+        </childnode>
+      </node>
+      <node id="22">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/pdd.c</label>
+        <link refid="pdd_8c"/>
+      </node>
+      <node id="29">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/units.h</label>
+        <link refid="units_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/info.h</label>
+        <link refid="info_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/generate/main.c</label>
+        <link refid="generate_2main_8c"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h</label>
+        <link refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+        <childnode refid="30" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/context.h</label>
+        <link refid="context_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/generate.c</label>
+        <link refid="generate_8c"/>
+      </node>
+      <node id="18">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h</label>
+        <link refid="parse_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/sentence.c</label>
+        <link refid="sentence_8c"/>
+      </node>
+      <node id="31">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/tok.c</label>
+        <link refid="tok_8c"/>
+      </node>
+      <node id="12">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c</label>
+        <link refid="parser_8c"/>
+      </node>
+      <node id="10">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/generator.c</label>
+        <link refid="generator_8c"/>
+      </node>
+      <node id="5">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/generator/main.c</label>
+        <link refid="generator_2main_8c"/>
+      </node>
+      <node id="16">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generate.h</label>
+        <link refid="generate_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+      </node>
+      <node id="24">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/gmath.h</label>
+        <link refid="gmath_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h</label>
+        <link refid="sentence_8h"/>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/info.c</label>
+        <link refid="info_8c"/>
+      </node>
+      <node id="13">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h</label>
+        <link refid="time_8h"/>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c</label>
+        <link refid="parse_8c"/>
+      </node>
+      <node id="3">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/nmea.h</label>
+        <link refid="nmea_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a9883601de0e398d352d5432f8ae8d996" prot="public" static="no">
+        <name>NMEA_VERSION</name>
+        <initializer>(&quot;0.5.3&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" line="14" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a8da904c5108e5c3f962b93817fab74e8" prot="public" static="no">
+        <name>NMEA_VERSION_MAJOR</name>
+        <initializer>(0)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" line="15" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1ab66813bb7e342932617a31cb18d0bc91" prot="public" static="no">
+        <name>NMEA_VERSION_MINOR</name>
+        <initializer>(5)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" line="16" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a5086eaa3ef882506bc9fb9bf190208c7" prot="public" static="no">
+        <name>NMEA_VERSION_PATCH</name>
+        <initializer>(3)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" line="17" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1aead675008ad6819531cd1e31c6f96423" prot="public" static="no">
+        <name>NMEA_CONVSTR_BUF</name>
+        <initializer>(256)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" line="19" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a68565a97e6373117ab4504f90b933524" prot="public" static="no">
+        <name>NMEA_TIMEPARSE_BUF</name>
+        <initializer>(256)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" line="20" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a127600a36ddd02d934ef5b8b2c058436" prot="public" static="no">
+        <name>NMEA_UNI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" line="29" column="14" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a79f906d9809192a5437c04f7aa5f8075" prot="public" static="no">
+        <name>NMEA_POSIX</name>
+        <param><defname>x</defname></param>
+        <initializer>x</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" line="40" column="11" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1af95a22c4c6e5bf0373402e183eb92265" prot="public" static="no">
+        <name>NMEA_INLINE</name>
+        <initializer>inline</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" line="41" column="10" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" prot="public" static="no">
+        <name>NMEA_ASSERT</name>
+        <param><defname>x</defname></param>
+        <initializer>assert(x)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" line="46" column="16" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>NMEA<sp/>library</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>URL:<sp/>http://nmea.sourceforge.net</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Tim<sp/>(xtimor@gmail.com)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Licence:<sp/>http://www.gnu.org/licenses/lgpl.html</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>config.h<sp/>17<sp/>2008-03-11<sp/>11:56:11Z<sp/>xtimor<sp/>$</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__NMEA_CONFIG_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NMEA_CONFIG_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a9883601de0e398d352d5432f8ae8d996" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NMEA_VERSION<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(&quot;0.5.3&quot;)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a8da904c5108e5c3f962b93817fab74e8" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NMEA_VERSION_MAJOR<sp/><sp/>(0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16" refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1ab66813bb7e342932617a31cb18d0bc91" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NMEA_VERSION_MINOR<sp/><sp/>(5)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a5086eaa3ef882506bc9fb9bf190208c7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NMEA_VERSION_PATCH<sp/><sp/>(3)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1aead675008ad6819531cd1e31c6f96423" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NMEA_CONVSTR_BUF<sp/><sp/><sp/><sp/>(256)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a68565a97e6373117ab4504f90b933524" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>NMEA_TIMEPARSE_BUF<sp/><sp/>(256)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(WINCE)<sp/>||<sp/>defined(UNDER_CE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/><sp/>NMEA_CE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(WIN32)<sp/>||<sp/>defined(NMEA_CE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/><sp/>NMEA_WIN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a127600a36ddd02d934ef5b8b2c058436" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/><sp/>NMEA_UNI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(NMEA_WIN)<sp/>&amp;&amp;<sp/>(_MSC_VER<sp/>&gt;=<sp/>1400)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>pragma<sp/>warning(disable:<sp/>4996)<sp/></highlight><highlight class="comment">/*<sp/>declared<sp/>deprecated<sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>defined(_MSC_VER)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>NMEA_POSIX(x)<sp/><sp/>_##x</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>NMEA_INLINE<sp/><sp/><sp/><sp/>__inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a79f906d9809192a5437c04f7aa5f8075" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>NMEA_POSIX(x)<sp/><sp/>x</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1af95a22c4c6e5bf0373402e183eb92265" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>define<sp/>NMEA_INLINE<sp/><sp/><sp/><sp/>inline</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#if<sp/>!defined(NDEBUG)<sp/>&amp;&amp;<sp/>!defined(NMEA_CE)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>include<sp/>&lt;assert.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>NMEA_ASSERT(x)<sp/><sp/><sp/>assert(x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/><sp/><sp/>define<sp/>NMEA_ASSERT(x)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__NMEA_CONFIG_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/config.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct__nmea_p_o_s" kind="struct" language="C++" prot="public">
+    <compoundname>_nmeaPOS</compoundname>
+    <includes refid="info_8h" local="no">info.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _nmeaPOS::lat</definition>
+        <argsstring></argsstring>
+        <name>lat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Latitude </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/info.h" line="43" column="12" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/info.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _nmeaPOS::lon</definition>
+        <argsstring></argsstring>
+        <name>lon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Longitude </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/info.h" line="44" column="12" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/info.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Position data in fractional degrees or radians </para>
+    </detaileddescription>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/info.h" line="42" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/info.h" bodystart="41" bodyend="46"/>
+    <listofallmembers>
+      <member refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" prot="public" virt="non-virtual"><scope>_nmeaPOS</scope><name>lat</name></member>
+      <member refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" prot="public" virt="non-virtual"><scope>_nmeaPOS</scope><name>lon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

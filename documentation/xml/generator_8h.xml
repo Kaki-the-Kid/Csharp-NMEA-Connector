@@ -1,0 +1,496 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="generator_8h" kind="file" language="C++">
+    <compoundname>generator.h</compoundname>
+    <includes refid="info_8h" local="yes">info.h</includes>
+    <includedby refid="nmea_8h" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/nmea.h</includedby>
+    <includedby refid="generator_8c" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/generator.c</includedby>
+    <includedby refid="vgd_8h" local="no">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h</label>
+        <link refid="generator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>assert.h</label>
+      </node>
+      <node id="2">
+        <label>info.h</label>
+        <link refid="info_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>config.h</label>
+        <link refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>time.h</label>
+        <link refid="time_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h</label>
+        <link refid="generator_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/parse/main.c</label>
+        <link refid="parse_2main_8c"/>
+      </node>
+      <node id="5">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/math/main.c</label>
+        <link refid="math_2main_8c"/>
+      </node>
+      <node id="11">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.c</label>
+        <link refid="vgd_8c"/>
+      </node>
+      <node id="9">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h</label>
+        <link refid="vgd_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/parse_file/main.c</label>
+        <link refid="parse__file_2main_8c"/>
+      </node>
+      <node id="10">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/pdd.c</label>
+        <link refid="pdd_8c"/>
+      </node>
+      <node id="3">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/generate/main.c</label>
+        <link refid="generate_2main_8c"/>
+      </node>
+      <node id="8">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/generator.c</label>
+        <link refid="generator_8c"/>
+      </node>
+      <node id="4">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/generator/main.c</label>
+        <link refid="generator_2main_8c"/>
+      </node>
+      <node id="2">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/nmea.h</label>
+        <link refid="nmea_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct__nmea_g_e_n_e_r_a_t_o_r" prot="public">_nmeaGENERATOR</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="generator_8h_1a7476a998bdf5c43054222aa18b45aaae" prot="public" static="no" strong="no">
+        <type></type>
+        <name>nmeaGENTYPE</name>
+        <enumvalue id="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea500b18a973bf79716fce983b3a99bbad" prot="public">
+          <name>NMEA_GEN_NOISE</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea05918beacd57dd16aaa78c791b017bd2" prot="public">
+          <name>NMEA_GEN_STATIC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea9d930e7176433a4b5141ce96816fbf1b" prot="public">
+          <name>NMEA_GEN_ROTATE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea8dfce78728d76933685832e39f19a282" prot="public">
+          <name>NMEA_GEN_SAT_STATIC</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea1772618edfd1ca5729400c490b9cc7b8" prot="public">
+          <name>NMEA_GEN_SAT_ROTATE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="generator_8h_1a7476a998bdf5c43054222aa18b45aaaeab40ee266f83e49e24773ac757cccadee" prot="public">
+          <name>NMEA_GEN_POS_RANDMOVE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="generator_8h_1a7476a998bdf5c43054222aa18b45aaaeafe77075bafa94c957316249677b29407" prot="public">
+          <name>NMEA_GEN_LAST</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" line="27" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" bodystart="26" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="generator_8h_1a2425acb61b423402388b3c27a977c028" prot="public" static="no">
+        <type>int(*</type>
+        <definition>typedef int(* nmeaNMEA_GEN_INIT) (struct _nmeaGENERATOR *gen, nmeaINFO *info)</definition>
+        <argsstring>)(struct _nmeaGENERATOR *gen, nmeaINFO *info)</argsstring>
+        <name>nmeaNMEA_GEN_INIT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" line="53" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="generator_8h_1a788951265c6e7f0c0b327e0a916041e6" prot="public" static="no">
+        <type>int(*</type>
+        <definition>typedef int(* nmeaNMEA_GEN_LOOP) (struct _nmeaGENERATOR *gen, nmeaINFO *info)</definition>
+        <argsstring>)(struct _nmeaGENERATOR *gen, nmeaINFO *info)</argsstring>
+        <name>nmeaNMEA_GEN_LOOP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" line="54" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="generator_8h_1a06ac939b16022fc094864d8764fa3f40" prot="public" static="no">
+        <type>int(*</type>
+        <definition>typedef int(* nmeaNMEA_GEN_RESET) (struct _nmeaGENERATOR *gen, nmeaINFO *info)</definition>
+        <argsstring>)(struct _nmeaGENERATOR *gen, nmeaINFO *info)</argsstring>
+        <name>nmeaNMEA_GEN_RESET</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" line="55" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="generator_8h_1a98a405dbe2b00af303e4ec6de8ffbb85" prot="public" static="no">
+        <type>int(*</type>
+        <definition>typedef int(* nmeaNMEA_GEN_DESTROY) (struct _nmeaGENERATOR *gen)</definition>
+        <argsstring>)(struct _nmeaGENERATOR *gen)</argsstring>
+        <name>nmeaNMEA_GEN_DESTROY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" line="56" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="generator_8h_1a7fdd5e079647c74bef980fd0cfa26f04" prot="public" static="no">
+        <type>struct <ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">_nmeaGENERATOR</ref></type>
+        <definition>typedef struct _nmeaGENERATOR nmeaGENERATOR</definition>
+        <argsstring></argsstring>
+        <name>nmeaGENERATOR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" line="67" column="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="generator_8h_1a53732566bbeb110b2b7c5be6c55e61f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>struct <ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">_nmeaGENERATOR</ref> *</type>
+        <definition>struct _nmeaGENERATOR* nmea_create_generator</definition>
+        <argsstring>(int type, nmeaINFO *info)</argsstring>
+        <name>nmea_create_generator</name>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" line="39" column="22" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/generator.c" bodystart="382" bodyend="390" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" declline="39" declcolumn="22"/>
+      </memberdef>
+      <memberdef kind="function" id="generator_8h_1aaa818e6dfeb36b7597493aa6707162fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void nmea_destroy_generator</definition>
+        <argsstring>(struct _nmeaGENERATOR *gen)</argsstring>
+        <name>nmea_destroy_generator</name>
+        <param>
+          <type>struct <ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">_nmeaGENERATOR</ref> *</type>
+          <declname>gen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" line="40" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/generator.c" bodystart="392" bodyend="395" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" declline="40" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="generator_8h_1a55a1b088ad4e2f2a71971f8777a00ad3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_generate_from</definition>
+        <argsstring>(char *buff, int buff_sz, nmeaINFO *info, struct _nmeaGENERATOR *gen, int generate_mask)</argsstring>
+        <name>nmea_generate_from</name>
+        <param>
+          <type>char *</type>
+          <declname>buff</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buff_sz</declname>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>struct <ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">_nmeaGENERATOR</ref> *</type>
+          <declname>gen</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>generate_mask</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" line="42" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/generator.c" bodystart="101" bodyend="114" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" declline="42" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="generator_8h_1a18b8f0dd2ca50e83878dbf5db1cfc3d4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_gen_init</definition>
+        <argsstring>(nmeaGENERATOR *gen, nmeaINFO *info)</argsstring>
+        <name>nmea_gen_init</name>
+        <param>
+          <type><ref refid="generator_8h_1a7fdd5e079647c74bef980fd0cfa26f04" kindref="member">nmeaGENERATOR</ref> *</type>
+          <declname>gen</declname>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" line="69" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/generator.c" bodystart="35" bodyend="54" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" declline="69" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="generator_8h_1ac76908716bec3ee35d931d27c2ef8737" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_gen_loop</definition>
+        <argsstring>(nmeaGENERATOR *gen, nmeaINFO *info)</argsstring>
+        <name>nmea_gen_loop</name>
+        <param>
+          <type><ref refid="generator_8h_1a7fdd5e079647c74bef980fd0cfa26f04" kindref="member">nmeaGENERATOR</ref> *</type>
+          <declname>gen</declname>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" line="70" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/generator.c" bodystart="56" bodyend="67" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" declline="70" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="generator_8h_1af02a69d12ff12a3d51a0d3270a679628" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_gen_reset</definition>
+        <argsstring>(nmeaGENERATOR *gen, nmeaINFO *info)</argsstring>
+        <name>nmea_gen_reset</name>
+        <param>
+          <type><ref refid="generator_8h_1a7fdd5e079647c74bef980fd0cfa26f04" kindref="member">nmeaGENERATOR</ref> *</type>
+          <declname>gen</declname>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" line="71" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/generator.c" bodystart="69" bodyend="77" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" declline="71" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="generator_8h_1a56f62dcd92c0325a23936afaa0382636" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void nmea_gen_destroy</definition>
+        <argsstring>(nmeaGENERATOR *gen)</argsstring>
+        <name>nmea_gen_destroy</name>
+        <param>
+          <type><ref refid="generator_8h_1a7fdd5e079647c74bef980fd0cfa26f04" kindref="member">nmeaGENERATOR</ref> *</type>
+          <declname>gen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" line="72" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/generator.c" bodystart="79" bodyend="91" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" declline="72" declcolumn="9"/>
+      </memberdef>
+      <memberdef kind="function" id="generator_8h_1a1ef7731f41d200b0701a7add93c5fb84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void nmea_gen_add</definition>
+        <argsstring>(nmeaGENERATOR *to, nmeaGENERATOR *gen)</argsstring>
+        <name>nmea_gen_add</name>
+        <param>
+          <type><ref refid="generator_8h_1a7fdd5e079647c74bef980fd0cfa26f04" kindref="member">nmeaGENERATOR</ref> *</type>
+          <declname>to</declname>
+        </param>
+        <param>
+          <type><ref refid="generator_8h_1a7fdd5e079647c74bef980fd0cfa26f04" kindref="member">nmeaGENERATOR</ref> *</type>
+          <declname>gen</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" line="73" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/generator.c" bodystart="93" bodyend="99" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h" declline="73" declcolumn="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>NMEA<sp/>library</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>URL:<sp/>http://nmea.sourceforge.net</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Tim<sp/>(xtimor@gmail.com)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Licence:<sp/>http://www.gnu.org/licenses/lgpl.html</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>generator.h<sp/>4<sp/>2007-08-27<sp/>13:11:03Z<sp/>xtimor<sp/>$</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__NMEA_GENERATOR_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NMEA_GENERATOR_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="info_8h" kindref="compound">info.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/><sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>high<sp/>level</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">_nmeaGENERATOR</ref>;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaae" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaae" kindref="member">nmeaGENTYPE</ref></highlight></codeline>
+<codeline lineno="27"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="28" refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea500b18a973bf79716fce983b3a99bbad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea500b18a973bf79716fce983b3a99bbad" kindref="member">NMEA_GEN_NOISE</ref><sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="29" refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea05918beacd57dd16aaa78c791b017bd2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea05918beacd57dd16aaa78c791b017bd2" kindref="member">NMEA_GEN_STATIC</ref>,</highlight></codeline>
+<codeline lineno="30" refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea9d930e7176433a4b5141ce96816fbf1b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea9d930e7176433a4b5141ce96816fbf1b" kindref="member">NMEA_GEN_ROTATE</ref>,</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea8dfce78728d76933685832e39f19a282" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea8dfce78728d76933685832e39f19a282" kindref="member">NMEA_GEN_SAT_STATIC</ref>,</highlight></codeline>
+<codeline lineno="33" refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea1772618edfd1ca5729400c490b9cc7b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaaea1772618edfd1ca5729400c490b9cc7b8" kindref="member">NMEA_GEN_SAT_ROTATE</ref>,</highlight></codeline>
+<codeline lineno="34" refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaaeab40ee266f83e49e24773ac757cccadee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaaeab40ee266f83e49e24773ac757cccadee" kindref="member">NMEA_GEN_POS_RANDMOVE</ref>,</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaaeafe77075bafa94c957316249677b29407" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a7476a998bdf5c43054222aa18b45aaaeafe77075bafa94c957316249677b29407" kindref="member">NMEA_GEN_LAST</ref></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">};</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">_nmeaGENERATOR</ref><sp/>*<sp/><ref refid="generator_8h_1a53732566bbeb110b2b7c5be6c55e61f5" kindref="member">nmea_create_generator</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>type,<sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info);</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="generator_8h_1aaa818e6dfeb36b7597493aa6707162fb" kindref="member">nmea_destroy_generator</ref>(</highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">_nmeaGENERATOR</ref><sp/>*gen);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a55a1b088ad4e2f2a71971f8777a00ad3" kindref="member">nmea_generate_from</ref>(</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buff,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buff_sz,<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>buffer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>source<sp/>info<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct</highlight><highlight class="normal"><sp/><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">_nmeaGENERATOR</ref><sp/>*gen,<sp/></highlight><highlight class="comment">/*<sp/>generator<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>generate_mask<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>mask<sp/>of<sp/>sentence`s<sp/>(e.g.<sp/>GPGGA<sp/>|<sp/>GPGSA)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/>*<sp/>low<sp/>level</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="generator_8h_1a2425acb61b423402388b3c27a977c028" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(*<ref refid="generator_8h_1a2425acb61b423402388b3c27a977c028" kindref="member">nmeaNMEA_GEN_INIT</ref>)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">_nmeaGENERATOR</ref><sp/>*gen,<sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info);</highlight></codeline>
+<codeline lineno="54" refid="generator_8h_1a788951265c6e7f0c0b327e0a916041e6" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(*<ref refid="generator_8h_1a788951265c6e7f0c0b327e0a916041e6" kindref="member">nmeaNMEA_GEN_LOOP</ref>)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">_nmeaGENERATOR</ref><sp/>*gen,<sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info);</highlight></codeline>
+<codeline lineno="55" refid="generator_8h_1a06ac939b16022fc094864d8764fa3f40" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(*<ref refid="generator_8h_1a06ac939b16022fc094864d8764fa3f40" kindref="member">nmeaNMEA_GEN_RESET</ref>)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">_nmeaGENERATOR</ref><sp/>*gen,<sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info);</highlight></codeline>
+<codeline lineno="56" refid="generator_8h_1a98a405dbe2b00af303e4ec6de8ffbb85" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>int<sp/>(*<ref refid="generator_8h_1a98a405dbe2b00af303e4ec6de8ffbb85" kindref="member">nmeaNMEA_GEN_DESTROY</ref>)(</highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">_nmeaGENERATOR</ref><sp/>*gen);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="struct__nmea_g_e_n_e_r_a_t_o_r" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">_nmeaGENERATOR</ref></highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="60" refid="struct__nmea_g_e_n_e_r_a_t_o_r_1a24e4774cdca4e728e586714e33c75a74" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="struct__nmea_g_e_n_e_r_a_t_o_r_1a24e4774cdca4e728e586714e33c75a74" kindref="member">gen_data</ref>;</highlight></codeline>
+<codeline lineno="61" refid="struct__nmea_g_e_n_e_r_a_t_o_r_1adb7ee652c46ae610f8f76feb1c1aa211" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a2425acb61b423402388b3c27a977c028" kindref="member">nmeaNMEA_GEN_INIT</ref><sp/><sp/><sp/><sp/><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r_1adb7ee652c46ae610f8f76feb1c1aa211" kindref="member">init_call</ref>;</highlight></codeline>
+<codeline lineno="62" refid="struct__nmea_g_e_n_e_r_a_t_o_r_1a5d02b12715b2613237b99a989c659bf5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a788951265c6e7f0c0b327e0a916041e6" kindref="member">nmeaNMEA_GEN_LOOP</ref><sp/><sp/><sp/><sp/><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r_1a5d02b12715b2613237b99a989c659bf5" kindref="member">loop_call</ref>;</highlight></codeline>
+<codeline lineno="63" refid="struct__nmea_g_e_n_e_r_a_t_o_r_1a7a116693b0e5ebb76ab728862c6a113b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a06ac939b16022fc094864d8764fa3f40" kindref="member">nmeaNMEA_GEN_RESET</ref><sp/><sp/><sp/><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r_1a7a116693b0e5ebb76ab728862c6a113b" kindref="member">reset_call</ref>;</highlight></codeline>
+<codeline lineno="64" refid="struct__nmea_g_e_n_e_r_a_t_o_r_1a2c1789e09648512c15d0be97de46bb41" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a98a405dbe2b00af303e4ec6de8ffbb85" kindref="member">nmeaNMEA_GEN_DESTROY</ref><sp/><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r_1a2c1789e09648512c15d0be97de46bb41" kindref="member">destroy_call</ref>;</highlight></codeline>
+<codeline lineno="65" refid="struct__nmea_g_e_n_e_r_a_t_o_r_1acbc652fb2dc5a3639c292715052753aa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">_nmeaGENERATOR</ref><sp/>*<ref refid="struct__nmea_g_e_n_e_r_a_t_o_r_1acbc652fb2dc5a3639c292715052753aa" kindref="member">next</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal">}<sp/><ref refid="generator_8h_1a7fdd5e079647c74bef980fd0cfa26f04" kindref="member">nmeaGENERATOR</ref>;</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a18b8f0dd2ca50e83878dbf5db1cfc3d4" kindref="member">nmea_gen_init</ref>(<ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">nmeaGENERATOR</ref><sp/>*gen,<sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="generator_8h_1ac76908716bec3ee35d931d27c2ef8737" kindref="member">nmea_gen_loop</ref>(<ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">nmeaGENERATOR</ref><sp/>*gen,<sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><ref refid="generator_8h_1af02a69d12ff12a3d51a0d3270a679628" kindref="member">nmea_gen_reset</ref>(<ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">nmeaGENERATOR</ref><sp/>*gen,<sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info);</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a56f62dcd92c0325a23936afaa0382636" kindref="member">nmea_gen_destroy</ref>(<ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">nmeaGENERATOR</ref><sp/>*gen);</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="generator_8h_1a1ef7731f41d200b0701a7add93c5fb84" kindref="member">nmea_gen_add</ref>(<ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">nmeaGENERATOR</ref><sp/>*to,<sp/><ref refid="struct__nmea_g_e_n_e_r_a_t_o_r" kindref="compound">nmeaGENERATOR</ref><sp/>*gen);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/><sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__NMEA_GENERATOR_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/generator.h"/>
+  </compounddef>
+</doxygen>

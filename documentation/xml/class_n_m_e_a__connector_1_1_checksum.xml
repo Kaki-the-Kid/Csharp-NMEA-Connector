@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_n_m_e_a__connector_1_1_checksum" kind="class" language="C#" prot="public">
+    <compoundname>NMEA_connector::Checksum</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_n_m_e_a__connector_1_1_checksum_1afdd2f85d35d4ee58dc493bb934267c88" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string NMEA_connector.Checksum.testString</definition>
+        <argsstring></argsstring>
+        <name>testString</name>
+        <initializer>= &quot;GPRMC,092751.000,<ref refid="gpslog_8txt_1a01da122e706492ad4a97164179f02bfa" kindref="member">A</ref>,5321.6802,<ref refid="gpslog_8txt_1a792aa59da0bc18e0a503db64cca3179b" kindref="member">N</ref>,00630.3371,<ref refid="gpslog_8txt_1a59a434b3424cf2c5eaa3551fdc203389" kindref="member">W</ref>,0.06,31.66,280511,,,<ref refid="gpslog_8txt_1a01da122e706492ad4a97164179f02bfa" kindref="member">A</ref>&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/checksum.cs" line="7" column="29" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/checksum.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_checksum_1a5f1bbad20caba152e1ba5451941f268d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int NMEA_connector.Checksum.CalculateChecksum</definition>
+        <argsstring>(string nmeaString)</argsstring>
+        <name>CalculateChecksum</name>
+        <param>
+          <type>string</type>
+          <declname>nmeaString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Funktion der beregner og returnerer checksum for samlet NMEA kommando <simplesect kind="author"><para>: Kaki </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername></parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nmeaString </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>: beregnede checksum af givet NMEA streng </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/checksum.cs" line="15" column="20" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/checksum.cs" bodystart="15" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/checksum.cs" line="6" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/checksum.cs" bodystart="5" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_n_m_e_a__connector_1_1_checksum_1a5f1bbad20caba152e1ba5451941f268d" prot="public" virt="non-virtual"><scope>NMEA_connector::Checksum</scope><name>CalculateChecksum</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_checksum_1afdd2f85d35d4ee58dc493bb934267c88" prot="public" virt="non-virtual"><scope>NMEA_connector::Checksum</scope><name>testString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

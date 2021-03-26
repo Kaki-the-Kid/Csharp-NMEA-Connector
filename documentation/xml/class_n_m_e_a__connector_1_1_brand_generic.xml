@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_n_m_e_a__connector_1_1_brand_generic" kind="class" language="C#" prot="public">
+    <compoundname>NMEA_connector::BrandGeneric</compoundname>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1ab81d56cde19bd9b834e1fb0ecb988869" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NMEA_connector.BrandGeneric.handleCommand</definition>
+        <argsstring>(string _nmeaCommand)</argsstring>
+        <name>handleCommand</name>
+        <param>
+          <type>string</type>
+          <declname>_nmeaCommand</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="7" column="30" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="7" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1ac38d13fe9d32c68f5f3a88fc63ba4d40" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPAAM</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPAAM</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="84" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="84" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1aebe20d91cf479cb2bddf5407704df2dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPAPB</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPAPB</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="87" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1afc80982b01e90ec3cd0044bb671a5924" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPBOD</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPBOD</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="90" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="90" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1a79ec424bd69a37fb9b3c1c707b747cd8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPBWC</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPBWC</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="93" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="93" bodyend="93"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1ab34ad54f7968509719dcb50f4be90108" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPRMB</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPRMB</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="96" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="96" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1a59c9be0fc6da15382a6885d31de8cd09" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPRTE</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPRTE</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="99" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="99" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1afe3796e170b6450490641a4231f53ce3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPXTE</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPXTE</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="102" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="102" bodyend="102"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1a557fcdc8a4f96e80a53ca35231a9d2ed" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPWPL</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPWPL</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="105" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="105" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1a833c6ca361d695e7924ece3410bb76a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPGGA</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPGGA</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="110" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="110" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1ad83efce00009c1bbd30b2cd12355e283" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPGSA</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPGSA</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="113" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="113" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1af019092879f92aa5db900a03d4f822bb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPGSV</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPGSV</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="116" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1a7a9645683998d61751b5c112a25f6bbf" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPRMC</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPRMC</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="119" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1ab8c3cd296b00c4b4acf0d9f97b1fb20f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPGLL</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPGLL</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="122" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1a9e52858ff4632b7a435bb2ceee673180" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPVTG</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPVTG</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="125" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1a7cc9ebfa34af01d667971d19b9292d2a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPALM</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPALM</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="129" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="129" bodyend="129"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1a48d2e32b30fece1f80f572b5ecb5451e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPZDA</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPZDA</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="132" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="132" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1a5f03bdad8ef808904dac4bdc80f736d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPMSK</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPMSK</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="135" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="135" bodyend="135"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_brand_generic_1abeda354ee293bf3c07d4bdd7170927a6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.BrandGeneric.GenericNMEACommandGPMSS</definition>
+        <argsstring>(string _command)</argsstring>
+        <name>GenericNMEACommandGPMSS</name>
+        <param>
+          <type>string</type>
+          <declname>_command</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="138" column="9" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="138" bodyend="138"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" line="6" column="1" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/BrandGeneric.cs" bodystart="5" bodyend="139"/>
+    <listofallmembers>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1ac38d13fe9d32c68f5f3a88fc63ba4d40" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPAAM</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1a7cc9ebfa34af01d667971d19b9292d2a" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPALM</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1aebe20d91cf479cb2bddf5407704df2dd" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPAPB</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1afc80982b01e90ec3cd0044bb671a5924" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPBOD</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1a79ec424bd69a37fb9b3c1c707b747cd8" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPBWC</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1a833c6ca361d695e7924ece3410bb76a0" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPGGA</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1ab8c3cd296b00c4b4acf0d9f97b1fb20f" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPGLL</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1ad83efce00009c1bbd30b2cd12355e283" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPGSA</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1af019092879f92aa5db900a03d4f822bb" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPGSV</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1a5f03bdad8ef808904dac4bdc80f736d6" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPMSK</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1abeda354ee293bf3c07d4bdd7170927a6" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPMSS</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1ab34ad54f7968509719dcb50f4be90108" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPRMB</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1a7a9645683998d61751b5c112a25f6bbf" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPRMC</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1a59c9be0fc6da15382a6885d31de8cd09" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPRTE</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1a9e52858ff4632b7a435bb2ceee673180" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPVTG</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1a557fcdc8a4f96e80a53ca35231a9d2ed" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPWPL</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1afe3796e170b6450490641a4231f53ce3" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPXTE</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1a48d2e32b30fece1f80f572b5ecb5451e" prot="private" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>GenericNMEACommandGPZDA</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_brand_generic_1ab81d56cde19bd9b834e1fb0ecb988869" prot="package" virt="non-virtual"><scope>NMEA_connector::BrandGeneric</scope><name>handleCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

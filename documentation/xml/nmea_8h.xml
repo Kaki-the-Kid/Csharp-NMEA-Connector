@@ -1,0 +1,184 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="nmea_8h" kind="file" language="C++">
+    <compoundname>nmea.h</compoundname>
+    <includes refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h" local="yes">./config.h</includes>
+    <includes refid="units_8h" local="yes">./units.h</includes>
+    <includes refid="gmath_8h" local="yes">./gmath.h</includes>
+    <includes refid="info_8h" local="yes">./info.h</includes>
+    <includes refid="sentence_8h" local="yes">./sentence.h</includes>
+    <includes refid="generate_8h" local="yes">./generate.h</includes>
+    <includes refid="generator_8h" local="yes">./generator.h</includes>
+    <includes refid="parse_8h" local="yes">./parse.h</includes>
+    <includes refid="parser_8h" local="yes">./parser.h</includes>
+    <includes refid="context_8h" local="yes">./context.h</includes>
+    <includedby refid="generate_2main_8c" local="no">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/generate/main.c</includedby>
+    <includedby refid="generator_2main_8c" local="no">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/generator/main.c</includedby>
+    <includedby refid="math_2main_8c" local="no">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/math/main.c</includedby>
+    <includedby refid="parse_2main_8c" local="no">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/parse/main.c</includedby>
+    <includedby refid="parse__file_2main_8c" local="no">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/parse_file/main.c</includedby>
+    <incdepgraph>
+      <node id="10">
+        <label>./generator.h</label>
+        <link refid="generator_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="12">
+        <label>./parser.h</label>
+        <link refid="parser_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>assert.h</label>
+      </node>
+      <node id="4">
+        <label>./units.h</label>
+        <link refid="units_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>info.h</label>
+        <link refid="info_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>./config.h</label>
+        <link refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>./context.h</label>
+        <link refid="context_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>./parse.h</label>
+        <link refid="parse_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>./generate.h</label>
+        <link refid="generate_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>./gmath.h</label>
+        <link refid="gmath_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>./sentence.h</label>
+        <link refid="sentence_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>time.h</label>
+        <link refid="time_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/nmea.h</label>
+        <link refid="nmea_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="5">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/parse/main.c</label>
+        <link refid="parse_2main_8c"/>
+      </node>
+      <node id="4">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/math/main.c</label>
+        <link refid="math_2main_8c"/>
+      </node>
+      <node id="6">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/parse_file/main.c</label>
+        <link refid="parse__file_2main_8c"/>
+      </node>
+      <node id="2">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/generate/main.c</label>
+        <link refid="generate_2main_8c"/>
+      </node>
+      <node id="3">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/generator/main.c</label>
+        <link refid="generator_2main_8c"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/nmea.h</label>
+        <link refid="nmea_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>NMEA<sp/>library</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>URL:<sp/>http://nmea.sourceforge.net</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Tim<sp/>(xtimor@gmail.com)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Licence:<sp/>http://www.gnu.org/licenses/lgpl.html</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>nmea.h<sp/>17<sp/>2008-03-11<sp/>11:56:11Z<sp/>xtimor<sp/>$</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__NMEA_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NMEA_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h" kindref="compound">./config.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="units_8h" kindref="compound">./units.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="gmath_8h" kindref="compound">./gmath.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="info_8h" kindref="compound">./info.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="sentence_8h" kindref="compound">./sentence.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="generate_8h" kindref="compound">./generate.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="generator_8h" kindref="compound">./generator.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="parse_8h" kindref="compound">./parse.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="parser_8h" kindref="compound">./parser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="context_8h" kindref="compound">./context.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__NMEA_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/nmea.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct__nmea_t_i_m_e" kind="struct" language="C++" prot="public">
+    <compoundname>_nmeaTIME</compoundname>
+    <includes refid="time_8h" local="no">time.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__nmea_t_i_m_e_1a04f252cfc3de7def97e66dcfcf326f63" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nmeaTIME::year</definition>
+        <argsstring></argsstring>
+        <name>year</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Years since 1900 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" line="28" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_t_i_m_e_1abd7b7843a356eb53d929db0931c15458" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nmeaTIME::mon</definition>
+        <argsstring></argsstring>
+        <name>mon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Months since January - [0,11] </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" line="29" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_t_i_m_e_1afd3f589ccde1cd322bf4c1a191c3d601" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nmeaTIME::day</definition>
+        <argsstring></argsstring>
+        <name>day</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Day of the month - [1,31] </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" line="30" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_t_i_m_e_1a18795d79558ea996ce431f9758177684" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nmeaTIME::hour</definition>
+        <argsstring></argsstring>
+        <name>hour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Hours since midnight - [0,23] </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" line="31" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_t_i_m_e_1aa42f1a93325c909c3cdd8c2ff64ae8c8" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nmeaTIME::min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Minutes after the hour - [0,59] </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" line="32" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_t_i_m_e_1a17712b26e7ee4784a9540bbfb7330853" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nmeaTIME::sec</definition>
+        <argsstring></argsstring>
+        <name>sec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Seconds after the minute - [0,59] </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" line="33" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_t_i_m_e_1a2799fe3d7baf41ce16119cee0156268d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nmeaTIME::hsec</definition>
+        <argsstring></argsstring>
+        <name>hsec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Hundredth part of second - [0,99] </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" line="34" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Date and time data <simplesect kind="see"><para><ref refid="time_8c_1af45f70f6959f055fac4b3769e3e37e3d" kindref="member">nmea_time_now</ref> </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" line="27" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/time.h" bodystart="26" bodyend="36"/>
+    <listofallmembers>
+      <member refid="struct__nmea_t_i_m_e_1afd3f589ccde1cd322bf4c1a191c3d601" prot="public" virt="non-virtual"><scope>_nmeaTIME</scope><name>day</name></member>
+      <member refid="struct__nmea_t_i_m_e_1a18795d79558ea996ce431f9758177684" prot="public" virt="non-virtual"><scope>_nmeaTIME</scope><name>hour</name></member>
+      <member refid="struct__nmea_t_i_m_e_1a2799fe3d7baf41ce16119cee0156268d" prot="public" virt="non-virtual"><scope>_nmeaTIME</scope><name>hsec</name></member>
+      <member refid="struct__nmea_t_i_m_e_1aa42f1a93325c909c3cdd8c2ff64ae8c8" prot="public" virt="non-virtual"><scope>_nmeaTIME</scope><name>min</name></member>
+      <member refid="struct__nmea_t_i_m_e_1abd7b7843a356eb53d929db0931c15458" prot="public" virt="non-virtual"><scope>_nmeaTIME</scope><name>mon</name></member>
+      <member refid="struct__nmea_t_i_m_e_1a17712b26e7ee4784a9540bbfb7330853" prot="public" virt="non-virtual"><scope>_nmeaTIME</scope><name>sec</name></member>
+      <member refid="struct__nmea_t_i_m_e_1a04f252cfc3de7def97e66dcfcf326f63" prot="public" virt="non-virtual"><scope>_nmeaTIME</scope><name>year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

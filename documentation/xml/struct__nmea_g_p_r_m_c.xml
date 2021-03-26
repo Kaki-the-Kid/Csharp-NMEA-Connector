@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct__nmea_g_p_r_m_c" kind="struct" language="C++" prot="public">
+    <compoundname>_nmeaGPRMC</compoundname>
+    <includes refid="sentence_8h" local="no">sentence.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__nmea_g_p_r_m_c_1a0450b73933065e24c481e64870bd9d86" prot="public" static="no" mutable="no">
+        <type><ref refid="time_8h_1abb714c98cdf21e99316ad8587c0aa57e" kindref="member">nmeaTIME</ref></type>
+        <definition>nmeaTIME _nmeaGPRMC::utc</definition>
+        <argsstring></argsstring>
+        <name>utc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UTC of position </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="88" column="14" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_r_m_c_1af6f08e9d8f651716e797198f73368a0e" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _nmeaGPRMC::status</definition>
+        <argsstring></argsstring>
+        <name>status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Status (A = active or V = void) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="89" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_r_m_c_1a2523367f42913bbd2d1f04774ad818fe" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _nmeaGPRMC::lat</definition>
+        <argsstring></argsstring>
+        <name>lat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Latitude in NDEG - [degree][min].[sec/60] </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="90" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_r_m_c_1aa3cec70aa7f96fdd574904cf2e064b40" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _nmeaGPRMC::ns</definition>
+        <argsstring></argsstring>
+        <name>ns</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[N]orth or [S]outh </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="91" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_r_m_c_1ad765138d0568f092ac7b894e2208e5af" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _nmeaGPRMC::lon</definition>
+        <argsstring></argsstring>
+        <name>lon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Longitude in NDEG - [degree][min].[sec/60] </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="92" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_r_m_c_1adaf437bcc5c66f4f4a04b2875307a686" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _nmeaGPRMC::ew</definition>
+        <argsstring></argsstring>
+        <name>ew</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[E]ast or [W]est </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="93" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_r_m_c_1af2358c98464c17126a9f6504dd89f92d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _nmeaGPRMC::speed</definition>
+        <argsstring></argsstring>
+        <name>speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Speed over the ground in knots </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="94" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_r_m_c_1aa3ef615d43a6a259abcaa7091fd14b54" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _nmeaGPRMC::direction</definition>
+        <argsstring></argsstring>
+        <name>direction</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Track angle in degrees True </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="95" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_r_m_c_1a00cf472003c21724bdd00b9c3a48a15d" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _nmeaGPRMC::declination</definition>
+        <argsstring></argsstring>
+        <name>declination</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Magnetic variation degrees (Easterly var. subtracts from true course) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="96" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_r_m_c_1a6be16d9a10cb04828a9fbdb3b11dcd51" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _nmeaGPRMC::declin_ew</definition>
+        <argsstring></argsstring>
+        <name>declin_ew</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>[E]ast or [W]est </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="97" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_r_m_c_1acd7011fb2d90b200ea17e6087fab9ddc" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _nmeaGPRMC::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Mode indicator of fix type (A = autonomous, D = differential, E = estimated, N = not valid, S = simulator) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="98" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>RMC packet information structure (Recommended Minimum sentence C) </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>_nmeaGPRMC</label>
+        <link refid="struct__nmea_g_p_r_m_c"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>utc</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>_nmeaTIME</label>
+        <link refid="struct__nmea_t_i_m_e"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="87" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="86" bodyend="100"/>
+    <listofallmembers>
+      <member refid="struct__nmea_g_p_r_m_c_1a6be16d9a10cb04828a9fbdb3b11dcd51" prot="public" virt="non-virtual"><scope>_nmeaGPRMC</scope><name>declin_ew</name></member>
+      <member refid="struct__nmea_g_p_r_m_c_1a00cf472003c21724bdd00b9c3a48a15d" prot="public" virt="non-virtual"><scope>_nmeaGPRMC</scope><name>declination</name></member>
+      <member refid="struct__nmea_g_p_r_m_c_1aa3ef615d43a6a259abcaa7091fd14b54" prot="public" virt="non-virtual"><scope>_nmeaGPRMC</scope><name>direction</name></member>
+      <member refid="struct__nmea_g_p_r_m_c_1adaf437bcc5c66f4f4a04b2875307a686" prot="public" virt="non-virtual"><scope>_nmeaGPRMC</scope><name>ew</name></member>
+      <member refid="struct__nmea_g_p_r_m_c_1a2523367f42913bbd2d1f04774ad818fe" prot="public" virt="non-virtual"><scope>_nmeaGPRMC</scope><name>lat</name></member>
+      <member refid="struct__nmea_g_p_r_m_c_1ad765138d0568f092ac7b894e2208e5af" prot="public" virt="non-virtual"><scope>_nmeaGPRMC</scope><name>lon</name></member>
+      <member refid="struct__nmea_g_p_r_m_c_1acd7011fb2d90b200ea17e6087fab9ddc" prot="public" virt="non-virtual"><scope>_nmeaGPRMC</scope><name>mode</name></member>
+      <member refid="struct__nmea_g_p_r_m_c_1aa3cec70aa7f96fdd574904cf2e064b40" prot="public" virt="non-virtual"><scope>_nmeaGPRMC</scope><name>ns</name></member>
+      <member refid="struct__nmea_g_p_r_m_c_1af2358c98464c17126a9f6504dd89f92d" prot="public" virt="non-virtual"><scope>_nmeaGPRMC</scope><name>speed</name></member>
+      <member refid="struct__nmea_g_p_r_m_c_1af6f08e9d8f651716e797198f73368a0e" prot="public" virt="non-virtual"><scope>_nmeaGPRMC</scope><name>status</name></member>
+      <member refid="struct__nmea_g_p_r_m_c_1a0450b73933065e24c481e64870bd9d86" prot="public" virt="non-virtual"><scope>_nmeaGPRMC</scope><name>utc</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

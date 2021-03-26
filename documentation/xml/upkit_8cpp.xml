@@ -1,0 +1,229 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="upkit_8cpp" kind="file" language="C++">
+    <compoundname>upkit.cpp</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includes refid="upkit_2resource_8h" local="yes">resource.h</includes>
+    <includes refid="_main_dlg_8h" local="yes">MainDlg.h</includes>
+    <incdepgraph>
+      <node id="18">
+        <label>iomanip</label>
+      </node>
+      <node id="12">
+        <label>atlframe.h</label>
+      </node>
+      <node id="4">
+        <label>atlapp.h</label>
+      </node>
+      <node id="7">
+        <label>Windows.h</label>
+      </node>
+      <node id="11">
+        <label>atlwin.h</label>
+      </node>
+      <node id="8">
+        <label>shlwapi.h</label>
+      </node>
+      <node id="2">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>resource.h</label>
+        <link refid="upkit_2resource_8h"/>
+      </node>
+      <node id="24">
+        <label>ddkreg.h</label>
+      </node>
+      <node id="23">
+        <label>DevManager.h</label>
+        <link refid="_dev_manager_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>string</label>
+      </node>
+      <node id="10">
+        <label>atlmisc.h</label>
+      </node>
+      <node id="5">
+        <label>atlimage.h</label>
+      </node>
+      <node id="9">
+        <label>atlresCE.h</label>
+      </node>
+      <node id="19">
+        <label>vector</label>
+      </node>
+      <node id="17">
+        <label>sstream</label>
+      </node>
+      <node id="3">
+        <label>atlbase.h</label>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/upkit.cpp</label>
+        <link refid="upkit_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>atltime.h</label>
+      </node>
+      <node id="14">
+        <label>atldlgs.h</label>
+      </node>
+      <node id="22">
+        <label>MainDlg.h</label>
+        <link refid="_main_dlg_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>aygshell.h</label>
+      </node>
+      <node id="20">
+        <label>algorithm</label>
+      </node>
+      <node id="13">
+        <label>atlctrls.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="upkit_8cpp_1a5b90d811bae942e6bea23194b898ecd6" prot="public" static="no" mutable="no">
+        <type>CAppModule</type>
+        <definition>CAppModule _Module</definition>
+        <argsstring></argsstring>
+        <name>_Module</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/upkit.cpp" line="10" column="12" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/upkit.cpp" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="upkit_8cpp_1a147def07b9cb7a405203be483161bb0b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int WINAPI</type>
+        <definition>int WINAPI _tWinMain</definition>
+        <argsstring>(HINSTANCE hInstance, HINSTANCE, LPTSTR lpstrCmdLine, int nCmdShow)</argsstring>
+        <name>_tWinMain</name>
+        <param>
+          <type>HINSTANCE</type>
+          <declname>hInstance</declname>
+        </param>
+        <param>
+          <type>HINSTANCE</type>
+        </param>
+        <param>
+          <type>LPTSTR</type>
+          <declname>lpstrCmdLine</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nCmdShow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/upkit.cpp" line="12" column="12" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/upkit.cpp" bodystart="12" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>upkit.cpp<sp/>:<sp/>main<sp/>source<sp/>file<sp/>for<sp/>upkit.exe</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="upkit_2resource_8h" kindref="compound">resource.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_main_dlg_8h" kindref="compound">MainDlg.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="upkit_8cpp_1a5b90d811bae942e6bea23194b898ecd6" refkind="member"><highlight class="normal">CAppModule<sp/><ref refid="upkit_8cpp_1a5b90d811bae942e6bea23194b898ecd6" kindref="member">_Module</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="upkit_8cpp_1a147def07b9cb7a405203be483161bb0b" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>WINAPI<sp/><ref refid="upkit_8cpp_1a147def07b9cb7a405203be483161bb0b" kindref="member">_tWinMain</ref>(HINSTANCE<sp/>hInstance,<sp/>HINSTANCE<sp/></highlight><highlight class="comment">/*hPrevInstance*/</highlight><highlight class="normal">,<sp/>LPTSTR<sp/>lpstrCmdLine,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nCmdShow)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>HRESULT<sp/>hRes<sp/>=<sp/>::CoInitializeEx(NULL,<sp/>COINIT_MULTITHREADED);</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>ATLASSERT(SUCCEEDED(hRes));</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Calling<sp/>AtlInitCommonControls<sp/>is<sp/>not<sp/>necessary<sp/>to<sp/>utilize<sp/>picture,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>static<sp/>text,<sp/>edit<sp/>box,<sp/>group<sp/>box,<sp/>button,<sp/>check<sp/>box,<sp/>radio<sp/>button,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>combo<sp/>box,<sp/>list<sp/>box,<sp/>or<sp/>the<sp/>horizontal<sp/>and<sp/>vertical<sp/>scroll<sp/>bars.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Calling<sp/>AtlInitCommonControls<sp/>with<sp/>0<sp/>is<sp/>required<sp/>to<sp/>utilize<sp/>the<sp/>spin,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>progress,<sp/>slider,<sp/>list,<sp/>tree,<sp/>and<sp/>tab<sp/>controls.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Adding<sp/>the<sp/>ICC_DATE_CLASSES<sp/>flag<sp/>is<sp/>required<sp/>to<sp/>initialize<sp/>the<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>date<sp/>time<sp/>picker<sp/>and<sp/>month<sp/>calendar<sp/>controls.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Add<sp/>additional<sp/>flags<sp/>to<sp/>support<sp/>additoinal<sp/>controls<sp/>not<sp/>mentioned<sp/>above.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>AtlInitCommonControls(ICC_DATE_CLASSES);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>hRes<sp/>=<sp/><ref refid="upkit_8cpp_1a5b90d811bae942e6bea23194b898ecd6" kindref="member">_Module</ref>.Init(NULL,<sp/>hInstance);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>ATLASSERT(SUCCEEDED(hRes));</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nRet<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>BLOCK:<sp/>Run<sp/>application</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_c_main_dlg" kindref="compound">CMainDlg</ref><sp/>dlgMain;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nRet<sp/>=<sp/>dlgMain.DoModal();</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="upkit_8cpp_1a5b90d811bae942e6bea23194b898ecd6" kindref="member">_Module</ref>.Term();</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>::CoUninitialize();</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nRet;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/upkit.cpp"/>
+  </compounddef>
+</doxygen>

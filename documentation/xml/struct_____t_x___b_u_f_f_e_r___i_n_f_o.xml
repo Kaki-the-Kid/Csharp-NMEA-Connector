@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_____t_x___b_u_f_f_e_r___i_n_f_o" kind="struct" language="C++" prot="public">
+    <compoundname>__TX_BUFFER_INFO</compoundname>
+    <includes refid="mdd_8h" local="no">mdd.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1a9dc9ed79720fe74eb08f637d5a000fc2" prot="public" static="no" mutable="no">
+        <type>DWORD</type>
+        <definition>DWORD __TX_BUFFER_INFO::Permissions</definition>
+        <argsstring></argsstring>
+        <name>Permissions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="47" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1aac86cd08533dd3ce4df109c1455c9904" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG __TX_BUFFER_INFO::Read</definition>
+        <argsstring></argsstring>
+        <name>Read</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="48" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1abe41a3f81c7e5b95a7de954ea55ec31c" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG __TX_BUFFER_INFO::Length</definition>
+        <argsstring></argsstring>
+        <name>Length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="49" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1af00f0a0d0bebd5b410bad453109b5415" prot="public" static="no" mutable="no">
+        <type>PUCHAR</type>
+        <definition>PUCHAR __TX_BUFFER_INFO::TxCharBuffer</definition>
+        <argsstring></argsstring>
+        <name>TxCharBuffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="50" column="7" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1a997ab1a728309d99a7281c6f8c271720" prot="public" static="no" mutable="no">
+        <type>CRITICAL_SECTION</type>
+        <definition>CRITICAL_SECTION __TX_BUFFER_INFO::CS</definition>
+        <argsstring></argsstring>
+        <name>CS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="51" column="17" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="46" column="31" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="46" bodyend="52"/>
+    <listofallmembers>
+      <member refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1a997ab1a728309d99a7281c6f8c271720" prot="public" virt="non-virtual"><scope>__TX_BUFFER_INFO</scope><name>CS</name></member>
+      <member refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1abe41a3f81c7e5b95a7de954ea55ec31c" prot="public" virt="non-virtual"><scope>__TX_BUFFER_INFO</scope><name>Length</name></member>
+      <member refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1a9dc9ed79720fe74eb08f637d5a000fc2" prot="public" virt="non-virtual"><scope>__TX_BUFFER_INFO</scope><name>Permissions</name></member>
+      <member refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1aac86cd08533dd3ce4df109c1455c9904" prot="public" virt="non-virtual"><scope>__TX_BUFFER_INFO</scope><name>Read</name></member>
+      <member refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1af00f0a0d0bebd5b410bad453109b5415" prot="public" virt="non-virtual"><scope>__TX_BUFFER_INFO</scope><name>TxCharBuffer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

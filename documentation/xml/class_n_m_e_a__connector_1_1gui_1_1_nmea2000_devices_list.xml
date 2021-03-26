@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_n_m_e_a__connector_1_1gui_1_1_nmea2000_devices_list" kind="class" language="C#" prot="public">
+    <compoundname>NMEA_connector::gui::Nmea2000DevicesList</compoundname>
+    <basecompoundref refid="class_n_m_e_a__connector_1_1gui_1_1_content_page" prot="public" virt="non-virtual">NMEA_connector.gui.ContentPage</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_n_m_e_a__connector_1_1gui_1_1_nmea2000_devices_list_1ac74e58826e3447c1ae1a8a262c88a5ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ObservableCollection&lt; string &gt;</type>
+        <definition>ObservableCollection&lt;string&gt; NMEA_connector.gui.Nmea2000DevicesList.Items</definition>
+        <argsstring></argsstring>
+        <name>Items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/NMEA2000DevicesList.xaml.cs" line="10" column="37" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/NMEA2000DevicesList.xaml.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1gui_1_1_nmea2000_devices_list_1ade0820c7edbee36187460ebde41ce8a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.gui.Nmea2000DevicesList.Nmea2000DevicesList</definition>
+        <argsstring>()</argsstring>
+        <name>Nmea2000DevicesList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/NMEA2000DevicesList.xaml.cs" line="12" column="16" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/NMEA2000DevicesList.xaml.cs" bodystart="12" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1gui_1_1_nmea2000_devices_list_1a40e910bce0e853d91d1e76efcab8413b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>async void NMEA_connector.gui.Nmea2000DevicesList.Handle_ItemTapped</definition>
+        <argsstring>(object sender, ItemTappedEventArgs e)</argsstring>
+        <name>Handle_ItemTapped</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ItemTappedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/NMEA2000DevicesList.xaml.cs" line="28" column="20" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/NMEA2000DevicesList.xaml.cs" bodystart="28" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ContentPage</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_content_page"/>
+      </node>
+      <node id="1">
+        <label>NMEA_connector.gui.Nmea2000DevicesList</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_nmea2000_devices_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ContentPage</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_content_page"/>
+      </node>
+      <node id="1">
+        <label>NMEA_connector.gui.Nmea2000DevicesList</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_nmea2000_devices_list"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/NMEA2000DevicesList.xaml.cs" line="9" column="1" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/NMEA2000DevicesList.xaml.cs" bodystart="8" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_n_m_e_a__connector_1_1gui_1_1_content_page_1a9eac2d2f2dbfd1f04bb4e1428f8879ba" prot="public" virt="non-virtual"><scope>NMEA_connector::gui::Nmea2000DevicesList</scope><name>ContentPage</name></member>
+      <member refid="class_n_m_e_a__connector_1_1gui_1_1_nmea2000_devices_list_1a40e910bce0e853d91d1e76efcab8413b" prot="private" virt="non-virtual"><scope>NMEA_connector::gui::Nmea2000DevicesList</scope><name>Handle_ItemTapped</name></member>
+      <member refid="class_n_m_e_a__connector_1_1gui_1_1_nmea2000_devices_list_1ac74e58826e3447c1ae1a8a262c88a5ec" prot="public" virt="non-virtual"><scope>NMEA_connector::gui::Nmea2000DevicesList</scope><name>Items</name></member>
+      <member refid="class_n_m_e_a__connector_1_1gui_1_1_nmea2000_devices_list_1ade0820c7edbee36187460ebde41ce8a2" prot="public" virt="non-virtual"><scope>NMEA_connector::gui::Nmea2000DevicesList</scope><name>Nmea2000DevicesList</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

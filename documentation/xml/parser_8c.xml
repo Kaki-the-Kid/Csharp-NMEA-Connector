@@ -1,0 +1,734 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="parser_8c" kind="file" language="C++">
+    <compoundname>parser.c</compoundname>
+    <includes refid="tok_8h" local="yes">nmea/tok.h</includes>
+    <includes refid="parse_8h" local="yes">nmea/parse.h</includes>
+    <includes refid="parser_8h" local="yes">nmea/parser.h</includes>
+    <includes refid="context_8h" local="yes">nmea/context.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">stdlib.h</includes>
+    <incdepgraph>
+      <node id="9">
+        <label>nmea/parser.h</label>
+        <link refid="parser_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>assert.h</label>
+      </node>
+      <node id="12">
+        <label>stdlib.h</label>
+      </node>
+      <node id="2">
+        <label>nmea/tok.h</label>
+        <link refid="tok_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>info.h</label>
+        <link refid="info_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>string.h</label>
+      </node>
+      <node id="3">
+        <label>config.h</label>
+        <link refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>nmea/context.h</label>
+        <link refid="context_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>nmea/parse.h</label>
+        <link refid="parse_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c</label>
+        <link refid="parser_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>sentence.h</label>
+        <link refid="sentence_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>time.h</label>
+        <link refid="time_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct__nmea_parser_n_o_d_e" prot="public">_nmeaParserNODE</innerclass>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="parser_8c_1a91006fe9645ba5cee54ba48487b3f098" prot="public" static="no">
+        <type>struct <ref refid="struct__nmea_parser_n_o_d_e" kindref="compound">_nmeaParserNODE</ref></type>
+        <definition>typedef struct _nmeaParserNODE nmeaParserNODE</definition>
+        <argsstring></argsstring>
+        <name>nmeaParserNODE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" line="29" column="16"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="parser_8c_1aa67502b0eca4cda5bbdc3572e49d75f2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parser_init</definition>
+        <argsstring>(nmeaPARSER *parser)</argsstring>
+        <name>nmea_parser_init</name>
+        <param>
+          <type><ref refid="parser_8h_1a01ea4ff1afedf307d602215ed2774ac0" kindref="member">nmeaPARSER</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <briefdescription>
+<para>Initialization of parser object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true (1) - success or false (0) - fail </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" line="39" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" bodystart="39" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1af8684d88babb5a3e1868d5816526215a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void nmea_parser_destroy</definition>
+        <argsstring>(nmeaPARSER *parser)</argsstring>
+        <name>nmea_parser_destroy</name>
+        <param>
+          <type><ref refid="parser_8h_1a01ea4ff1afedf307d602215ed2774ac0" kindref="member">nmeaPARSER</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <briefdescription>
+<para>Destroy parser object. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" line="65" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" bodystart="65" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a7f674fc42b80d16725ca0e16fd92e3ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parse</definition>
+        <argsstring>(nmeaPARSER *parser, const char *buff, int buff_sz, nmeaINFO *info)</argsstring>
+        <name>nmea_parse</name>
+        <param>
+          <type><ref refid="parser_8h_1a01ea4ff1afedf307d602215ed2774ac0" kindref="member">nmeaPARSER</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buff</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buff_sz</declname>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Analysis of buffer and put results to information structure. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of packets wos parsed </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" line="77" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" bodystart="77" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1adf53e8b92c7da93866bf9c0e5fd4eaa3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parser_real_push</definition>
+        <argsstring>(nmeaPARSER *parser, const char *buff, int buff_sz)</argsstring>
+        <name>nmea_parser_real_push</name>
+        <param>
+          <type><ref refid="parser_8h_1a01ea4ff1afedf307d602215ed2774ac0" kindref="member">nmeaPARSER</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buff</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buff_sz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" line="123" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" bodystart="123" bodyend="263"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a47a10cb3610022f64656b3d6b5ce632e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parser_push</definition>
+        <argsstring>(nmeaPARSER *parser, const char *buff, int buff_sz)</argsstring>
+        <name>nmea_parser_push</name>
+        <param>
+          <type><ref refid="parser_8h_1a01ea4ff1afedf307d602215ed2774ac0" kindref="member">nmeaPARSER</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>buff</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buff_sz</declname>
+        </param>
+        <briefdescription>
+<para>Analysis of buffer and keep results into parser. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Number of bytes wos parsed from buffer </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" line="269" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" bodystart="269" bodyend="288"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1ab1f4e9db976f40834ccce77c736a67f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parser_top</definition>
+        <argsstring>(nmeaPARSER *parser)</argsstring>
+        <name>nmea_parser_top</name>
+        <param>
+          <type><ref refid="parser_8h_1a01ea4ff1afedf307d602215ed2774ac0" kindref="member">nmeaPARSER</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <briefdescription>
+<para>Get type of top packet keeped into parser. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Type of packet </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23da" kindref="member">nmeaPACKTYPE</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" line="295" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" bodystart="295" bodyend="306"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a16388506bf26605e55c583ba635a6cda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parser_pop</definition>
+        <argsstring>(nmeaPARSER *parser, void **pack_ptr)</argsstring>
+        <name>nmea_parser_pop</name>
+        <param>
+          <type><ref refid="parser_8h_1a01ea4ff1afedf307d602215ed2774ac0" kindref="member">nmeaPARSER</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref> **</type>
+          <declname>pack_ptr</declname>
+        </param>
+        <briefdescription>
+<para>Withdraw top packet from parser. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Received packet type </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23da" kindref="member">nmeaPACKTYPE</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" line="313" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" bodystart="313" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1ad31e521b0c2c52fbb6d7488bbc2dbacc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parser_peek</definition>
+        <argsstring>(nmeaPARSER *parser, void **pack_ptr)</argsstring>
+        <name>nmea_parser_peek</name>
+        <param>
+          <type><ref refid="parser_8h_1a01ea4ff1afedf307d602215ed2774ac0" kindref="member">nmeaPARSER</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <param>
+          <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref> **</type>
+          <declname>pack_ptr</declname>
+        </param>
+        <briefdescription>
+<para>Get top packet from parser without withdraw. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Received packet type </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23da" kindref="member">nmeaPACKTYPE</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" line="338" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" bodystart="338" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a6988908197edec998aad69732d19d520" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parser_drop</definition>
+        <argsstring>(nmeaPARSER *parser)</argsstring>
+        <name>nmea_parser_drop</name>
+        <param>
+          <type><ref refid="parser_8h_1a01ea4ff1afedf307d602215ed2774ac0" kindref="member">nmeaPARSER</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <briefdescription>
+<para>Delete top packet from parser. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Deleted packet type </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23da" kindref="member">nmeaPACKTYPE</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" line="359" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" bodystart="359" bodyend="378"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a34685ac7704478f98f6c7fbc6b9c1795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parser_buff_clear</definition>
+        <argsstring>(nmeaPARSER *parser)</argsstring>
+        <name>nmea_parser_buff_clear</name>
+        <param>
+          <type><ref refid="parser_8h_1a01ea4ff1afedf307d602215ed2774ac0" kindref="member">nmeaPARSER</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <briefdescription>
+<para>Clear cache of parser. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true (1) - success </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" line="384" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" bodystart="384" bodyend="389"/>
+      </memberdef>
+      <memberdef kind="function" id="parser_8c_1a7a362de98525b28c6ffa9fdafd092b16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parser_queue_clear</definition>
+        <argsstring>(nmeaPARSER *parser)</argsstring>
+        <name>nmea_parser_queue_clear</name>
+        <param>
+          <type><ref refid="parser_8h_1a01ea4ff1afedf307d602215ed2774ac0" kindref="member">nmeaPARSER</ref> *</type>
+          <declname>parser</declname>
+        </param>
+        <briefdescription>
+<para>Clear packets queue into parser. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>true (1) - success </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" line="395" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c" bodystart="395" bodyend="401"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>NMEA<sp/>library</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>URL:<sp/>http://nmea.sourceforge.net</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Tim<sp/>(xtimor@gmail.com)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Licence:<sp/>http://www.gnu.org/licenses/lgpl.html</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>parser.c<sp/>17<sp/>2008-03-11<sp/>11:56:11Z<sp/>xtimor<sp/>$</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="tok_8h" kindref="compound">nmea/tok.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="parse_8h" kindref="compound">nmea/parse.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="parser_8h" kindref="compound">nmea/parser.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="context_8h" kindref="compound">nmea/context.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdlib.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="struct__nmea_parser_n_o_d_e" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__nmea_parser_n_o_d_e" kindref="compound">_nmeaParserNODE</ref></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="25" refid="struct__nmea_parser_n_o_d_e_1a6c4b0829c9de863ad53a16a82e02c820" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="struct__nmea_parser_n_o_d_e_1a6c4b0829c9de863ad53a16a82e02c820" kindref="member">packType</ref>;</highlight></codeline>
+<codeline lineno="26" refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>;</highlight></codeline>
+<codeline lineno="27" refid="struct__nmea_parser_n_o_d_e_1ac53e96c842c9878f5874556aa5a7b850" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct__nmea_parser_n_o_d_e" kindref="compound">_nmeaParserNODE</ref><sp/>*<ref refid="struct__nmea_parser_n_o_d_e_1ac53e96c842c9878f5874556aa5a7b850" kindref="member">next_node</ref>;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal">}<sp/><ref refid="parser_8c_1a91006fe9645ba5cee54ba48487b3f098" kindref="member">nmeaParserNODE</ref>;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*<sp/>high<sp/>level</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="parser_8c_1aa67502b0eca4cda5bbdc3572e49d75f2" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1aa67502b0eca4cda5bbdc3572e49d75f2" kindref="member">nmea_parser_init</ref>(<ref refid="struct__nmea_p_a_r_s_e_r" kindref="compound">nmeaPARSER</ref><sp/>*parser)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>resv<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buff_size<sp/>=<sp/><ref refid="context_8h_1ac59c72fd4111560f74e0e0846601463d" kindref="member">nmea_property</ref>()-&gt;<ref refid="struct__nmea_p_r_o_p_e_r_t_y_1a9bbc86888b5e61567e2c3b1cc573e43e" kindref="member">parse_buff_size</ref>;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" kindref="member">NMEA_ASSERT</ref>(parser);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(buff_size<sp/>&lt;<sp/><ref refid="context_8h_1a2c8fa5cf14e572cca561dd131d24d446" kindref="member">NMEA_MIN_PARSEBUFF</ref>)</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buff_size<sp/>=<sp/><ref refid="context_8h_1a2c8fa5cf14e572cca561dd131d24d446" kindref="member">NMEA_MIN_PARSEBUFF</ref>;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>memset(parser,<sp/>0,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct__nmea_p_a_r_s_e_r" kindref="compound">nmeaPARSER</ref>));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(0<sp/>==<sp/>(parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref><sp/>=<sp/>malloc(buff_size)))</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="context_8h_1abcb8acad747398f2e4ff77ea5456df25" kindref="member">nmea_error</ref>(</highlight><highlight class="stringliteral">&quot;Insufficient<sp/>memory!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1afe338de2eae4d6bbfa57228753fbd2b6" kindref="member">buff_size</ref><sp/>=<sp/>buff_size;</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>resv<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>resv;</highlight></codeline>
+<codeline lineno="60"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="parser_8c_1af8684d88babb5a3e1868d5816526215a" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1af8684d88babb5a3e1868d5816526215a" kindref="member">nmea_parser_destroy</ref>(<ref refid="struct__nmea_p_a_r_s_e_r" kindref="compound">nmeaPARSER</ref><sp/>*parser)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" kindref="member">NMEA_ASSERT</ref>(parser<sp/>&amp;&amp;<sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref>);</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>free(parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref>);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parser_8c_1a7a362de98525b28c6ffa9fdafd092b16" kindref="member">nmea_parser_queue_clear</ref>(parser);</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>memset(parser,<sp/>0,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct__nmea_p_a_r_s_e_r" kindref="compound">nmeaPARSER</ref>));</highlight></codeline>
+<codeline lineno="71"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="parser_8c_1a7f674fc42b80d16725ca0e16fd92e3ea" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a7f674fc42b80d16725ca0e16fd92e3ea" kindref="member">nmea_parse</ref>(<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__nmea_p_a_r_s_e_r" kindref="compound">nmeaPARSER</ref><sp/>*parser,</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buff,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buff_sz,</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="82"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>ptype,<sp/>nread<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" kindref="member">NMEA_ASSERT</ref>(parser<sp/>&amp;&amp;<sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref>);</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="parser_8c_1a47a10cb3610022f64656b3d6b5ce632e" kindref="member">nmea_parser_push</ref>(parser,<sp/>buff,<sp/>buff_sz);</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"></highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa8bc672e0f07331fcae93d8ed68f50db7" kindref="member">GPNON</ref><sp/>!=<sp/>(ptype<sp/>=<sp/><ref refid="parser_8c_1a16388506bf26605e55c583ba635a6cda" kindref="member">nmea_parser_pop</ref>(parser,<sp/>&amp;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>)))</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nread++;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(ptype)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa7ce569034cd13427e4e6c3db6130017d" kindref="member">GPGGA</ref>:</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="parse_8h_1a391065b5f3ee694e7f0206fc7f74283f" kindref="member">nmea_GPGGA2info</ref>((<ref refid="struct__nmea_g_p_g_g_a" kindref="compound">nmeaGPGGA</ref><sp/>*)<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>,<sp/>info);</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa13962a43e3a2639f1cdc34c69e49102a" kindref="member">GPGSA</ref>:</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="parse_8h_1af2f5c610acc25fbd316882998b0ec109" kindref="member">nmea_GPGSA2info</ref>((<ref refid="struct__nmea_g_p_g_s_a" kindref="compound">nmeaGPGSA</ref><sp/>*)<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>,<sp/>info);</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa261c9fc87414b4426986d6a6e8d9bf24" kindref="member">GPGSV</ref>:</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="parse_8h_1abf7b745e1a3707727f47421cc505f753" kindref="member">nmea_GPGSV2info</ref>((<ref refid="struct__nmea_g_p_g_s_v" kindref="compound">nmeaGPGSV</ref><sp/>*)<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>,<sp/>info);</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa4e46c2c907610e3cae94447c3d4c43f4" kindref="member">GPRMC</ref>:</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="parse_8h_1a4fe1f6ecbc9e66bc4f5c1a7180902249" kindref="member">nmea_GPRMC2info</ref>((<ref refid="struct__nmea_g_p_r_m_c" kindref="compound">nmeaGPRMC</ref><sp/>*)<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>,<sp/>info);</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daabe049feacfc7943a654b4c35e2a08c18" kindref="member">GPVTG</ref>:</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="parse_8h_1ad469fa27954c855a7e5ccef2a8e56044" kindref="member">nmea_GPVTG2info</ref>((<ref refid="struct__nmea_g_p_v_t_g" kindref="compound">nmeaGPVTG</ref><sp/>*)<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>,<sp/>info);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nread;</highlight></codeline>
+<codeline lineno="117"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/>*<sp/>low<sp/>level</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="parser_8c_1adf53e8b92c7da93866bf9c0e5fd4eaa3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1adf53e8b92c7da93866bf9c0e5fd4eaa3" kindref="member">nmea_parser_real_push</ref>(<ref refid="struct__nmea_p_a_r_s_e_r" kindref="compound">nmeaPARSER</ref><sp/>*parser,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buff,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buff_sz)</highlight></codeline>
+<codeline lineno="124"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nparsed<sp/>=<sp/>0,<sp/>crc,<sp/>sen_sz,<sp/>ptype;</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__nmea_parser_n_o_d_e" kindref="compound">nmeaParserNODE</ref><sp/>*node<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" kindref="member">NMEA_ASSERT</ref>(parser<sp/>&amp;&amp;<sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref>);</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>clear<sp/>unuse<sp/>buffer<sp/>(for<sp/>debug)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/><sp/><sp/><sp/>memset(</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser-&gt;buffer<sp/>+<sp/>parser-&gt;buff_use,<sp/>0,</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser-&gt;buff_size<sp/>-<sp/>parser-&gt;buff_use</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="136"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>add<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8aec4ec4997bca1a1c3f6ff26377def2" kindref="member">buff_use</ref><sp/>+<sp/>buff_sz<sp/>&gt;=<sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1afe338de2eae4d6bbfa57228753fbd2b6" kindref="member">buff_size</ref>)</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="parser_8c_1a34685ac7704478f98f6c7fbc6b9c1795" kindref="member">nmea_parser_buff_clear</ref>(parser);</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>memcpy(parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref><sp/>+<sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8aec4ec4997bca1a1c3f6ff26377def2" kindref="member">buff_use</ref>,<sp/>buff,<sp/>buff_sz);</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8aec4ec4997bca1a1c3f6ff26377def2" kindref="member">buff_use</ref><sp/>+=<sp/>buff_sz;</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>parse<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;;node<sp/>=<sp/>0)</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sen_sz<sp/>=<sp/><ref refid="parse_8h_1a4162407bbe2dba413393d30912e9eb23" kindref="member">nmea_find_tail</ref>(</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref><sp/>+<sp/>nparsed,</highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">)parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8aec4ec4997bca1a1c3f6ff26377def2" kindref="member">buff_use</ref><sp/>-<sp/>nparsed,<sp/>&amp;crc);</highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!sen_sz)</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(nparsed)</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>memcpy(</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref>,</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref><sp/>+<sp/>nparsed,</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8aec4ec4997bca1a1c3f6ff26377def2" kindref="member">buff_use</ref><sp/>-=<sp/>nparsed);</highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(crc<sp/>&gt;=<sp/>0)</highlight></codeline>
+<codeline lineno="162"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>ptype<sp/>=<sp/><ref refid="parse_8h_1a590359c05e203e15949a4f124cddc440" kindref="member">nmea_pack_type</ref>(</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref><sp/>+<sp/>nparsed<sp/>+<sp/>1,</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8aec4ec4997bca1a1c3f6ff26377def2" kindref="member">buff_use</ref><sp/>-<sp/>nparsed<sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="166"><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(0<sp/>==<sp/>(node<sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct__nmea_parser_n_o_d_e" kindref="compound">nmeaParserNODE</ref>))))</highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>mem_fail;</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="171"><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(ptype)</highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa7ce569034cd13427e4e6c3db6130017d" kindref="member">GPGGA</ref>:</highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(0<sp/>==<sp/>(node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref><sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct__nmea_g_p_g_g_a" kindref="compound">nmeaGPGGA</ref>))))</highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>mem_fail;</highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a6c4b0829c9de863ad53a16a82e02c820" kindref="member">packType</ref><sp/>=<sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa7ce569034cd13427e4e6c3db6130017d" kindref="member">GPGGA</ref>;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="parse_8h_1a6e4609178c53927d0f2eab74b644e70b" kindref="member">nmea_parse_GPGGA</ref>(</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref><sp/>+<sp/>nparsed,</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sen_sz,<sp/>(<ref refid="struct__nmea_g_p_g_g_a" kindref="compound">nmeaGPGGA</ref><sp/>*)node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>))</highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(node);</highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa13962a43e3a2639f1cdc34c69e49102a" kindref="member">GPGSA</ref>:</highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(0<sp/>==<sp/>(node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref><sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct__nmea_g_p_g_s_a" kindref="compound">nmeaGPGSA</ref>))))</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>mem_fail;</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a6c4b0829c9de863ad53a16a82e02c820" kindref="member">packType</ref><sp/>=<sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa13962a43e3a2639f1cdc34c69e49102a" kindref="member">GPGSA</ref>;</highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="parse_8h_1abcb1a41e14966640d2b2276bb74d3a6d" kindref="member">nmea_parse_GPGSA</ref>(</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref><sp/>+<sp/>nparsed,</highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sen_sz,<sp/>(<ref refid="struct__nmea_g_p_g_s_a" kindref="compound">nmeaGPGSA</ref><sp/>*)node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>))</highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(node);</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa261c9fc87414b4426986d6a6e8d9bf24" kindref="member">GPGSV</ref>:</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(0<sp/>==<sp/>(node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref><sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct__nmea_g_p_g_s_v" kindref="compound">nmeaGPGSV</ref>))))</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>mem_fail;</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a6c4b0829c9de863ad53a16a82e02c820" kindref="member">packType</ref><sp/>=<sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa261c9fc87414b4426986d6a6e8d9bf24" kindref="member">GPGSV</ref>;</highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="parse_8h_1af08e7ce629f9d81ac957ce37c11ee78a" kindref="member">nmea_parse_GPGSV</ref>(</highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref><sp/>+<sp/>nparsed,</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sen_sz,<sp/>(<ref refid="struct__nmea_g_p_g_s_v" kindref="compound">nmeaGPGSV</ref><sp/>*)node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>))</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(node);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa4e46c2c907610e3cae94447c3d4c43f4" kindref="member">GPRMC</ref>:</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(0<sp/>==<sp/>(node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref><sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct__nmea_g_p_r_m_c" kindref="compound">nmeaGPRMC</ref>))))</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>mem_fail;</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a6c4b0829c9de863ad53a16a82e02c820" kindref="member">packType</ref><sp/>=<sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa4e46c2c907610e3cae94447c3d4c43f4" kindref="member">GPRMC</ref>;</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="parse_8h_1ae6de57f955e6d0310346f02063372c58" kindref="member">nmea_parse_GPRMC</ref>(</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref><sp/>+<sp/>nparsed,</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sen_sz,<sp/>(<ref refid="struct__nmea_g_p_r_m_c" kindref="compound">nmeaGPRMC</ref><sp/>*)node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>))</highlight></codeline>
+<codeline lineno="217"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="218"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(node);</highlight></codeline>
+<codeline lineno="219"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="220"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daabe049feacfc7943a654b4c35e2a08c18" kindref="member">GPVTG</ref>:</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(0<sp/>==<sp/>(node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref><sp/>=<sp/>malloc(</highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct__nmea_g_p_v_t_g" kindref="compound">nmeaGPVTG</ref>))))</highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">goto</highlight><highlight class="normal"><sp/>mem_fail;</highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a6c4b0829c9de863ad53a16a82e02c820" kindref="member">packType</ref><sp/>=<sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daabe049feacfc7943a654b4c35e2a08c18" kindref="member">GPVTG</ref>;</highlight></codeline>
+<codeline lineno="226"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="parse_8h_1a50b74864c42fa79177c91c3208a00ca1" kindref="member">nmea_parse_GPVTG</ref>(</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*)parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref><sp/>+<sp/>nparsed,</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sen_sz,<sp/>(<ref refid="struct__nmea_g_p_v_t_g" kindref="compound">nmeaGPVTG</ref><sp/>*)node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>))</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(node);</highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">default</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(node);</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"></highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(node)</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8aa929b3502711dd6db20d89931ee22b" kindref="member">end_node</ref>)</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((<ref refid="struct__nmea_parser_n_o_d_e" kindref="compound">nmeaParserNODE</ref><sp/>*)parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8aa929b3502711dd6db20d89931ee22b" kindref="member">end_node</ref>)-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1ac53e96c842c9878f5874556aa5a7b850" kindref="member">next_node</ref><sp/>=<sp/>node;</highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8aa929b3502711dd6db20d89931ee22b" kindref="member">end_node</ref><sp/>=<sp/>node;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8739ac997bb581d33080ebe810e86286" kindref="member">top_node</ref>)</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8739ac997bb581d33080ebe810e86286" kindref="member">top_node</ref><sp/>=<sp/>node;</highlight></codeline>
+<codeline lineno="247"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1ac53e96c842c9878f5874556aa5a7b850" kindref="member">next_node</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="248"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="249"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="250"><highlight class="normal"></highlight></codeline>
+<codeline lineno="251"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nparsed<sp/>+=<sp/>sen_sz;</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nparsed;</highlight></codeline>
+<codeline lineno="255"><highlight class="normal"></highlight></codeline>
+<codeline lineno="256"><highlight class="normal">mem_fail:</highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(node)</highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(node);</highlight></codeline>
+<codeline lineno="259"><highlight class="normal"></highlight></codeline>
+<codeline lineno="260"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="context_8h_1abcb8acad747398f2e4ff77ea5456df25" kindref="member">nmea_error</ref>(</highlight><highlight class="stringliteral">&quot;Insufficient<sp/>memory!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>-1;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269" refid="parser_8c_1a47a10cb3610022f64656b3d6b5ce632e" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a47a10cb3610022f64656b3d6b5ce632e" kindref="member">nmea_parser_push</ref>(<ref refid="struct__nmea_p_a_r_s_e_r" kindref="compound">nmeaPARSER</ref><sp/>*parser,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buff,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buff_sz)</highlight></codeline>
+<codeline lineno="270"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nparse,<sp/>nparsed<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">do</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(buff_sz<sp/>&gt;<sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1afe338de2eae4d6bbfa57228753fbd2b6" kindref="member">buff_size</ref>)</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nparse<sp/>=<sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1afe338de2eae4d6bbfa57228753fbd2b6" kindref="member">buff_size</ref>;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nparse<sp/>=<sp/>buff_sz;</highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nparsed<sp/>+=<sp/><ref refid="parser_8c_1adf53e8b92c7da93866bf9c0e5fd4eaa3" kindref="member">nmea_parser_real_push</ref>(</highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser,<sp/>buff,<sp/>nparse);</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"></highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>buff_sz<sp/>-=<sp/>nparse;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"></highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(buff_sz);</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>nparsed;</highlight></codeline>
+<codeline lineno="288"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"></highlight></codeline>
+<codeline lineno="295" refid="parser_8c_1ab1f4e9db976f40834ccce77c736a67f4" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1ab1f4e9db976f40834ccce77c736a67f4" kindref="member">nmea_parser_top</ref>(<ref refid="struct__nmea_p_a_r_s_e_r" kindref="compound">nmeaPARSER</ref><sp/>*parser)</highlight></codeline>
+<codeline lineno="296"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>retval<sp/>=<sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa8bc672e0f07331fcae93d8ed68f50db7" kindref="member">GPNON</ref>;</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__nmea_parser_n_o_d_e" kindref="compound">nmeaParserNODE</ref><sp/>*node<sp/>=<sp/>(<ref refid="struct__nmea_parser_n_o_d_e" kindref="compound">nmeaParserNODE</ref><sp/>*)parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8739ac997bb581d33080ebe810e86286" kindref="member">top_node</ref>;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"></highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" kindref="member">NMEA_ASSERT</ref>(parser<sp/>&amp;&amp;<sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref>);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(node)</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retval<sp/>=<sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a6c4b0829c9de863ad53a16a82e02c820" kindref="member">packType</ref>;</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retval;</highlight></codeline>
+<codeline lineno="306"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313" refid="parser_8c_1a16388506bf26605e55c583ba635a6cda" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a16388506bf26605e55c583ba635a6cda" kindref="member">nmea_parser_pop</ref>(<ref refid="struct__nmea_p_a_r_s_e_r" kindref="compound">nmeaPARSER</ref><sp/>*parser,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**pack_ptr)</highlight></codeline>
+<codeline lineno="314"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>retval<sp/>=<sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa8bc672e0f07331fcae93d8ed68f50db7" kindref="member">GPNON</ref>;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__nmea_parser_n_o_d_e" kindref="compound">nmeaParserNODE</ref><sp/>*node<sp/>=<sp/>(<ref refid="struct__nmea_parser_n_o_d_e" kindref="compound">nmeaParserNODE</ref><sp/>*)parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8739ac997bb581d33080ebe810e86286" kindref="member">top_node</ref>;</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" kindref="member">NMEA_ASSERT</ref>(parser<sp/>&amp;&amp;<sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref>);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"></highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(node)</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pack_ptr<sp/>=<sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>;</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retval<sp/>=<sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a6c4b0829c9de863ad53a16a82e02c820" kindref="member">packType</ref>;</highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8739ac997bb581d33080ebe810e86286" kindref="member">top_node</ref><sp/>=<sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1ac53e96c842c9878f5874556aa5a7b850" kindref="member">next_node</ref>;</highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8739ac997bb581d33080ebe810e86286" kindref="member">top_node</ref>)</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8aa929b3502711dd6db20d89931ee22b" kindref="member">end_node</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(node);</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retval;</highlight></codeline>
+<codeline lineno="331"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="332"><highlight class="normal"></highlight></codeline>
+<codeline lineno="338" refid="parser_8c_1ad31e521b0c2c52fbb6d7488bbc2dbacc" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1ad31e521b0c2c52fbb6d7488bbc2dbacc" kindref="member">nmea_parser_peek</ref>(<ref refid="struct__nmea_p_a_r_s_e_r" kindref="compound">nmeaPARSER</ref><sp/>*parser,<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>**pack_ptr)</highlight></codeline>
+<codeline lineno="339"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>retval<sp/>=<sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa8bc672e0f07331fcae93d8ed68f50db7" kindref="member">GPNON</ref>;</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__nmea_parser_n_o_d_e" kindref="compound">nmeaParserNODE</ref><sp/>*node<sp/>=<sp/>(<ref refid="struct__nmea_parser_n_o_d_e" kindref="compound">nmeaParserNODE</ref><sp/>*)parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8739ac997bb581d33080ebe810e86286" kindref="member">top_node</ref>;</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"></highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" kindref="member">NMEA_ASSERT</ref>(parser<sp/>&amp;&amp;<sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref>);</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"></highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(node)</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*pack_ptr<sp/>=<sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>;</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retval<sp/>=<sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a6c4b0829c9de863ad53a16a82e02c820" kindref="member">packType</ref>;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="350"><highlight class="normal"></highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retval;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"></highlight></codeline>
+<codeline lineno="359" refid="parser_8c_1a6988908197edec998aad69732d19d520" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a6988908197edec998aad69732d19d520" kindref="member">nmea_parser_drop</ref>(<ref refid="struct__nmea_p_a_r_s_e_r" kindref="compound">nmeaPARSER</ref><sp/>*parser)</highlight></codeline>
+<codeline lineno="360"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="361"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>retval<sp/>=<sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa8bc672e0f07331fcae93d8ed68f50db7" kindref="member">GPNON</ref>;</highlight></codeline>
+<codeline lineno="362"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__nmea_parser_n_o_d_e" kindref="compound">nmeaParserNODE</ref><sp/>*node<sp/>=<sp/>(<ref refid="struct__nmea_parser_n_o_d_e" kindref="compound">nmeaParserNODE</ref><sp/>*)parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8739ac997bb581d33080ebe810e86286" kindref="member">top_node</ref>;</highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" kindref="member">NMEA_ASSERT</ref>(parser<sp/>&amp;&amp;<sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref>);</highlight></codeline>
+<codeline lineno="365"><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(node)</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="368"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>)</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a964773c49b05f9aed79838513049cc85" kindref="member">pack</ref>);</highlight></codeline>
+<codeline lineno="370"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>retval<sp/>=<sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1a6c4b0829c9de863ad53a16a82e02c820" kindref="member">packType</ref>;</highlight></codeline>
+<codeline lineno="371"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8739ac997bb581d33080ebe810e86286" kindref="member">top_node</ref><sp/>=<sp/>node-&gt;<ref refid="struct__nmea_parser_n_o_d_e_1ac53e96c842c9878f5874556aa5a7b850" kindref="member">next_node</ref>;</highlight></codeline>
+<codeline lineno="372"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8739ac997bb581d33080ebe810e86286" kindref="member">top_node</ref>)</highlight></codeline>
+<codeline lineno="373"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8aa929b3502711dd6db20d89931ee22b" kindref="member">end_node</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="374"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(node);</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"></highlight></codeline>
+<codeline lineno="377"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>retval;</highlight></codeline>
+<codeline lineno="378"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="379"><highlight class="normal"></highlight></codeline>
+<codeline lineno="384" refid="parser_8c_1a34685ac7704478f98f6c7fbc6b9c1795" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a34685ac7704478f98f6c7fbc6b9c1795" kindref="member">nmea_parser_buff_clear</ref>(<ref refid="struct__nmea_p_a_r_s_e_r" kindref="compound">nmeaPARSER</ref><sp/>*parser)</highlight></codeline>
+<codeline lineno="385"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="386"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" kindref="member">NMEA_ASSERT</ref>(parser<sp/>&amp;&amp;<sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" kindref="member">buffer</ref>);</highlight></codeline>
+<codeline lineno="387"><highlight class="normal"><sp/><sp/><sp/><sp/>parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8aec4ec4997bca1a1c3f6ff26377def2" kindref="member">buff_use</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="388"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="389"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"></highlight></codeline>
+<codeline lineno="395" refid="parser_8c_1a7a362de98525b28c6ffa9fdafd092b16" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parser_8c_1a7a362de98525b28c6ffa9fdafd092b16" kindref="member">nmea_parser_queue_clear</ref>(<ref refid="struct__nmea_p_a_r_s_e_r" kindref="compound">nmeaPARSER</ref><sp/>*parser)</highlight></codeline>
+<codeline lineno="396"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="397"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" kindref="member">NMEA_ASSERT</ref>(parser);</highlight></codeline>
+<codeline lineno="398"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(parser-&gt;<ref refid="struct__nmea_p_a_r_s_e_r_1a8739ac997bb581d33080ebe810e86286" kindref="member">top_node</ref>)</highlight></codeline>
+<codeline lineno="399"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="parser_8c_1a6988908197edec998aad69732d19d520" kindref="member">nmea_parser_drop</ref>(parser);</highlight></codeline>
+<codeline lineno="400"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>1;</highlight></codeline>
+<codeline lineno="401"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c"/>
+  </compounddef>
+</doxygen>

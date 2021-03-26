@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct__nmea_p_a_r_s_e_r" kind="struct" language="C++" prot="public">
+    <compoundname>_nmeaPARSER</compoundname>
+    <includes refid="parser_8h" local="no">parser.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__nmea_p_a_r_s_e_r_1a8739ac997bb581d33080ebe810e86286" prot="public" static="no" mutable="no">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref> *</type>
+        <definition>void* _nmeaPARSER::top_node</definition>
+        <argsstring></argsstring>
+        <name>top_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parser.h" line="26" column="10" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parser.h" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_p_a_r_s_e_r_1a8aa929b3502711dd6db20d89931ee22b" prot="public" static="no" mutable="no">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref> *</type>
+        <definition>void* _nmeaPARSER::end_node</definition>
+        <argsstring></argsstring>
+        <name>end_node</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parser.h" line="27" column="10" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parser.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* _nmeaPARSER::buffer</definition>
+        <argsstring></argsstring>
+        <name>buffer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parser.h" line="28" column="19" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parser.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_p_a_r_s_e_r_1afe338de2eae4d6bbfa57228753fbd2b6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nmeaPARSER::buff_size</definition>
+        <argsstring></argsstring>
+        <name>buff_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parser.h" line="29" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parser.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_p_a_r_s_e_r_1a8aec4ec4997bca1a1c3f6ff26377def2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nmeaPARSER::buff_use</definition>
+        <argsstring></argsstring>
+        <name>buff_use</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parser.h" line="30" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parser.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parser.h" line="25" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parser.h" bodystart="24" bodyend="32"/>
+    <listofallmembers>
+      <member refid="struct__nmea_p_a_r_s_e_r_1afe338de2eae4d6bbfa57228753fbd2b6" prot="public" virt="non-virtual"><scope>_nmeaPARSER</scope><name>buff_size</name></member>
+      <member refid="struct__nmea_p_a_r_s_e_r_1a8aec4ec4997bca1a1c3f6ff26377def2" prot="public" virt="non-virtual"><scope>_nmeaPARSER</scope><name>buff_use</name></member>
+      <member refid="struct__nmea_p_a_r_s_e_r_1a6628206689c876bc0b5e99556fa2dc0a" prot="public" virt="non-virtual"><scope>_nmeaPARSER</scope><name>buffer</name></member>
+      <member refid="struct__nmea_p_a_r_s_e_r_1a8aa929b3502711dd6db20d89931ee22b" prot="public" virt="non-virtual"><scope>_nmeaPARSER</scope><name>end_node</name></member>
+      <member refid="struct__nmea_p_a_r_s_e_r_1a8739ac997bb581d33080ebe810e86286" prot="public" virt="non-virtual"><scope>_nmeaPARSER</scope><name>top_node</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

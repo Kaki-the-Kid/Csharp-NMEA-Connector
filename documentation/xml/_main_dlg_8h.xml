@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_main_dlg_8h" kind="file" language="C++">
+    <compoundname>MainDlg.h</compoundname>
+    <includes refid="_dev_manager_8h" local="yes">DevManager.h</includes>
+    <includedby refid="_main_dlg_8cpp" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.cpp</includedby>
+    <includedby refid="upkit_8cpp" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/upkit.cpp</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>ddkreg.h</label>
+      </node>
+      <node id="2">
+        <label>DevManager.h</label>
+        <link refid="_dev_manager_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h</label>
+        <link refid="_main_dlg_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.cpp</label>
+        <link refid="_main_dlg_8cpp"/>
+      </node>
+      <node id="3">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/upkit.cpp</label>
+        <link refid="upkit_8cpp"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h</label>
+        <link refid="_main_dlg_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="class_c_main_dlg" prot="public">CMainDlg</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>MainDlg.h<sp/>:<sp/>interface<sp/>of<sp/>the<sp/>CMainDlg<sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_dev_manager_8h" kindref="compound">DevManager.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9" refid="class_c_main_dlg" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c_main_dlg" kindref="compound">CMainDlg</ref><sp/>:<sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>CDialogImpl&lt;CMainDlg&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12" refid="class_c_main_dlg_1a1012b2ed66796565ea783955ba9b2095a75f08fe8911ee4f9c647ddae9d37ce11" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/>{<sp/><ref refid="class_c_main_dlg_1a1012b2ed66796565ea783955ba9b2095a75f08fe8911ee4f9c647ddae9d37ce11" kindref="member">IDD</ref><sp/>=<sp/><ref refid="upkit_2resource_8h_1a47167d954a974b0203af0f7f895cfe46" kindref="member">IDD_MAINDLG</ref><sp/>};</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>BEGIN_MSG_MAP(<ref refid="class_c_main_dlg" kindref="compound">CMainDlg</ref>)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MESSAGE_HANDLER(WM_INITDIALOG,<sp/><ref refid="class_c_main_dlg_1ae463653f423fa1282b07c6b60cc8e50a" kindref="member">OnInitDialog</ref>)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MESSAGE_HANDLER(WM_CLOSE,<sp/><ref refid="class_c_main_dlg_1a88731df61c47e84a67514af889bd4d92" kindref="member">OnClose</ref>)</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>NOTIFY_HANDLER(<ref refid="upkit_2resource_8h_1a24ddd9219d62fb46f94d417ce09add87" kindref="member">IDC_TAB</ref>,<sp/>TCN_SELCHANGE,<sp/><ref refid="class_c_main_dlg_1a155065255c3ec52a4cb6a37b6747f3bd" kindref="member">OnTcnSelchangeTab</ref>)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/>END_MSG_MAP()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>LRESULT<sp/><ref refid="class_c_main_dlg_1a155065255c3ec52a4cb6a37b6747f3bd" kindref="member">OnTcnSelchangeTab</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="comment">/*idCtrl*/</highlight><highlight class="normal">,<sp/>LPNMHDR<sp/>pNMHDR,<sp/>BOOL&amp;<sp/></highlight><highlight class="comment">/*bHandled*/</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>LRESULT<sp/><ref refid="class_c_main_dlg_1ae463653f423fa1282b07c6b60cc8e50a" kindref="member">OnInitDialog</ref>(UINT<sp/></highlight><highlight class="comment">/*uMsg*/</highlight><highlight class="normal">,<sp/>WPARAM<sp/></highlight><highlight class="comment">/*wParam*/</highlight><highlight class="normal">,<sp/>LPARAM<sp/></highlight><highlight class="comment">/*lParam*/</highlight><highlight class="normal">,<sp/>BOOL&amp;<sp/></highlight><highlight class="comment">/*bHandled*/</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>LRESULT<sp/><ref refid="class_c_main_dlg_1a88731df61c47e84a67514af889bd4d92" kindref="member">OnClose</ref>(UINT<sp/></highlight><highlight class="comment">/*uMsg*/</highlight><highlight class="normal">,<sp/>WPARAM<sp/></highlight><highlight class="comment">/*wParam*/</highlight><highlight class="normal">,<sp/>LPARAM<sp/></highlight><highlight class="comment">/*lParam*/</highlight><highlight class="normal">,<sp/>BOOL&amp;<sp/></highlight><highlight class="comment">/*bHandled*/</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal">private:</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>_selectTab(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>CTabCtrl<sp/>_tabctrl;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>class<sp/><ref refid="class_c_main_tab" kindref="compound">CMainTab</ref><sp/>*_main_tab;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>class<sp/><ref refid="class_c_pos_tab" kindref="compound">CPosTab</ref><sp/>*_pos_tab;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>class<sp/><ref refid="class_c_signal_tab" kindref="compound">CSignalTab</ref><sp/>*_sig_tab;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h"/>
+  </compounddef>
+</doxygen>

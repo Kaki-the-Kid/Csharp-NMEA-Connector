@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_n_m_e_a_01_connector_8cs" kind="file" language="C#">
+    <compoundname>NMEA Connector.cs</compoundname>
+    <innerclass refid="class_n_m_e_a__connector_1_1_program" prot="public">NMEA_connector::Program</innerclass>
+    <innernamespace refid="namespace_n_m_e_a__connector">NMEA_connector</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/******************************************************************************************</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>NMEA<sp/>Controller</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>@file<sp/><sp/><sp/><sp/>Program.c<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>@author<sp/><sp/>Karsten<sp/>&apos;Kaki&apos;<sp/>Reitan<sp/>Sørensen</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>@created<sp/></highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>******************************************************************************************</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>NMEA<sp/>kommandoer<sp/>er<sp/>en<sp/>fælles<sp/>platform<sp/>for<sp/>at<sp/>sende<sp/>GPS<sp/>data</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/></highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_n_m_e_a__connector" kindref="compound">NMEA_connector</ref></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="16" refid="class_n_m_e_a__connector_1_1_program" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_n_m_e_a__connector_1_1_program" kindref="compound">Program</ref></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>/************************************************************</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>Struct<sp/>som<sp/>holder<sp/>alle<sp/>live<sp/>data<sp/>overalt<sp/>i<sp/>projektet</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>Main(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal">[]<sp/>args)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>GPSData<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="struct_n_m_e_a__connector_1_1_struct_g_p_s_data" kindref="compound">StructGPSData</ref>();</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GPSData.GPSAgeCorrection<sp/>=<sp/>4.78;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GPSData.GPSTimestamp<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;18:55:33<sp/>UTF&quot;</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>consol<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_n_m_e_a__connector_1_1_consol_ui" kindref="compound">ConsolUi</ref>();</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>consol.GPSData<sp/>=<sp/>GPSData;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>consol.ConsolInit();</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Connector.cs"/>
+  </compounddef>
+</doxygen>

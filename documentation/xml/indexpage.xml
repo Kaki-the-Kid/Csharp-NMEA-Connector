@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>NMEA Controller</title>
+    <innerpage refid="nmea_commands">Information om NMEA protokollen</innerpage>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<sect1 id="index_1intro_sec">
+<title>Resume</title>
+<para>Jeg ønsker, at lave en løsning som gør at man kan læse NMEA beskeder på computer <linebreak/>
+</para>
+<para><copy/> copyright 2019-2020 Karsten &apos;Kaki&apos; Reitan Sørensen<linebreak/>
+ version 1.00-development</para>
+<para><itemizedlist>
+<listitem><para><ref refid="nmea_commands_1nmea_commands" kindref="member">NMEA kommandoer</ref></para>
+</listitem><listitem><para><ref refid="todo" kindref="compound">Todo-liste</ref></para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="index_1project_goals">
+<title>Mål med projektet</title>
+<para><heading level="4">TCP/IP forbindelse</heading>
+</para>
+<para><heading level="4">SoftAP funktionen</heading>
+</para>
+<para><heading level="4">HTML side</heading>
+</para>
+<para><heading level="4">Håndtering af GET request</heading>
+</para>
+<para><itemizedlist>
+<listitem><para>Tænde og slukke lysdiode på IO pin</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="index_1projecct_structure">
+<title>Projekt struktur</title>
+<para><xrefsect id="todo_1_todo000009"><xreftitle>Todo</xreftitle><xrefdescription><para>udfyld den korrekte struktur</para>
+</xrefdescription></xrefsect></para>
+<para>Eksempel på struktur<itemizedlist>
+<listitem><para>Source Files<itemizedlist>
+<listitem><para>main.c</para>
+</listitem><listitem><para>MCC Generated Files<itemizedlist>
+<listitem><para>device_config.c</para>
+</listitem><listitem><para>eusart1.c</para>
+</listitem><listitem><para>eusart2.c</para>
+</listitem><listitem><para>interrupt_manager.c</para>
+</listitem><listitem><para>mcc.c</para>
+</listitem><listitem><para>pin_manager.c</para>
+</listitem><listitem><para>tmr2.c</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="index_1file_structure">
+<title>Fil struktur</title>
+<para><itemizedlist>
+<listitem><para><emphasis>build</emphasis><linebreak/>
+ FIler genereret af compiler</para>
+</listitem><listitem><para><emphasis>datablade</emphasis><linebreak/>
+ Datablade for den anvendte PIC kreds, ESP01 og andre mere eller mindre relevante dokumenter<linebreak/>
+ <emphasis>ESP01</emphasis> - <linebreak/>
+ <emphasis>MRF89XAM8A</emphasis> - mappe til fremtidig udvidelse til LORA modul</para>
+</listitem><listitem><para><emphasis>debug</emphasis><linebreak/>
+ Filer genereret af compiler</para>
+</listitem><listitem><para><emphasis>dist</emphasis><linebreak/>
+ Filer generet af compiler</para>
+</listitem><listitem><para><emphasis>docs</emphasis><linebreak/>
+ <emphasis><ref refid="mainpage_8dox" kindref="compound">mainpage.dox</ref></emphasis> bliver brugt af Doxygen til at generere forsiden på projektet</para>
+</listitem><listitem><para><emphasis>doxygen</emphasis><linebreak/>
+ Indeholder den overordnede dokumentation af projektet i HTML version. Genreret med Doxygen</para>
+</listitem><listitem><para><emphasis>mcc_generated_files</emphasis><linebreak/>
+ Filer genereret af CodeConfigurator</para>
+</listitem><listitem><para><emphasis>nbproject</emphasis><linebreak/>
+ Filer genereret af compiler</para>
+</listitem><listitem><para><emphasis>powerpoints</emphasis><linebreak/>
+ Mappe lavet til at holde produceret undervisnings materiale</para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="index_1SQLite3_tools">
+<title>SQLite3</title>
+<para>SQLite is a small, fast, and embeddable open source file system-based SQL database. It doesn&apos;t have a separate server component like traditional databases. Rather, it reads and writes data directly in disk files. A SQLite database is integrated with the application that accesses the database. The SQLite database file format is cross-platform and can be copied between 32-bit and 64-bit file systems. Due to the serverless architecture, developers don&apos;t need to install SQLite before using it. All SQLite transactions are fully ACID compliant; that means all queries and changes are Atomic, Consistent, Isolated, and Durable.</para>
+<para>SQLite kildekode er offentlig og fri til brug hvilken som helst formål - kommercielt og privat.</para>
+<para>Fordi den er meget letvægt i sin opbygning bliver SQLite anvendt intensivt i embedded software, som TV, mobiltelefoner oma. Det sikrer en serverfri enhed. SQLite is recommended for mobile-based applications. Reading and writing operations in SQLite database are extremely fast, almost 35% faster than any traditional databases. SQLite reduces application cost because content can be accessed and updated by using concise SQL queries instead of lengthy procedural queries. To connect SQLite, no additional database drivers, or ODBC configuration are required. Developers just have to download the library and add the data file in their application.</para>
+<para><itemizedlist>
+<listitem><para>DB Browser for SQLite<linebreak/>
+ Som Database er brug SQLite3 og her er værktøj som meget ligner det vi kender MSSQL og MySQL.<linebreak/>
+ Webside: <ulink url="https://sqlitebrowser.org/">https://sqlitebrowser.org/</ulink></para>
+</listitem><listitem><para>Using SQLite in a C# Application<linebreak/>
+ Webside som indeholder præcis information omkring implementeringen af SQLite3 i Visual Studio projekt.<linebreak/>
+ Webside: <ulink url="https://www.codeguru.com/csharp/.net/net_data/using-sqlite-in-a-c-application.html">https://www.codeguru.com/csharp/.net/net_data/using-sqlite-in-a-c-application.html</ulink></para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="index_1doxygen_tools">
+<title>Doxygen</title>
+<para><itemizedlist>
+<listitem><para>Doxygen v1.8.17<linebreak/>
+ Kan implementeres som plugin i MPLabs / NetBeans IDE.<linebreak/>
+ Fordi jeg har skrevet størstedelen af kommentarer på dansk skal DoxyWizard instilles til <emphasis>Windows-1252</emphasis> formattering af teksten. I IDE kan man bruge UTF-8 som normalt.<linebreak/>
+ Doxýgen dokumentation: <ulink url="https://http://www.doxygen.nl/index.html">https://http://www.doxygen.nl/index.html</ulink></para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="index_1project_other_text">
+<title>Kilder, inspiration og læring</title>
+<para><itemizedlist>
+<listitem><para>Deepblue: UART | Serial Communication With PIC Microcontrollers Tutorial<linebreak/>
+ Side som indeholder et væld af information om seriel kommunikation.<linebreak/>
+ Webside: <ulink url="https://deepbluembedded.com/uart-pic-microcontroller-tutorial/">https://deepbluembedded.com/uart-pic-microcontroller-tutorial/</ulink></para>
+</listitem></itemizedlist>
+</para>
+<para><hruler/>
+</para>
+</sect1>
+<sect1 id="index_1project_license">
+<title>Licens</title>
+<para>This program is free software; you can redistribute it and/or modify<linebreak/>
+ it under the terms of the GNU General Public License as published by<linebreak/>
+ the Free Software Foundation; either version 2 of the License, or<linebreak/>
+ (at your option) any later version.</para>
+<para>This program is distributed in the hope that it will be useful,<linebreak/>
+ but WITHOUT ANY WARRANTY; without even the implied warranty of<linebreak/>
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the<linebreak/>
+ GNU General Public License for more details.</para>
+<para>You should have received a copy of the GNU General Public License<linebreak/>
+ along with this program; if not, write to the Free Software<linebreak/>
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA. </para>
+</sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

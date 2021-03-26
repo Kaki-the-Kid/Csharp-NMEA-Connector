@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_signal_tab_8cpp" kind="file" language="C++">
+    <compoundname>SignalTab.cpp</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includes refid="upkit_2resource_8h" local="yes">resource.h</includes>
+    <includes refid="_signal_tab_8h" local="yes">SignalTab.h</includes>
+    <includes refid="_dev_manager_8h" local="yes">DevManager.h</includes>
+    <includes local="no">nmea/tools.h</includes>
+    <incdepgraph>
+      <node id="18">
+        <label>iomanip</label>
+      </node>
+      <node id="12">
+        <label>atlframe.h</label>
+      </node>
+      <node id="4">
+        <label>atlapp.h</label>
+      </node>
+      <node id="7">
+        <label>Windows.h</label>
+      </node>
+      <node id="11">
+        <label>atlwin.h</label>
+      </node>
+      <node id="8">
+        <label>shlwapi.h</label>
+      </node>
+      <node id="2">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>resource.h</label>
+        <link refid="upkit_2resource_8h"/>
+      </node>
+      <node id="24">
+        <label>ddkreg.h</label>
+      </node>
+      <node id="23">
+        <label>DevManager.h</label>
+        <link refid="_dev_manager_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>string</label>
+      </node>
+      <node id="10">
+        <label>atlmisc.h</label>
+      </node>
+      <node id="5">
+        <label>atlimage.h</label>
+      </node>
+      <node id="22">
+        <label>SignalTab.h</label>
+        <link refid="_signal_tab_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.cpp</label>
+        <link refid="_signal_tab_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>atlresCE.h</label>
+      </node>
+      <node id="19">
+        <label>vector</label>
+      </node>
+      <node id="17">
+        <label>sstream</label>
+      </node>
+      <node id="3">
+        <label>atlbase.h</label>
+      </node>
+      <node id="6">
+        <label>atltime.h</label>
+      </node>
+      <node id="14">
+        <label>atldlgs.h</label>
+      </node>
+      <node id="15">
+        <label>aygshell.h</label>
+      </node>
+      <node id="25">
+        <label>nmea/tools.h</label>
+      </node>
+      <node id="20">
+        <label>algorithm</label>
+      </node>
+      <node id="13">
+        <label>atlctrls.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>SignalTab.cpp<sp/>:<sp/>implementation<sp/>of<sp/>the<sp/>CSignalTab<sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="upkit_2resource_8h" kindref="compound">resource.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_signal_tab_8h" kindref="compound">SignalTab.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_dev_manager_8h" kindref="compound">DevManager.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;nmea/tools.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="class_c_signal_tab_1a3b7254588fd8ef1cee73c1f3594e9b9e" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_c_signal_tab_1a3b7254588fd8ef1cee73c1f3594e9b9e" kindref="member">CSignalTab::onDevChange</ref>()</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>EnableWindow(<ref refid="class_dev_manager_1a8f6ed839dffa964799b1c975012b83a2" kindref="member">DevManager::specific</ref>()-&gt;GetActiveDevice()<sp/>&gt;=<sp/>0);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>::EnableWindow(GetDlgItem(<ref refid="upkit_2resource_8h_1acfb35c4efbc593430638b09db17f2870" kindref="member">IDC_BUTTON1</ref>),<sp/><ref refid="class_dev_manager_1a8f6ed839dffa964799b1c975012b83a2" kindref="member">DevManager::specific</ref>()-&gt;GetActiveDevice()<sp/>&gt;=<sp/>0);</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>::EnableWindow(GetDlgItem(<ref refid="upkit_2resource_8h_1a6acf6d252c94ab75397fd635ba891820" kindref="member">IDC_BUTTON2</ref>),<sp/><ref refid="class_dev_manager_1a8f6ed839dffa964799b1c975012b83a2" kindref="member">DevManager::specific</ref>()-&gt;GetActiveDevice()<sp/>&gt;=<sp/>0);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20" refid="class_c_signal_tab_1a94dbe25e84559ac96bffc9db7c7c3f4e" refkind="member"><highlight class="normal">LRESULT<sp/><ref refid="class_c_signal_tab_1a94dbe25e84559ac96bffc9db7c7c3f4e" kindref="member">CSignalTab::OnInitDialog</ref>(UINT<sp/></highlight><highlight class="comment">/*uMsg*/</highlight><highlight class="normal">,<sp/>WPARAM<sp/></highlight><highlight class="comment">/*wParam*/</highlight><highlight class="normal">,<sp/>LPARAM<sp/></highlight><highlight class="comment">/*lParam*/</highlight><highlight class="normal">,<sp/>BOOL&amp;<sp/></highlight><highlight class="comment">/*bHandled*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>CComboBox<sp/>sig_box(GetDlgItem(<ref refid="upkit_2resource_8h_1acbe20d5aa5875e8f927fad66b7610c09" kindref="member">IDC_COMBO1</ref>));</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>sig_box.AddString(_T(</highlight><highlight class="stringliteral">&quot;0<sp/>-<sp/>Invalid&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>sig_box.AddString(_T(</highlight><highlight class="stringliteral">&quot;1<sp/>-<sp/>Fix&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>sig_box.AddString(_T(</highlight><highlight class="stringliteral">&quot;2<sp/>-<sp/>Differential&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>sig_box.AddString(_T(</highlight><highlight class="stringliteral">&quot;3<sp/>-<sp/>Sensitive&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>CComboBox<sp/>fix_box(GetDlgItem(<ref refid="upkit_2resource_8h_1a86578d71321de628de974a1e34f4af35" kindref="member">IDC_COMBO2</ref>));</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>fix_box.AddString(_T(</highlight><highlight class="stringliteral">&quot;1<sp/>-<sp/>Not<sp/>available&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>fix_box.AddString(_T(</highlight><highlight class="stringliteral">&quot;2<sp/>-<sp/>2D&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>fix_box.AddString(_T(</highlight><highlight class="stringliteral">&quot;3<sp/>-<sp/>3D&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="class_c_signal_tab_1a57aeeef2d92f6505c3f4f03b6b7de55a" refkind="member"><highlight class="normal">LRESULT<sp/><ref refid="class_c_signal_tab_1a57aeeef2d92f6505c3f4f03b6b7de55a" kindref="member">CSignalTab::OnClose</ref>(UINT<sp/></highlight><highlight class="comment">/*uMsg*/</highlight><highlight class="normal">,<sp/>WPARAM<sp/></highlight><highlight class="comment">/*wParam*/</highlight><highlight class="normal">,<sp/>LPARAM<sp/></highlight><highlight class="comment">/*lParam*/</highlight><highlight class="normal">,<sp/>BOOL&amp;<sp/></highlight><highlight class="comment">/*bHandled*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="37"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight></codeline>
+<codeline lineno="41" refid="class_c_signal_tab_1a937bdc0795a44224c97702a15cd0717b" refkind="member"><highlight class="normal">LRESULT<sp/><ref refid="class_c_signal_tab_1a937bdc0795a44224c97702a15cd0717b" kindref="member">CSignalTab::OnBnClickedButton1</ref>(WORD<sp/></highlight><highlight class="comment">/*wNotifyCode*/</highlight><highlight class="normal">,<sp/>WORD<sp/></highlight><highlight class="comment">/*wID*/</highlight><highlight class="normal">,<sp/>HWND<sp/></highlight><highlight class="comment">/*hWndCtl*/</highlight><highlight class="normal">,<sp/>BOOL&amp;<sp/></highlight><highlight class="comment">/*bHandled*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="42"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>CComboBox<sp/>combo_box(GetDlgItem(<ref refid="upkit_2resource_8h_1acbe20d5aa5875e8f927fad66b7610c09" kindref="member">IDC_COMBO1</ref>));</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>HANDLE<sp/>hdl;</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacestd_1a18cacf074ba3b0545e391cd7ef0c4334" kindref="member">std::tstring</ref><sp/>err;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>val<sp/>=<sp/>combo_box.GetCurSel();</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(val<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;;)</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NULL<sp/>==<sp/>(hdl<sp/>=<sp/><ref refid="class_dev_manager_1a8f6ed839dffa964799b1c975012b83a2" kindref="member">DevManager::specific</ref>()-&gt;ConnectDevice()))</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>_T(</highlight><highlight class="stringliteral">&quot;Can`t<sp/>open<sp/>device<sp/>port!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(FALSE<sp/>==<sp/>DeviceIoControl(hdl,<sp/><ref refid="vgd_8h_1a293522a8ae93c45a43af95f69f2af1b3" kindref="member">VGD_IOCTL_SETSIG</ref>,<sp/>&amp;val,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">),<sp/>0,<sp/>0,<sp/>NULL,<sp/>NULL))</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>_T(</highlight><highlight class="stringliteral">&quot;Can`t<sp/>set<sp/>parameter!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(hdl)</highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CloseHandle(hdl);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!err.empty())</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MessageBox(err.c_str(),<sp/>_T(</highlight><highlight class="stringliteral">&quot;Error&quot;</highlight><highlight class="normal">),<sp/>MB_OK);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MessageBox(_T(</highlight><highlight class="stringliteral">&quot;Parameter<sp/>is<sp/>set.&quot;</highlight><highlight class="normal">),<sp/>_T(</highlight><highlight class="stringliteral">&quot;Information&quot;</highlight><highlight class="normal">),<sp/>MB_OK);</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>combo_box.SetCurSel(-1);</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="class_c_signal_tab_1a4aad47104f23a7d5c1c58752efdc2216" refkind="member"><highlight class="normal">LRESULT<sp/><ref refid="class_c_signal_tab_1a4aad47104f23a7d5c1c58752efdc2216" kindref="member">CSignalTab::OnBnClickedButton2</ref>(WORD<sp/></highlight><highlight class="comment">/*wNotifyCode*/</highlight><highlight class="normal">,<sp/>WORD<sp/></highlight><highlight class="comment">/*wID*/</highlight><highlight class="normal">,<sp/>HWND<sp/></highlight><highlight class="comment">/*hWndCtl*/</highlight><highlight class="normal">,<sp/>BOOL&amp;<sp/></highlight><highlight class="comment">/*bHandled*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="81"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/>CComboBox<sp/>combo_box(GetDlgItem(<ref refid="upkit_2resource_8h_1a86578d71321de628de974a1e34f4af35" kindref="member">IDC_COMBO2</ref>));</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/>HANDLE<sp/>hdl;</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="namespacestd_1a18cacf074ba3b0545e391cd7ef0c4334" kindref="member">std::tstring</ref><sp/>err;</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>val<sp/>=<sp/>combo_box.GetCurSel()<sp/>+<sp/>1;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(val<sp/>&lt;=<sp/>0)</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(;;)</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NULL<sp/>==<sp/>(hdl<sp/>=<sp/><ref refid="class_dev_manager_1a8f6ed839dffa964799b1c975012b83a2" kindref="member">DevManager::specific</ref>()-&gt;ConnectDevice()))</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>_T(</highlight><highlight class="stringliteral">&quot;Can`t<sp/>open<sp/>device<sp/>port!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(FALSE<sp/>==<sp/>DeviceIoControl(hdl,<sp/><ref refid="vgd_8h_1a916993e94f3a26dcd99c2663a60a5fa7" kindref="member">VGD_IOCTL_SETFIX</ref>,<sp/>&amp;val,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">),<sp/>0,<sp/>0,<sp/>NULL,<sp/>NULL))</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>err<sp/>=<sp/>_T(</highlight><highlight class="stringliteral">&quot;Can`t<sp/>set<sp/>parameter!&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(hdl)</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>CloseHandle(hdl);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!err.empty())</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MessageBox(err.c_str(),<sp/>_T(</highlight><highlight class="stringliteral">&quot;Error&quot;</highlight><highlight class="normal">),<sp/>MB_OK);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MessageBox(_T(</highlight><highlight class="stringliteral">&quot;Parameter<sp/>is<sp/>set.&quot;</highlight><highlight class="normal">),<sp/>_T(</highlight><highlight class="stringliteral">&quot;Information&quot;</highlight><highlight class="normal">),<sp/>MB_OK);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>combo_box.SetCurSel(-1);</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="119"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="class_c_signal_tab_1ad22075deb38107fb1f5f576db02a7ae4" refkind="member"><highlight class="normal">LRESULT<sp/><ref refid="class_c_signal_tab_1ad22075deb38107fb1f5f576db02a7ae4" kindref="member">CSignalTab::OnShowWindow</ref>(UINT<sp/></highlight><highlight class="comment">/*uMsg*/</highlight><highlight class="normal">,<sp/>WPARAM<sp/>wParam,<sp/>LPARAM<sp/></highlight><highlight class="comment">/*lParam*/</highlight><highlight class="normal">,<sp/>BOOL&amp;<sp/></highlight><highlight class="comment">/*bHandled*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="121"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(TRUE<sp/>==<sp/>(BOOL)wParam)</highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_c_signal_tab_1a8a4768439eb8ab85e621403aedaadd18" kindref="member">_checkValues</ref>();</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="class_c_signal_tab_1a8a4768439eb8ab85e621403aedaadd18" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_c_signal_tab_1a8a4768439eb8ab85e621403aedaadd18" kindref="member">CSignalTab::_checkValues</ref>()</highlight></codeline>
+<codeline lineno="128"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/>HANDLE<sp/>hdl;</highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>info;</highlight></codeline>
+<codeline lineno="131"><highlight class="normal"><sp/><sp/><sp/><sp/>CComboBox<sp/>sig_box(GetDlgItem(<ref refid="upkit_2resource_8h_1acbe20d5aa5875e8f927fad66b7610c09" kindref="member">IDC_COMBO1</ref>));</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/>CComboBox<sp/>fix_box(GetDlgItem(<ref refid="upkit_2resource_8h_1a86578d71321de628de974a1e34f4af35" kindref="member">IDC_COMBO2</ref>));</highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>sig_box.SetCurSel(-1);</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>fix_box.SetCurSel(-1);</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"></highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(NULL<sp/>!=<sp/>(hdl<sp/>=<sp/><ref refid="class_dev_manager_1a8f6ed839dffa964799b1c975012b83a2" kindref="member">DevManager::specific</ref>()-&gt;ConnectDevice())<sp/>&amp;&amp;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>TRUE<sp/>==<sp/>DeviceIoControl(hdl,<sp/><ref refid="vgd_8h_1a87530cd362df9d83dc27c9a1cac083f8" kindref="member">VGD_IOCTL_GETINFO</ref>,<sp/>0,<sp/>0,<sp/>&amp;info,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref>),<sp/>NULL,<sp/>NULL))</highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(info.<ref refid="struct__nmea_i_n_f_o_1a20246280a36e0e7d96efc825eb4afb44" kindref="member">sig</ref><sp/>&gt;=<sp/>0<sp/>&amp;&amp;<sp/>info.<ref refid="struct__nmea_i_n_f_o_1a20246280a36e0e7d96efc825eb4afb44" kindref="member">sig</ref><sp/>&lt;<sp/>4)</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sig_box.SetCurSel(info.<ref refid="struct__nmea_i_n_f_o_1a20246280a36e0e7d96efc825eb4afb44" kindref="member">sig</ref>);</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(info.<ref refid="struct__nmea_i_n_f_o_1a66c102c95a0418353910a85753b2a8ed" kindref="member">fix</ref><sp/>&gt;=<sp/>1<sp/>&amp;&amp;<sp/>info.<ref refid="struct__nmea_i_n_f_o_1a66c102c95a0418353910a85753b2a8ed" kindref="member">fix</ref><sp/>&lt;=<sp/>3)</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>fix_box.SetCurSel(info.<ref refid="struct__nmea_i_n_f_o_1a66c102c95a0418353910a85753b2a8ed" kindref="member">fix</ref><sp/>-<sp/>1);</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="145"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.cpp"/>
+  </compounddef>
+</doxygen>

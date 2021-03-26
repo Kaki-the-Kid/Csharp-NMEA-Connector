@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_n_m_e_a__connector_1_1brands_1_1_brand_magellan" kind="class" language="C#" prot="public">
+    <compoundname>NMEA_connector::brands::BrandMagellan</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_n_m_e_a__connector_1_1brands_1_1_brand_magellan_1af0a8e2ad611f5f15a1714c15d2a114a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>String[]</type>
+        <definition>String [] NMEA_connector.brands.BrandMagellan.CommandParts</definition>
+        <argsstring></argsstring>
+        <name>CommandParts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/brands/BrandMagellan.cs" line="7" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/brands/BrandMagellan.cs" bodystart="8" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1brands_1_1_brand_magellan_1a3b610ead446832f8146cebac41e2bd4b" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>static void NMEA_connector.brands.BrandMagellan.entryHandleCommand</definition>
+        <argsstring>(string commandLine)</argsstring>
+        <name>entryHandleCommand</name>
+        <param>
+          <type>string</type>
+          <declname>commandLine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/brands/BrandMagellan.cs" line="30" column="30" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/brands/BrandMagellan.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/brands/BrandMagellan.cs" line="6" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/brands/BrandMagellan.cs" bodystart="5" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_n_m_e_a__connector_1_1brands_1_1_brand_magellan_1af0a8e2ad611f5f15a1714c15d2a114a5" prot="public" virt="non-virtual"><scope>NMEA_connector::brands::BrandMagellan</scope><name>CommandParts</name></member>
+      <member refid="class_n_m_e_a__connector_1_1brands_1_1_brand_magellan_1a3b610ead446832f8146cebac41e2bd4b" prot="package" virt="non-virtual"><scope>NMEA_connector::brands::BrandMagellan</scope><name>entryHandleCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

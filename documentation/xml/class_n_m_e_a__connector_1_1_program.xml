@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_n_m_e_a__connector_1_1_program" kind="class" language="C#" prot="public">
+    <compoundname>NMEA_connector::Program</compoundname>
+    <derivedcompoundref refid="class_n_m_e_a__connector_1_1_consol_ui" prot="public" virt="non-virtual">NMEA_connector.ConsolUi</derivedcompoundref>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_program_1a2f4f59b8927439dd37d576c96223cd4c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>static void NMEA_connector.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Connector.cs" line="21" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Connector.cs" bodystart="21" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>NMEA_connector.Program</label>
+        <link refid="class_n_m_e_a__connector_1_1_program"/>
+      </node>
+      <node id="2">
+        <label>NMEA_connector.ConsolUi</label>
+        <link refid="class_n_m_e_a__connector_1_1_consol_ui"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Connector.cs" line="17" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/NMEA Connector.cs" bodystart="16" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_n_m_e_a__connector_1_1_program_1a2f4f59b8927439dd37d576c96223cd4c" prot="private" virt="non-virtual"><scope>NMEA_connector::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

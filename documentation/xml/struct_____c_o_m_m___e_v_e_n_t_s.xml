@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_____c_o_m_m___e_v_e_n_t_s" kind="struct" language="C++" prot="public">
+    <compoundname>__COMM_EVENTS</compoundname>
+    <includes refid="mdd_8h" local="no">mdd.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_____c_o_m_m___e_v_e_n_t_s_1adbd14a158428fe9c0cdd66ed88a66fa7" prot="public" static="no" mutable="no">
+        <type>HANDLE</type>
+        <definition>HANDLE __COMM_EVENTS::hCommEvent</definition>
+        <argsstring></argsstring>
+        <name>hCommEvent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="11" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_____c_o_m_m___e_v_e_n_t_s_1a2ce5c949fb81f8514631eac7b78a25d5" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG __COMM_EVENTS::fEventMask</definition>
+        <argsstring></argsstring>
+        <name>fEventMask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="12" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_____c_o_m_m___e_v_e_n_t_s_1a2e18d8541fe7370bbd64d2d11155f4c7" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG __COMM_EVENTS::fEventData</definition>
+        <argsstring></argsstring>
+        <name>fEventData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="13" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_____c_o_m_m___e_v_e_n_t_s_1ab5c2cb6c2eea78cdb517329a34a4a390" prot="public" static="no" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG __COMM_EVENTS::fAbort</definition>
+        <argsstring></argsstring>
+        <name>fAbort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="14" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_____c_o_m_m___e_v_e_n_t_s_1a3856cc32be55f0c6853dc62de6c55002" prot="public" static="no" mutable="no">
+        <type>CRITICAL_SECTION</type>
+        <definition>CRITICAL_SECTION __COMM_EVENTS::EventCS</definition>
+        <argsstring></argsstring>
+        <name>EventCS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="15" column="18" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="10" column="28" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="10" bodyend="16"/>
+    <listofallmembers>
+      <member refid="struct_____c_o_m_m___e_v_e_n_t_s_1a3856cc32be55f0c6853dc62de6c55002" prot="public" virt="non-virtual"><scope>__COMM_EVENTS</scope><name>EventCS</name></member>
+      <member refid="struct_____c_o_m_m___e_v_e_n_t_s_1ab5c2cb6c2eea78cdb517329a34a4a390" prot="public" virt="non-virtual"><scope>__COMM_EVENTS</scope><name>fAbort</name></member>
+      <member refid="struct_____c_o_m_m___e_v_e_n_t_s_1a2e18d8541fe7370bbd64d2d11155f4c7" prot="public" virt="non-virtual"><scope>__COMM_EVENTS</scope><name>fEventData</name></member>
+      <member refid="struct_____c_o_m_m___e_v_e_n_t_s_1a2ce5c949fb81f8514631eac7b78a25d5" prot="public" virt="non-virtual"><scope>__COMM_EVENTS</scope><name>fEventMask</name></member>
+      <member refid="struct_____c_o_m_m___e_v_e_n_t_s_1adbd14a158428fe9c0cdd66ed88a66fa7" prot="public" virt="non-virtual"><scope>__COMM_EVENTS</scope><name>hCommEvent</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

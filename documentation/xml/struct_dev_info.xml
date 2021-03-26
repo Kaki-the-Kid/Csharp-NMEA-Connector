@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_dev_info" kind="struct" language="C++" prot="public">
+    <compoundname>DevInfo</compoundname>
+    <includes refid="_dev_manager_8h" local="no">DevManager.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_dev_info_1af0f58baff1038b170e024cf8167408e9" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacestd_1a18cacf074ba3b0545e391cd7ef0c4334" kindref="member">std::tstring</ref></type>
+        <definition>std::tstring DevInfo::port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/DevManager.h" line="21" column="18" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/DevManager.h" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_dev_info_1aa9978fa7d1b156241ba1ab30135258f5" prot="public" static="no" mutable="no">
+        <type><ref refid="namespacestd_1a18cacf074ba3b0545e391cd7ef0c4334" kindref="member">std::tstring</ref></type>
+        <definition>std::tstring DevInfo::reg_path</definition>
+        <argsstring></argsstring>
+        <name>reg_path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/DevManager.h" line="22" column="18" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/DevManager.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_dev_info_1a230f157beb5306dbdf2a86d78c818c72" prot="public" static="no" mutable="no">
+        <type>HANDLE</type>
+        <definition>HANDLE DevInfo::handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/DevManager.h" line="23" column="12" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/DevManager.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="struct_dev_info_1aa8a600dafbbd35681b7a8a212d8cfacd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DevInfo::DevInfo</definition>
+        <argsstring>()</argsstring>
+        <name>DevInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/DevManager.h" line="25" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/DevManager.h" bodystart="25" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/DevManager.h" line="20" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/DevManager.h" bodystart="19" bodyend="28"/>
+    <listofallmembers>
+      <member refid="struct_dev_info_1aa8a600dafbbd35681b7a8a212d8cfacd" prot="public" virt="non-virtual"><scope>DevInfo</scope><name>DevInfo</name></member>
+      <member refid="struct_dev_info_1a230f157beb5306dbdf2a86d78c818c72" prot="public" virt="non-virtual"><scope>DevInfo</scope><name>handle</name></member>
+      <member refid="struct_dev_info_1af0f58baff1038b170e024cf8167408e9" prot="public" virt="non-virtual"><scope>DevInfo</scope><name>port</name></member>
+      <member refid="struct_dev_info_1aa9978fa7d1b156241ba1ab30135258f5" prot="public" virt="non-virtual"><scope>DevInfo</scope><name>reg_path</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

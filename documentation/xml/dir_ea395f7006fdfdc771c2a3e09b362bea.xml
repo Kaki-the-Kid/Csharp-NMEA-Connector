@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_ea395f7006fdfdc771c2a3e09b362bea" kind="dir">
+    <compoundname>C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/consol app</compoundname>
+    <innerfile refid="consol_01app_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/consol app/"/>
+  </compounddef>
+</doxygen>

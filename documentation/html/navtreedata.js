@@ -33,6 +33,7 @@ var NAVTREE =
       [ "RS-422 Bus", "hardware.html#rs_422_bus", null ],
       [ "Andre kilder af interesse", "hardware.html#other_sources", null ]
     ] ],
+    [ ":<em>Users_karst_OneDrive</em>-_AARHUS_TECH_Dokumenter_Workspace_Csharp_NMEA-connector_README NMEA connector", "md__c.html", null ],
     [ "Todo-liste", "todo.html", null ],
     [ "Pakker", "namespaces.html", [
       [ "Pakker", "namespaces.html", "namespaces_dup" ],
@@ -75,9 +76,9 @@ var NAVTREEINDEX =
 "_brand_garmin_8cs.html",
 "class_c_signal_tab.html",
 "generator_8h.html#a06ac939b16022fc094864d8764fa3f40",
-"mdd_8h.html#aff0d0406f7e36c041982caab8d702842",
-"struct__nmea_g_p_g_g_a.html#a6a4a5c6ba2b11c36b0228ae7e8b945a7",
-"vgd_8h.html#a3be92f7f38bea7c320a72ea123802120"
+"mdd_8h.html#af57b92b479e189e6b9e39836fb0bf045",
+"struct__nmea_g_p_g_g_a.html#a608fb4a79cd518c1c9025f10c2b35544",
+"vgd_8h.html#a2dcb3e6f94fb6c577956bf9d7cee4bf8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

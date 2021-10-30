@@ -9,7 +9,7 @@ Projekt som unders√∏ger kommunikations protokoller brugt af elektronik ombord p√
 
 # Relevant dokumentation
 ## NMEA kommandoer
-https://github.com/Kaki-the-Kid/NMEA-connector/tree/main/documentation/nmea-docs.html
+[NMEA detaljeret](https://github.com/Kaki-the-Kid/NMEA-connector/tree/main/documentation/nmea-docs.html)
 
 ## Doxygen projekt dokumentation
-https://github.com/Kaki-the-Kid/NMEA-connector/tree/main/documentation/html/index.html
+[Dette projekts dokumentation](https://github.com/Kaki-the-Kid/NMEA-connector/tree/main/documentation/html/index.html)

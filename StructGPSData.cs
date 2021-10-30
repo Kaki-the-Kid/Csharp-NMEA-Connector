@@ -1,4 +1,4 @@
-﻿namespace NMEA_connector
+namespace NMEA_connector
 {
     public struct StructGPSData
     {

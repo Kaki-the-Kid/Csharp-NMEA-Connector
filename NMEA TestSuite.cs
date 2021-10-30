@@ -1,4 +1,4 @@
-﻿/******************************************************************************
+/******************************************************************************
  * Sample Streams
  * These streams will be modified when a route is active with the inclusion
  * of route specific data.

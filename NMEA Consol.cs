@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Dynamic;
 using NMEA_connector;
 using NMEA_connector.Properties;

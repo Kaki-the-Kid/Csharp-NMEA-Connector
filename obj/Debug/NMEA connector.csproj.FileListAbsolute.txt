@@ -75,3 +75,35 @@ C:\Users\krs\OneDrive - AARHUS TECH\Dokumenter\Workspace\Csharp\NMEA connector\o
 C:\Users\krs\OneDrive - AARHUS TECH\Dokumenter\Workspace\Csharp\NMEA connector\obj\Debug\da\NMEA connector.resources.dll
 C:\Users\krs\OneDrive - AARHUS TECH\Dokumenter\Workspace\Csharp\NMEA connector\obj\Debug\NMEA Connector.csproj.CopyComplete
 C:\Users\krs\OneDrive - AARHUS TECH\Dokumenter\Workspace\Csharp\NMEA connector\obj\Debug\NMEA connector.exe
+G:\Mit drev\Workspace\Csharp\NMEA-connector\bin\Debug\x86\sqlite3.dll
+G:\Mit drev\Workspace\Csharp\NMEA-connector\bin\Debug\x64\sqlite3.dll
+G:\Mit drev\Workspace\Csharp\NMEA-connector\bin\Debug\NMEA connector.exe.config
+G:\Mit drev\Workspace\Csharp\NMEA-connector\bin\Debug\NMEA connector.exe
+G:\Mit drev\Workspace\Csharp\NMEA-connector\bin\Debug\NMEA connector.pdb
+G:\Mit drev\Workspace\Csharp\NMEA-connector\bin\Debug\da\NMEA connector.resources.dll
+G:\Mit drev\Workspace\Csharp\NMEA-connector\bin\Debug\Xamarin.Forms.Core.dll
+G:\Mit drev\Workspace\Csharp\NMEA-connector\bin\Debug\Xamarin.Forms.Platform.dll
+G:\Mit drev\Workspace\Csharp\NMEA-connector\bin\Debug\Xamarin.Forms.Xaml.dll
+G:\Mit drev\Workspace\Csharp\NMEA-connector\bin\Debug\Xamarin.Forms.Core.pdb
+G:\Mit drev\Workspace\Csharp\NMEA-connector\bin\Debug\Xamarin.Forms.Core.xml
+G:\Mit drev\Workspace\Csharp\NMEA-connector\bin\Debug\Xamarin.Forms.Xaml.pdb
+G:\Mit drev\Workspace\Csharp\NMEA-connector\bin\Debug\Xamarin.Forms.Xaml.xml
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\gui\NMEA2000 Device List.g.cs
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\gui\NMEA2000_Device Properties.g.cs
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\gui\NMEA_main_window.g.cs
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\NMEA connector_Content.g.cs
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\NMEA connector_MarkupCompile.cache
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\NMEA connector_MarkupCompile.lref
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\gui\NMEA2000 Device List.baml
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\gui\NMEA2000_Device Properties.baml
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\gui\NMEA_main_window.baml
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\NMEA connector.g.resources
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\NMEA_connector.Properties.Resources.resources
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\NMEA_connector.Properties.Resources.da.resources
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\NMEA Connector.csproj.GenerateResource.cache
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\NMEA Connector.csproj.CoreCompileInputs.cache
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\XamlC.stamp
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\da\NMEA connector.resources.dll
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\NMEA Connector.csproj.CopyComplete
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\NMEA connector.exe
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\NMEA connector.pdb

@@ -147,7 +147,5 @@ namespace NMEA_connector
             return 0;
         }
 
-
-
     }
 }

@@ -47,7 +47,8 @@ namespace NMEA_connector
             string manufaturer, 
             string funtion,
             string serial,
-            string firmware
+            string firmware,
+            string nmeaStandard = ""
             )
         {
             NMEA2000_Device addDevice = new NMEA2000_Device();
@@ -57,6 +58,8 @@ namespace NMEA_connector
             addDevice.NMEA2000DeviceFunction = funtion;
             addDevice.NMEA2000DeviceSerial = serial;
             addDevice.NMEA2000DeviceFirmware = firmware;
+            addDevice.NMEA2000DeviceStandard = nmesStandard;
+
 
             this.NMEADevices.Add(addDevice);
         }

@@ -45,7 +45,6 @@ namespace NMEA_connector
             _GPSData.GPSLongitudeDirection = "W";
             _GPSData.GPSLongitudeString="";
 
-
             _GPSData.GPSQuality = 4;
             _GPSData.GPSQualityText = FixQuality[4]; //4 = Real Time Kinematic
              

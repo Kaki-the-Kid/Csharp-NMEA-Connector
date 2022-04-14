@@ -35,8 +35,7 @@ namespace NMEA_connector.brands
         {
             throw new NotImplementedException();
 
-            string x = commandLine;
-            switch (x)
+            switch (commandLine)
             {
                 //SiRF Chipset
                 case "PSRF100":

@@ -199,7 +199,7 @@
             Padding="0"
             HorizontalAlignment="Left"
             VerticalAlignment="Top"
-            Content="Self-cinfigurable"
+            Content="Self-configurable"
             FontSize="10" />
         <Button
             Height="20"

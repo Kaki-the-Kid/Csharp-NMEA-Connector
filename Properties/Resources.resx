@@ -116,4 +116,7 @@
   <data name="ConsolUi_ConsolInit_GPS_menu" xml:space="preserve">
     <value>GPS_menu</value>
   </data>
+  <data name="ConsolUi_ConsolInit_NMEA_og_Device_config" xml:space="preserve">
+    <value>5. NMEA og Device config</value>
+  </data>
 </root>

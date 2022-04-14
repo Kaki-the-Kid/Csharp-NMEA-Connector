@@ -1,0 +1,754 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="parse_8h" kind="file" language="C++">
+    <compoundname>parse.h</compoundname>
+    <includes refid="sentence_8h" local="yes">sentence.h</includes>
+    <includedby refid="nmea_8h" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/nmea.h</includedby>
+    <includedby refid="parse_8c" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c</includedby>
+    <includedby refid="parser_8c" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c</includedby>
+    <incdepgraph>
+      <node id="6">
+        <label>assert.h</label>
+      </node>
+      <node id="3">
+        <label>info.h</label>
+        <link refid="info_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h</label>
+        <link refid="parse_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>sentence.h</label>
+        <link refid="sentence_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>time.h</label>
+        <link refid="time_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="6">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/parse/main.c</label>
+        <link refid="parse_2main_8c"/>
+      </node>
+      <node id="5">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/math/main.c</label>
+        <link refid="math_2main_8c"/>
+      </node>
+      <node id="7">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/parse_file/main.c</label>
+        <link refid="parse__file_2main_8c"/>
+      </node>
+      <node id="3">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/generate/main.c</label>
+        <link refid="generate_2main_8c"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h</label>
+        <link refid="parse_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parser.c</label>
+        <link refid="parser_8c"/>
+      </node>
+      <node id="4">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/samples/generator/main.c</label>
+        <link refid="generator_2main_8c"/>
+      </node>
+      <node id="8">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c</label>
+        <link refid="parse_8c"/>
+      </node>
+      <node id="2">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/nmea.h</label>
+        <link refid="nmea_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="parse_8h_1a590359c05e203e15949a4f124cddc440" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_pack_type</definition>
+        <argsstring>(const char *buff, int buff_sz)</argsstring>
+        <name>nmea_pack_type</name>
+        <param>
+          <type>const char *</type>
+          <declname>buff</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buff_sz</declname>
+        </param>
+        <briefdescription>
+<para>Define packet type by header (nmeaPACKTYPE). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a constant character pointer of packet buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buff_sz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>buffer size. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The defined packet type </para>
+</simplesect>
+<simplesect kind="see"><para><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23da" kindref="member">nmeaPACKTYPE</ref> </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" line="20" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c" bodystart="100" bodyend="126" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" declline="20" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="parse_8h_1a4162407bbe2dba413393d30912e9eb23" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_find_tail</definition>
+        <argsstring>(const char *buff, int buff_sz, int *res_crc)</argsstring>
+        <name>nmea_find_tail</name>
+        <param>
+          <type>const char *</type>
+          <declname>buff</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buff_sz</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>res_crc</declname>
+        </param>
+        <briefdescription>
+<para>Find tail of packet (&quot;\r\n&quot;) in buffer and check control sum (CRC). </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a constant character pointer of packets buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buff_sz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>buffer size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>res_crc</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a integer pointer for return CRC of packet (must be defined). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Number of bytes to packet tail. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" line="21" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c" bodystart="135" bodyend="177" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" declline="21" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="parse_8h_1a6e4609178c53927d0f2eab74b644e70b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parse_GPGGA</definition>
+        <argsstring>(const char *buff, int buff_sz, nmeaGPGGA *pack)</argsstring>
+        <name>nmea_parse_GPGGA</name>
+        <param>
+          <type>const char *</type>
+          <declname>buff</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buff_sz</declname>
+        </param>
+        <param>
+          <type><ref refid="sentence_8h_1a0788380021dcf996501b0719839eda82" kindref="member">nmeaGPGGA</ref> *</type>
+          <declname>pack</declname>
+        </param>
+        <briefdescription>
+<para>Parse GGA packet from buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a constant character pointer of packet buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buff_sz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>buffer size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of packet which will filled by function. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 (true) - if parsed successfully or 0 (false) - if fail. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" line="23" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c" bodystart="186" bodyend="214" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" declline="23" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="parse_8h_1abcb1a41e14966640d2b2276bb74d3a6d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parse_GPGSA</definition>
+        <argsstring>(const char *buff, int buff_sz, nmeaGPGSA *pack)</argsstring>
+        <name>nmea_parse_GPGSA</name>
+        <param>
+          <type>const char *</type>
+          <declname>buff</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buff_sz</declname>
+        </param>
+        <param>
+          <type><ref refid="sentence_8h_1affff9b92c5d6525a6bbc7b734b2fa385" kindref="member">nmeaGPGSA</ref> *</type>
+          <declname>pack</declname>
+        </param>
+        <briefdescription>
+<para>Parse GSA packet from buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a constant character pointer of packet buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buff_sz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>buffer size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of packet which will filled by function. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 (true) - if parsed successfully or 0 (false) - if fail. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" line="24" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c" bodystart="223" bodyend="243" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" declline="24" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="parse_8h_1af08e7ce629f9d81ac957ce37c11ee78a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parse_GPGSV</definition>
+        <argsstring>(const char *buff, int buff_sz, nmeaGPGSV *pack)</argsstring>
+        <name>nmea_parse_GPGSV</name>
+        <param>
+          <type>const char *</type>
+          <declname>buff</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buff_sz</declname>
+        </param>
+        <param>
+          <type><ref refid="sentence_8h_1aa160e55aa868d46ab172c6f5291f5fe3" kindref="member">nmeaGPGSV</ref> *</type>
+          <declname>pack</declname>
+        </param>
+        <briefdescription>
+<para>Parse GSV packet from buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a constant character pointer of packet buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buff_sz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>buffer size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of packet which will filled by function. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 (true) - if parsed successfully or 0 (false) - if fail. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" line="25" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c" bodystart="252" bodyend="285" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" declline="25" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="parse_8h_1ae6de57f955e6d0310346f02063372c58" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parse_GPRMC</definition>
+        <argsstring>(const char *buff, int buff_sz, nmeaGPRMC *pack)</argsstring>
+        <name>nmea_parse_GPRMC</name>
+        <param>
+          <type>const char *</type>
+          <declname>buff</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buff_sz</declname>
+        </param>
+        <param>
+          <type><ref refid="sentence_8h_1abc670f7aa2631bba7ace6507cc1a7218" kindref="member">nmeaGPRMC</ref> *</type>
+          <declname>pack</declname>
+        </param>
+        <briefdescription>
+<para>Parse RMC packet from buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a constant character pointer of packet buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buff_sz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>buffer size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of packet which will filled by function. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 (true) - if parsed successfully or 0 (false) - if fail. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" line="26" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c" bodystart="294" bodyend="330" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" declline="26" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="parse_8h_1a50b74864c42fa79177c91c3208a00ca1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_parse_GPVTG</definition>
+        <argsstring>(const char *buff, int buff_sz, nmeaGPVTG *pack)</argsstring>
+        <name>nmea_parse_GPVTG</name>
+        <param>
+          <type>const char *</type>
+          <declname>buff</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>buff_sz</declname>
+        </param>
+        <param>
+          <type><ref refid="sentence_8h_1ae4d1d997fcdbafdeb03ea35806e6d7a4" kindref="member">nmeaGPVTG</ref> *</type>
+          <declname>pack</declname>
+        </param>
+        <briefdescription>
+<para>Parse VTG packet from buffer. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>buff</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a constant character pointer of packet buffer. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>buff_sz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>buffer size. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of packet which will filled by function. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>1 (true) - if parsed successfully or 0 (false) - if fail. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" line="27" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c" bodystart="339" bodyend="368" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" declline="27" declcolumn="5"/>
+      </memberdef>
+      <memberdef kind="function" id="parse_8h_1a391065b5f3ee694e7f0206fc7f74283f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void nmea_GPGGA2info</definition>
+        <argsstring>(nmeaGPGGA *pack, nmeaINFO *info)</argsstring>
+        <name>nmea_GPGGA2info</name>
+        <param>
+          <type><ref refid="sentence_8h_1a0788380021dcf996501b0719839eda82" kindref="member">nmeaGPGGA</ref> *</type>
+          <declname>pack</declname>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Fill nmeaINFO structure by GGA packet data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of packet structure. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of summary information structure. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" line="29" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c" bodystart="375" bodyend="389" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" declline="29" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="parse_8h_1af2f5c610acc25fbd316882998b0ec109" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void nmea_GPGSA2info</definition>
+        <argsstring>(nmeaGPGSA *pack, nmeaINFO *info)</argsstring>
+        <name>nmea_GPGSA2info</name>
+        <param>
+          <type><ref refid="sentence_8h_1affff9b92c5d6525a6bbc7b734b2fa385" kindref="member">nmeaGPGSA</ref> *</type>
+          <declname>pack</declname>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Fill nmeaINFO structure by GSA packet data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of packet structure. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of summary information structure. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" line="30" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c" bodystart="396" bodyend="421" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" declline="30" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="parse_8h_1abf7b745e1a3707727f47421cc505f753" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void nmea_GPGSV2info</definition>
+        <argsstring>(nmeaGPGSV *pack, nmeaINFO *info)</argsstring>
+        <name>nmea_GPGSV2info</name>
+        <param>
+          <type><ref refid="sentence_8h_1aa160e55aa868d46ab172c6f5291f5fe3" kindref="member">nmeaGPGSV</ref> *</type>
+          <declname>pack</declname>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Fill nmeaINFO structure by GSV packet data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of packet structure. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of summary information structure. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" line="31" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c" bodystart="428" bodyend="456" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" declline="31" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="parse_8h_1a4fe1f6ecbc9e66bc4f5c1a7180902249" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void nmea_GPRMC2info</definition>
+        <argsstring>(nmeaGPRMC *pack, nmeaINFO *info)</argsstring>
+        <name>nmea_GPRMC2info</name>
+        <param>
+          <type><ref refid="sentence_8h_1abc670f7aa2631bba7ace6507cc1a7218" kindref="member">nmeaGPRMC</ref> *</type>
+          <declname>pack</declname>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Fill nmeaINFO structure by RMC packet data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of packet structure. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of summary information structure. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" line="32" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c" bodystart="463" bodyend="486" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" declline="32" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="parse_8h_1ad469fa27954c855a7e5ccef2a8e56044" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void nmea_GPVTG2info</definition>
+        <argsstring>(nmeaGPVTG *pack, nmeaINFO *info)</argsstring>
+        <name>nmea_GPVTG2info</name>
+        <param>
+          <type><ref refid="sentence_8h_1ae4d1d997fcdbafdeb03ea35806e6d7a4" kindref="member">nmeaGPVTG</ref> *</type>
+          <declname>pack</declname>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Fill nmeaINFO structure by VTG packet data. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>pack</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of packet structure. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>a pointer of summary information structure. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" line="33" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/parse.c" bodystart="493" bodyend="501" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h" declline="33" declcolumn="6"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Functions of a low level for analysis of packages of NMEA stream. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><programlisting><codeline><highlight class="normal">...</highlight></codeline>
+<codeline><highlight class="normal">ptype<sp/>=<sp/>nmea_pack_type(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>(const<sp/>char<sp/>*)parser-&gt;buffer<sp/>+<sp/>nparsed<sp/>+<sp/>1,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>parser-&gt;buff_use<sp/>-<sp/>nparsed<sp/>-<sp/>1);</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">if(0<sp/>==<sp/>(node<sp/>=<sp/>malloc(sizeof(nmeaParserNODE))))</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>goto<sp/>mem_fail;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">node-&gt;pack<sp/>=<sp/>0;</highlight></codeline>
+<codeline></codeline>
+<codeline><highlight class="normal">switch(ptype)</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal">case<sp/>GPGGA:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if(0<sp/>==<sp/>(node-&gt;pack<sp/>=<sp/>malloc(sizeof(nmeaGPGGA))))</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>goto<sp/>mem_fail;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>node-&gt;packType<sp/>=<sp/>GPGGA;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if(!nmea_parse_GPGGA(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(const<sp/>char<sp/>*)parser-&gt;buffer<sp/>+<sp/>nparsed,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sen_sz,<sp/>(nmeaGPGGA<sp/>*)node-&gt;pack))</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(node);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node<sp/>=<sp/>0;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>break;</highlight></codeline>
+<codeline><highlight class="normal">case<sp/>GPGSA:</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if(0<sp/>==<sp/>(node-&gt;pack<sp/>=<sp/>malloc(sizeof(nmeaGPGSA))))</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>goto<sp/>mem_fail;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>node-&gt;packType<sp/>=<sp/>GPGSA;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>if(!nmea_parse_GPGSA(</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(const<sp/>char<sp/>*)parser-&gt;buffer<sp/>+<sp/>nparsed,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sen_sz,<sp/>(nmeaGPGSA<sp/>*)node-&gt;pack))</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>free(node);</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>node<sp/>=<sp/>0;</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>break;</highlight></codeline>
+<codeline><highlight class="normal">...</highlight></codeline>
+</programlisting> </para>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>NMEA<sp/>library</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>URL:<sp/>http://nmea.sourceforge.net</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Tim<sp/>(xtimor@gmail.com)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Licence:<sp/>http://www.gnu.org/licenses/lgpl.html</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>parse.h<sp/>4<sp/>2007-08-27<sp/>13:11:03Z<sp/>xtimor<sp/>$</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>__NMEA_PARSE_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__NMEA_PARSE_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="sentence_8h" kindref="compound">sentence.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/><sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parse_8h_1a590359c05e203e15949a4f124cddc440" kindref="member">nmea_pack_type</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buff,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buff_sz);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parse_8h_1a4162407bbe2dba413393d30912e9eb23" kindref="member">nmea_find_tail</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buff,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buff_sz,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*res_crc);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parse_8h_1a6e4609178c53927d0f2eab74b644e70b" kindref="member">nmea_parse_GPGGA</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buff,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buff_sz,<sp/><ref refid="struct__nmea_g_p_g_g_a" kindref="compound">nmeaGPGGA</ref><sp/>*pack);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parse_8h_1abcb1a41e14966640d2b2276bb74d3a6d" kindref="member">nmea_parse_GPGSA</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buff,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buff_sz,<sp/><ref refid="struct__nmea_g_p_g_s_a" kindref="compound">nmeaGPGSA</ref><sp/>*pack);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parse_8h_1af08e7ce629f9d81ac957ce37c11ee78a" kindref="member">nmea_parse_GPGSV</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buff,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buff_sz,<sp/><ref refid="struct__nmea_g_p_g_s_v" kindref="compound">nmeaGPGSV</ref><sp/>*pack);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parse_8h_1ae6de57f955e6d0310346f02063372c58" kindref="member">nmea_parse_GPRMC</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buff,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buff_sz,<sp/><ref refid="struct__nmea_g_p_r_m_c" kindref="compound">nmeaGPRMC</ref><sp/>*pack);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="parse_8h_1a50b74864c42fa79177c91c3208a00ca1" kindref="member">nmea_parse_GPVTG</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*buff,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>buff_sz,<sp/><ref refid="struct__nmea_g_p_v_t_g" kindref="compound">nmeaGPVTG</ref><sp/>*pack);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse_8h_1a391065b5f3ee694e7f0206fc7f74283f" kindref="member">nmea_GPGGA2info</ref>(<ref refid="struct__nmea_g_p_g_g_a" kindref="compound">nmeaGPGGA</ref><sp/>*pack,<sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse_8h_1af2f5c610acc25fbd316882998b0ec109" kindref="member">nmea_GPGSA2info</ref>(<ref refid="struct__nmea_g_p_g_s_a" kindref="compound">nmeaGPGSA</ref><sp/>*pack,<sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info);</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse_8h_1abf7b745e1a3707727f47421cc505f753" kindref="member">nmea_GPGSV2info</ref>(<ref refid="struct__nmea_g_p_g_s_v" kindref="compound">nmeaGPGSV</ref><sp/>*pack,<sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse_8h_1a4fe1f6ecbc9e66bc4f5c1a7180902249" kindref="member">nmea_GPRMC2info</ref>(<ref refid="struct__nmea_g_p_r_m_c" kindref="compound">nmeaGPRMC</ref><sp/>*pack,<sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info);</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="parse_8h_1ad469fa27954c855a7e5ccef2a8e56044" kindref="member">nmea_GPVTG2info</ref>(<ref refid="struct__nmea_g_p_v_t_g" kindref="compound">nmeaGPVTG</ref><sp/>*pack,<sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/><sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>__NMEA_PARSE_H__<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/parse.h"/>
+  </compounddef>
+</doxygen>

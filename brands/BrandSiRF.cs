@@ -21,9 +21,11 @@
  * switch it back. You could render your gps inoperative.
  ******************************************************************************************/
 
-
 using System;
 using System.Diagnostics;
+using System.Dynamic;
+using NMEA_connector;
+using NMEA_connector.Properties;
 
 namespace NMEA_connector.brands
 {
@@ -33,7 +35,7 @@ namespace NMEA_connector.brands
         {
             throw new NotImplementedException();
 
-            string x = "";
+            string x = commandLine;
             switch (x)
             {
                 //SiRF Chipset
@@ -54,6 +56,9 @@ namespace NMEA_connector.brands
                     break;
                 case "PSRF105":
                     //SiRfNMEACommand105();
+                    break;
+                default:
+                    Console.WriteLine("Ingen registreret NMEA kommando\n");
                     break;
             }
         }

@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_c_signal_tab" kind="class" language="C++" prot="public">
+    <compoundname>CSignalTab</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">CDialogImpl&lt; CSignalTab &gt;</basecompoundref>
+    <basecompoundref refid="class_dev_handler" prot="public" virt="non-virtual">DevHandler</basecompoundref>
+    <includes refid="_signal_tab_8h" local="no">SignalTab.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_c_signal_tab_1a228990480755c11c366ce8fa65bc2dc2" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@3</name>
+        <enumvalue id="class_c_signal_tab_1a228990480755c11c366ce8fa65bc2dc2a9738c1cafdd54e25729d7657f143f11c" prot="public">
+          <name>IDD</name>
+          <initializer>= IDD_SIGNALTAB</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.h" line="14" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.h" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_signal_tab_1a94dbe25e84559ac96bffc9db7c7c3f4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LRESULT</type>
+        <definition>LRESULT CSignalTab::OnInitDialog</definition>
+        <argsstring>(UINT, WPARAM, LPARAM, BOOL &amp;)</argsstring>
+        <name>OnInitDialog</name>
+        <param>
+          <type>UINT</type>
+        </param>
+        <param>
+          <type>WPARAM</type>
+        </param>
+        <param>
+          <type>LPARAM</type>
+        </param>
+        <param>
+          <type>BOOL &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.h" line="24" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.cpp" bodystart="20" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_signal_tab_1a57aeeef2d92f6505c3f4f03b6b7de55a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LRESULT</type>
+        <definition>LRESULT CSignalTab::OnClose</definition>
+        <argsstring>(UINT, WPARAM, LPARAM, BOOL &amp;)</argsstring>
+        <name>OnClose</name>
+        <param>
+          <type>UINT</type>
+        </param>
+        <param>
+          <type>WPARAM</type>
+        </param>
+        <param>
+          <type>LPARAM</type>
+        </param>
+        <param>
+          <type>BOOL &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.h" line="25" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.cpp" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_signal_tab_1a937bdc0795a44224c97702a15cd0717b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LRESULT</type>
+        <definition>LRESULT CSignalTab::OnBnClickedButton1</definition>
+        <argsstring>(WORD, WORD, HWND, BOOL &amp;)</argsstring>
+        <name>OnBnClickedButton1</name>
+        <param>
+          <type>WORD</type>
+        </param>
+        <param>
+          <type>WORD</type>
+        </param>
+        <param>
+          <type>HWND</type>
+        </param>
+        <param>
+          <type>BOOL &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.h" line="26" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.cpp" bodystart="41" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_signal_tab_1a4aad47104f23a7d5c1c58752efdc2216" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LRESULT</type>
+        <definition>LRESULT CSignalTab::OnBnClickedButton2</definition>
+        <argsstring>(WORD, WORD, HWND, BOOL &amp;)</argsstring>
+        <name>OnBnClickedButton2</name>
+        <param>
+          <type>WORD</type>
+        </param>
+        <param>
+          <type>WORD</type>
+        </param>
+        <param>
+          <type>HWND</type>
+        </param>
+        <param>
+          <type>BOOL &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.h" line="27" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.cpp" bodystart="80" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_signal_tab_1ad22075deb38107fb1f5f576db02a7ae4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LRESULT</type>
+        <definition>LRESULT CSignalTab::OnShowWindow</definition>
+        <argsstring>(UINT, WPARAM, LPARAM, BOOL &amp;)</argsstring>
+        <name>OnShowWindow</name>
+        <param>
+          <type>UINT</type>
+        </param>
+        <param>
+          <type>WPARAM</type>
+          <defname>wParam</defname>
+        </param>
+        <param>
+          <type>LPARAM</type>
+        </param>
+        <param>
+          <type>BOOL &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.h" line="28" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.cpp" bodystart="120" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_c_signal_tab_1a3b7254588fd8ef1cee73c1f3594e9b9e" prot="protected" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void CSignalTab::onDevChange</definition>
+        <argsstring>()</argsstring>
+        <name>onDevChange</name>
+        <reimplements refid="class_dev_handler_1abe263e77612829a5a759af7f847f22e7">onDevChange</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.h" line="31" column="18" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.cpp" bodystart="13" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_signal_tab_1a8a4768439eb8ab85e621403aedaadd18" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void CSignalTab::_checkValues</definition>
+        <argsstring>()</argsstring>
+        <name>_checkValues</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.h" line="33" column="10" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.cpp" bodystart="127" bodyend="145"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CSignalTab</label>
+        <link refid="class_c_signal_tab"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CDialogImpl&lt; CSignalTab &gt;</label>
+      </node>
+      <node id="3">
+        <label>DevHandler</label>
+        <link refid="class_dev_handler"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CSignalTab</label>
+        <link refid="class_c_signal_tab"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CDialogImpl&lt; CSignalTab &gt;</label>
+      </node>
+      <node id="3">
+        <label>DevHandler</label>
+        <link refid="class_dev_handler"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.h" line="12" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/SignalTab.h" bodystart="9" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_c_signal_tab_1a8a4768439eb8ab85e621403aedaadd18" prot="protected" virt="non-virtual"><scope>CSignalTab</scope><name>_checkValues</name></member>
+      <member refid="class_dev_handler_1a3659bf7a123248283f6831b7562c465b" prot="protected" virt="non-virtual"><scope>CSignalTab</scope><name>DevHandler</name></member>
+      <member refid="class_c_signal_tab_1a228990480755c11c366ce8fa65bc2dc2a9738c1cafdd54e25729d7657f143f11c" prot="public" virt="non-virtual"><scope>CSignalTab</scope><name>IDD</name></member>
+      <member refid="class_c_signal_tab_1a937bdc0795a44224c97702a15cd0717b" prot="public" virt="non-virtual"><scope>CSignalTab</scope><name>OnBnClickedButton1</name></member>
+      <member refid="class_c_signal_tab_1a4aad47104f23a7d5c1c58752efdc2216" prot="public" virt="non-virtual"><scope>CSignalTab</scope><name>OnBnClickedButton2</name></member>
+      <member refid="class_c_signal_tab_1a57aeeef2d92f6505c3f4f03b6b7de55a" prot="public" virt="non-virtual"><scope>CSignalTab</scope><name>OnClose</name></member>
+      <member refid="class_c_signal_tab_1a3b7254588fd8ef1cee73c1f3594e9b9e" prot="protected" virt="virtual"><scope>CSignalTab</scope><name>onDevChange</name></member>
+      <member refid="class_c_signal_tab_1a94dbe25e84559ac96bffc9db7c7c3f4e" prot="public" virt="non-virtual"><scope>CSignalTab</scope><name>OnInitDialog</name></member>
+      <member refid="class_c_signal_tab_1ad22075deb38107fb1f5f576db02a7ae4" prot="public" virt="non-virtual"><scope>CSignalTab</scope><name>OnShowWindow</name></member>
+      <member refid="class_dev_handler_1a6028886da651e655d84f105dbf10f1d5" prot="public" virt="virtual"><scope>CSignalTab</scope><name>~DevHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

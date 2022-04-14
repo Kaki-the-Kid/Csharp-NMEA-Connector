@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_c_h_a_n_g_e_l_o_g_8_t_x_t" kind="file" language="C++">
+    <compoundname>CHANGELOG.TXT</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_c_h_a_n_g_e_l_o_g_8_t_x_t_1a3a5fa2720548371c019f07016268760e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>CHANGE LOG <ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a12136ab41a8aa67f0858137868a55106" kindref="member">version</ref> fixed time parse</type>
+        <definition>CHANGE LOG version fixed time parse error</definition>
+        <argsstring>(bug #1889477) - renamed math.h to gmath.h - excluded malloc.h header - fixed sleep in samples for UNIX - added &quot;remake&quot; target in Makefile version 0.5.2 - fixed CRC error(bug version 0.5.1 - fixed elevation value type(bug - fixed parsing of GPRMC - nmea_GPRMC2info version 0.5.0 - added nmea_distance_ellipsoid</argsstring>
+        <name>error</name>
+        <param>
+          <type>bug #</type>
+          <declname>1889477</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/CHANGELOG.TXT" line="4" column="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">CHANGE<sp/>LOG</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a12136ab41a8aa67f0858137868a55106" kindref="member">version</ref><sp/>0.5.3</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">-<sp/>fixed<sp/>time<sp/>parse<sp/><ref refid="_c_h_a_n_g_e_l_o_g_8_t_x_t_1a3a5fa2720548371c019f07016268760e" kindref="member">error</ref><sp/>(bug<sp/>#1889477)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal">-<sp/>renamed<sp/>math.h<sp/>to<sp/>gmath.h</highlight></codeline>
+<codeline lineno="6"><highlight class="normal">-<sp/>excluded<sp/>malloc.h<sp/>header</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">-<sp/>fixed<sp/>sleep<sp/>in<sp/>samples<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>UNIX</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">-<sp/>added<sp/></highlight><highlight class="stringliteral">&quot;remake&quot;</highlight><highlight class="normal"><sp/>target<sp/>in<sp/>Makefile</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a12136ab41a8aa67f0858137868a55106" kindref="member">version</ref><sp/>0.5.2</highlight></codeline>
+<codeline lineno="11"><highlight class="normal">-<sp/>fixed<sp/>CRC<sp/><ref refid="_c_h_a_n_g_e_l_o_g_8_t_x_t_1a3a5fa2720548371c019f07016268760e" kindref="member">error</ref><sp/>(bug<sp/>#1833200)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a12136ab41a8aa67f0858137868a55106" kindref="member">version</ref><sp/>0.5.1</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">-<sp/>fixed<sp/>elevation<sp/>value<sp/>type<sp/>(bug<sp/>#1832486)</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">-<sp/>fixed<sp/>parsing<sp/>of<sp/><ref refid="sentence_8h_1ac1e92675d5432f785d5302b3046c23daa4e46c2c907610e3cae94447c3d4c43f4" kindref="member">GPRMC</ref><sp/>-<sp/><ref refid="parse_8h_1a4fe1f6ecbc9e66bc4f5c1a7180902249" kindref="member">nmea_GPRMC2info</ref></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a12136ab41a8aa67f0858137868a55106" kindref="member">version</ref><sp/>0.5.0</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">-<sp/>added<sp/><ref refid="gmath_8h_1aeb935f4b386b432e1fd659f18a1544b5" kindref="member">nmea_distance_ellipsoid</ref>,<sp/><ref refid="gmath_8h_1a3aa0082d3d7f10116a6c67764e1abd36" kindref="member">nmea_move_horz_ellipsoid</ref><sp/>in<sp/>math.h<sp/><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a8f661f2697a1ac05a8b611b6eee39cff" kindref="member">and</ref><sp/><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a7d3c1498355ed94dc8f275787f3f92bc" kindref="member">sample</ref><sp/>(Thanks<sp/>Thomas1970)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal">-<sp/>fixed<sp/>makefiles<sp/>(Thanks<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>Sereg@<sp/><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a8f661f2697a1ac05a8b611b6eee39cff" kindref="member">and</ref><sp/>Thomas1970)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">-<sp/>fixed<sp/></highlight><highlight class="keyword">inline</highlight><highlight class="normal"><sp/><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a6ebc3cd8aa99ab15e71701961702fcfc" kindref="member">functions</ref><sp/>in<sp/>math.h</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a12136ab41a8aa67f0858137868a55106" kindref="member">version</ref><sp/>0.4.4</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">-<sp/>fixed<sp/>makefiles<sp/>(Thanks<sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal"><sp/>Sereg@<sp/><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a8f661f2697a1ac05a8b611b6eee39cff" kindref="member">and</ref><sp/>Thomas1970)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a12136ab41a8aa67f0858137868a55106" kindref="member">version</ref><sp/>0.4.3</highlight></codeline>
+<codeline lineno="26"><highlight class="normal">-<sp/>fixed<sp/>bugs<sp/>#1805550,<sp/>#1780086,<sp/>#1778485</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">-<sp/>fixed<sp/>parse<sp/>VTG<sp/>packet</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/CHANGELOG.TXT"/>
+  </compounddef>
+</doxygen>

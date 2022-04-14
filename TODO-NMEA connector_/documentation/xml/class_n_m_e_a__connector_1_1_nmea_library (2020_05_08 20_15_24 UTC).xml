@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_n_m_e_a__connector_1_1_nmea_library" kind="class" language="C#" prot="public">
+    <compoundname>NMEA_connector::NmeaLibrary</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_nmea_library_1aefb2e595e354db622dba5280fc96160b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string NMEA_connector.NmeaLibrary.NmeaCommandClearText</definition>
+        <argsstring>()</argsstring>
+        <name>NmeaCommandClearText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEALibrary.cs" line="21" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEALibrary.cs" bodystart="21" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_nmea_library_1a713eee7c6b22d962fce45404f04e0e3b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.NmeaLibrary.InputNMEA</definition>
+        <argsstring>()</argsstring>
+        <name>InputNMEA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEALibrary.cs" line="62" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEALibrary.cs" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_nmea_library_1a9cb20d2d51c4675df07ef8990917d3e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.NmeaLibrary.OutputNMEA</definition>
+        <argsstring>()</argsstring>
+        <name>OutputNMEA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEALibrary.cs" line="67" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEALibrary.cs" bodystart="67" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_nmea_library_1a858cb5f0cb6678483eec5bbb92b64f77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.NmeaLibrary.ResolveCommand</definition>
+        <argsstring>(string commandLine=null)</argsstring>
+        <name>ResolveCommand</name>
+        <param>
+          <type>string</type>
+          <declname>commandLine</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEALibrary.cs" line="76" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEALibrary.cs" bodystart="76" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_nmea_library_1a8bfacaff4f241eefb014c94796eb45a5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.NmeaLibrary.TransmitJsonCommand</definition>
+        <argsstring>()</argsstring>
+        <name>TransmitJsonCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEALibrary.cs" line="250" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEALibrary.cs" bodystart="250" bodyend="251"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1_nmea_library_1aeaadd4530a1516a97b85361e3dc0160e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.NmeaLibrary.ReceiveJsonCommand</definition>
+        <argsstring>()</argsstring>
+        <name>ReceiveJsonCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEALibrary.cs" line="254" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEALibrary.cs" bodystart="254" bodyend="255"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEALibrary.cs" line="20" column="1" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEALibrary.cs" bodystart="19" bodyend="256"/>
+    <listofallmembers>
+      <member refid="class_n_m_e_a__connector_1_1_nmea_library_1a713eee7c6b22d962fce45404f04e0e3b" prot="public" virt="non-virtual"><scope>NMEA_connector::NmeaLibrary</scope><name>InputNMEA</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_nmea_library_1aefb2e595e354db622dba5280fc96160b" prot="public" virt="non-virtual"><scope>NMEA_connector::NmeaLibrary</scope><name>NmeaCommandClearText</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_nmea_library_1a9cb20d2d51c4675df07ef8990917d3e7" prot="public" virt="non-virtual"><scope>NMEA_connector::NmeaLibrary</scope><name>OutputNMEA</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_nmea_library_1aeaadd4530a1516a97b85361e3dc0160e" prot="public" virt="non-virtual"><scope>NMEA_connector::NmeaLibrary</scope><name>ReceiveJsonCommand</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_nmea_library_1a858cb5f0cb6678483eec5bbb92b64f77" prot="public" virt="non-virtual"><scope>NMEA_connector::NmeaLibrary</scope><name>ResolveCommand</name></member>
+      <member refid="class_n_m_e_a__connector_1_1_nmea_library_1a8bfacaff4f241eefb014c94796eb45a5" prot="public" virt="non-virtual"><scope>NMEA_connector::NmeaLibrary</scope><name>TransmitJsonCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

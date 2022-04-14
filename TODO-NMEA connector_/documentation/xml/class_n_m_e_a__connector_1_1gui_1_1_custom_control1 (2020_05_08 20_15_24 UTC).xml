@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_n_m_e_a__connector_1_1gui_1_1_custom_control1" kind="class" language="C#" prot="public">
+    <compoundname>NMEA_connector::gui::CustomControl1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Control</basecompoundref>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1gui_1_1_custom_control1_1a7bb5cb59fdf390eaec3c9e6a3cdfcfd5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static NMEA_connector.gui.CustomControl1.CustomControl1</definition>
+        <argsstring>()</argsstring>
+        <name>CustomControl1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/CustomControl1.cs" line="37" column="16" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/CustomControl1.cs" bodystart="37" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Follow steps 1a or 1b and then 2 to use this custom control in a XAML file. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Step 1a) Using this custom control in a XAML file that exists in the current project. Add this XmlNamespace attribute to the root element of the markup file where it is to be used: <verbatim>xmlns:MyNamespace=&quot;clr-namespace:NMEA_connector&quot;
+</verbatim></para>
+<para>Step 1b) Using this custom control in a XAML file that exists in a different project. Add this XmlNamespace attribute to the root element of the markup file where it is to be used: <verbatim>xmlns:MyNamespace=&quot;clr-namespace:NMEA_connector;assembly=NMEA_connector&quot;
+</verbatim></para>
+<para>You will also need to add a project reference from the project where the XAML file lives to this project and Rebuild to avoid compilation errors: <verbatim>Right click on the target project in the Solution Explorer and
+&quot;Add Reference&quot;-&gt;&quot;Projects&quot;-&gt;[Select this project]
+</verbatim></para>
+<para>Step 2) Go ahead and use your control in the XAML file. <verbatim>&lt;MyNamespace:CustomControl1/&gt;
+</verbatim></para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Control</label>
+      </node>
+      <node id="1">
+        <label>NMEA_connector.gui.CustomControl1</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_custom_control1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Control</label>
+      </node>
+      <node id="1">
+        <label>NMEA_connector.gui.CustomControl1</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_custom_control1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/CustomControl1.cs" line="36" column="1" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/CustomControl1.cs" bodystart="35" bodyend="41"/>
+    <listofallmembers>
+      <member refid="class_n_m_e_a__connector_1_1gui_1_1_custom_control1_1a7bb5cb59fdf390eaec3c9e6a3cdfcfd5" prot="private" virt="non-virtual"><scope>NMEA_connector::gui::CustomControl1</scope><name>CustomControl1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

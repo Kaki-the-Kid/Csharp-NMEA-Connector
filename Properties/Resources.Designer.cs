@@ -113,5 +113,14 @@ namespace NMEA_connector.Properties {
                 return ResourceManager.GetString("ConsolUi_ConsolInit_GPS_menu", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NMEA og Device config.
+        /// </summary>
+        public static string ConsolUi_ConsolInit_NMEA_og_Device_config {
+            get {
+                return ResourceManager.GetString("ConsolUi_ConsolInit_NMEA_og_Device_config", resourceCulture);
+            }
+        }
     }
 }

@@ -1,0 +1,232 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_sentences_navigation_8cs" kind="file" language="C#">
+    <compoundname>SentencesNavigation.cs</compoundname>
+    <innerclass refid="class_n_m_e_a__connector_1_1_sentences_navigation" prot="public">NMEA_connector::SentencesNavigation</innerclass>
+    <innernamespace refid="namespace_n_m_e_a__connector">NMEA_connector</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_n_m_e_a__connector" kindref="compound">NMEA_connector</ref></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="3" refid="class_n_m_e_a__connector_1_1_sentences_navigation" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_n_m_e_a__connector_1_1_sentences_navigation" kindref="compound">SentencesNavigation</ref></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>AAM<sp/>-<sp/>Waypoint<sp/>Arrival<sp/>Alarm</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>is<sp/>generated<sp/>by<sp/>some<sp/>units<sp/>to<sp/>indicate<sp/>the<sp/>Status<sp/>of<sp/>arrival<sp/>(entering</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>arrival<sp/>circle,<sp/>or<sp/>passing<sp/>the<sp/>perpendicular<sp/>of<sp/>the<sp/>course<sp/>line)</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>at<sp/>the<sp/>destination<sp/>waypoint.</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>$GPAAM,A,A,0.10,N,WPTNME*32</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>where:</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>AAM<sp/><sp/><sp/><sp/>Arrival<sp/>Alarm</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>A<sp/><sp/><sp/><sp/><sp/><sp/>Arrival<sp/>circle<sp/>entered</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>A<sp/><sp/><sp/><sp/><sp/><sp/>Perpendicular<sp/>passed</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>0.10<sp/><sp/><sp/>Circle<sp/>radius</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>N<sp/><sp/><sp/><sp/><sp/><sp/>Nautical<sp/>miles</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>WPTNME<sp/>Waypoint<sp/>name</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>*32<sp/><sp/><sp/><sp/>Checksum<sp/>data</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21" refid="class_n_m_e_a__connector_1_1_sentences_navigation_1a49c2f39d9fa1ec8f86513d314efb8557" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_n_m_e_a__connector_1_1_sentences_navigation_1a49c2f39d9fa1ec8f86513d314efb8557" kindref="member">CommandAam</ref>()</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>APB<sp/>-<sp/>Autopilot<sp/>format<sp/>B</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>is<sp/>sent<sp/>by<sp/>some<sp/>gps<sp/>receivers<sp/>to<sp/>allow<sp/>them<sp/>to<sp/>be<sp/>used<sp/>to<sp/>control<sp/>an</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>autopilot<sp/>unit.<sp/>This<sp/>sentence<sp/>is<sp/>commonly<sp/>used<sp/>by<sp/>autopilots<sp/>and<sp/>contains</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>navigation<sp/>receiver<sp/>warning<sp/>flag<sp/>status,<sp/>cross-track-error,<sp/>waypoint</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>arrival<sp/>status,<sp/>initial<sp/>bearing<sp/>from<sp/>origin<sp/>waypoint<sp/>to<sp/>the<sp/>destination,</highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>continuous<sp/>bearing<sp/>from<sp/>present<sp/>position<sp/>to<sp/>destination<sp/>and<sp/>recommended</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>heading-to-steer<sp/>to<sp/>destination<sp/>waypoint<sp/>for<sp/>the<sp/>active<sp/>navigation<sp/>leg</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>of<sp/>the<sp/>journey.</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>Note:<sp/>some<sp/>autopilots,<sp/>Robertson<sp/>in<sp/>particular,<sp/>misinterpret<sp/>&quot;bearing<sp/>from</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>origin<sp/>to<sp/>destination&quot;<sp/>as<sp/>&quot;bearing<sp/>from<sp/>present<sp/>position<sp/>to<sp/>destination&quot;.</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>This<sp/>is<sp/>likely<sp/>due<sp/>to<sp/>the<sp/>difference<sp/>between<sp/>the<sp/>APB<sp/>sentence<sp/>and<sp/>the<sp/>APA</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>sentence.<sp/>for<sp/>the<sp/>APA<sp/>sentence<sp/>this<sp/>would<sp/>be<sp/>the<sp/>correct<sp/>thing<sp/>to<sp/>do<sp/>for</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>data<sp/>in<sp/>the<sp/>same<sp/>field.<sp/>APA<sp/>only<sp/>differs<sp/>from<sp/>APB<sp/>in<sp/>this<sp/>one<sp/>field</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>and<sp/>APA<sp/>leaves<sp/>off<sp/>the<sp/>last<sp/>two<sp/>fields<sp/>where<sp/>this<sp/>distinction<sp/>is<sp/>clearly</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>spelled<sp/>out.<sp/>This<sp/>will<sp/>result<sp/>in<sp/>poor<sp/>performance<sp/>if<sp/>the<sp/>boat<sp/>is<sp/>sufficiently</highlight></codeline>
+<codeline lineno="43"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>off-course<sp/>that<sp/>the<sp/>two<sp/>bearings<sp/>are<sp/>different.</highlight></codeline>
+<codeline lineno="44"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="45"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>$GPAPB,A,A,0.10,R,N,V,V,011,M,DEST,011,M,011,M*3C</highlight></codeline>
+<codeline lineno="46"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="47"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>where:</highlight></codeline>
+<codeline lineno="48"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>APB<sp/><sp/><sp/><sp/><sp/>Autopilot<sp/>format<sp/>B</highlight></codeline>
+<codeline lineno="49"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>A<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Loran-C<sp/>blink/SNR<sp/>warning,<sp/>general<sp/>warning</highlight></codeline>
+<codeline lineno="50"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>A<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Loran-C<sp/>cycle<sp/>warning</highlight></codeline>
+<codeline lineno="51"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>0.10<sp/><sp/><sp/><sp/>cross-track<sp/>error<sp/>distance</highlight></codeline>
+<codeline lineno="52"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>R<sp/><sp/><sp/><sp/><sp/><sp/><sp/>steer<sp/>Right<sp/>to<sp/>correct<sp/>(or<sp/>L<sp/>for<sp/>Left)</highlight></codeline>
+<codeline lineno="53"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>N<sp/><sp/><sp/><sp/><sp/><sp/><sp/>cross-track<sp/>error<sp/>units<sp/>-<sp/>nautical<sp/>miles<sp/>(K<sp/>for<sp/>kilometers)</highlight></codeline>
+<codeline lineno="54"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>V<sp/><sp/><sp/><sp/><sp/><sp/><sp/>arrival<sp/>alarm<sp/>-<sp/>circle</highlight></codeline>
+<codeline lineno="55"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>V<sp/><sp/><sp/><sp/><sp/><sp/><sp/>arrival<sp/>alarm<sp/>-<sp/>perpendicular</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>011,M<sp/><sp/><sp/>magnetic<sp/>bearing,<sp/>origin<sp/>to<sp/>destination</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>DEST<sp/><sp/><sp/><sp/>destination<sp/>waypoint<sp/>ID</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>011,M<sp/><sp/><sp/>magnetic<sp/>bearing,<sp/>present<sp/>position<sp/>to<sp/>destination</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>011,M<sp/><sp/><sp/>magnetic<sp/>heading<sp/>to<sp/>steer<sp/>(bearings<sp/>could<sp/>True<sp/>as<sp/>033,T)<sp/></highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="class_n_m_e_a__connector_1_1_sentences_navigation_1ace975850b049f9242d3d4454e6890fb3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_n_m_e_a__connector_1_1_sentences_navigation_1ace975850b049f9242d3d4454e6890fb3" kindref="member">CommandApb</ref>()</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>BOD<sp/>-<sp/>Bearing<sp/>-<sp/>Origin<sp/>to<sp/>Destination</highlight></codeline>
+<codeline lineno="68"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>shows<sp/>the<sp/>bearing<sp/>angle<sp/>of<sp/>the<sp/>line,<sp/>calculated<sp/>at<sp/>the<sp/>origin<sp/>waypoint,</highlight></codeline>
+<codeline lineno="69"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>extending<sp/>to<sp/>the<sp/>destination<sp/>waypoint<sp/>from<sp/>the<sp/>origin<sp/>waypoint<sp/>for<sp/>the</highlight></codeline>
+<codeline lineno="70"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>active<sp/>navigation<sp/>leg<sp/>of<sp/>the<sp/>journey.</highlight></codeline>
+<codeline lineno="71"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="72"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>$GPBOD,045.,T,023.,M,DEST,START*01</highlight></codeline>
+<codeline lineno="73"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="74"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>where:</highlight></codeline>
+<codeline lineno="75"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>BOD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Bearing<sp/>-<sp/>origin<sp/>to<sp/>destination<sp/>waypoint</highlight></codeline>
+<codeline lineno="76"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>045.,T<sp/><sp/><sp/><sp/><sp/><sp/><sp/>bearing<sp/>045<sp/>True<sp/>from<sp/>&quot;START&quot;<sp/>to<sp/>&quot;DEST&quot;</highlight></codeline>
+<codeline lineno="77"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>023.,M<sp/><sp/><sp/><sp/><sp/><sp/><sp/>bearing<sp/>023<sp/>Magnetic<sp/>from<sp/>&quot;START&quot;<sp/>to<sp/>&quot;DEST&quot;</highlight></codeline>
+<codeline lineno="78"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>DEST<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>destination<sp/>waypoint<sp/>ID</highlight></codeline>
+<codeline lineno="79"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>START<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>origin<sp/>waypoint<sp/>ID</highlight></codeline>
+<codeline lineno="80"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>*01<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>checksum</highlight></codeline>
+<codeline lineno="81"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="class_n_m_e_a__connector_1_1_sentences_navigation_1a2385b63c84ff88ef14133d2fb099df8e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_n_m_e_a__connector_1_1_sentences_navigation_1a2385b63c84ff88ef14133d2fb099df8e" kindref="member">CommandBod</ref>()</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>BWC<sp/>-<sp/>Bearing<sp/>&amp;<sp/>Distance<sp/>to<sp/>Waypoint<sp/>using<sp/>a<sp/>Great<sp/>Circle<sp/>route.</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>Time<sp/>(UTC)<sp/>and<sp/>distance<sp/>&amp;<sp/>bearing<sp/>to,<sp/>and<sp/>location<sp/>of,<sp/>a<sp/>specified</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>waypoint<sp/>from<sp/>present<sp/>position<sp/>along<sp/>the<sp/>great<sp/>circle<sp/>path.</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>$GPBWC,225444,4917.24,N,12309.57,W,051.9,T,031.6,M,001.3,N,004*29</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>where:</highlight></codeline>
+<codeline lineno="95"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>BWC<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Bearing<sp/>and<sp/>distance<sp/>to<sp/>waypoint<sp/>-<sp/>great<sp/>circle</highlight></codeline>
+<codeline lineno="96"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>225444<sp/><sp/><sp/><sp/><sp/><sp/><sp/>UTC<sp/>time<sp/>of<sp/>fix<sp/>22:54:44</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>4917.24,N<sp/><sp/><sp/><sp/>Latitude<sp/>of<sp/>waypoint</highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>12309.57,W<sp/><sp/><sp/>Longitude<sp/>of<sp/>waypoint</highlight></codeline>
+<codeline lineno="99"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>051.9,T<sp/><sp/><sp/><sp/><sp/><sp/>Bearing<sp/>to<sp/>waypoint,<sp/>degrees<sp/>true</highlight></codeline>
+<codeline lineno="100"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>031.6,M<sp/><sp/><sp/><sp/><sp/><sp/>Bearing<sp/>to<sp/>waypoint,<sp/>degrees<sp/>magnetic</highlight></codeline>
+<codeline lineno="101"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>001.3,N<sp/><sp/><sp/><sp/><sp/><sp/>Distance<sp/>to<sp/>waypoint,<sp/>Nautical<sp/>miles</highlight></codeline>
+<codeline lineno="102"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>004<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Waypoint<sp/>ID</highlight></codeline>
+<codeline lineno="103"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>*29<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>checksum</highlight></codeline>
+<codeline lineno="104"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="class_n_m_e_a__connector_1_1_sentences_navigation_1a255c315e851f22f1bb29f1f8e24099bf" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_n_m_e_a__connector_1_1_sentences_navigation_1a255c315e851f22f1bb29f1f8e24099bf" kindref="member">CommandBwc</ref>()</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>RMB<sp/>-<sp/>The<sp/>recommended<sp/>minimum<sp/>navigation</highlight></codeline>
+<codeline lineno="112"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>sentence<sp/>is<sp/>sent<sp/>whenever<sp/>a<sp/>route<sp/>or<sp/>a<sp/>goto<sp/>is<sp/>active.<sp/>On<sp/>some<sp/>systems</highlight></codeline>
+<codeline lineno="113"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>it<sp/>is<sp/>sent<sp/>all<sp/>of<sp/>the<sp/>time<sp/>with<sp/>null<sp/>data.<sp/>The<sp/>Arrival<sp/>alarm<sp/>flag<sp/>is</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>similar<sp/>to<sp/>the<sp/>arrival<sp/>alarm<sp/>inside<sp/>the<sp/>unit<sp/>and<sp/>can<sp/>be<sp/>decoded<sp/>to<sp/>drive</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>an<sp/>external<sp/>alarm.<sp/>Note<sp/>the<sp/>use<sp/>of<sp/>leading<sp/>zeros<sp/>in<sp/>this<sp/>message<sp/>to</highlight></codeline>
+<codeline lineno="116"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>preserve<sp/>the<sp/>character<sp/>spacing.<sp/>This<sp/>is<sp/>done,<sp/>I<sp/>believe,<sp/>because<sp/>some</highlight></codeline>
+<codeline lineno="117"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>autopilots<sp/>may<sp/>depend<sp/>on<sp/>exact<sp/>character<sp/>spacing.</highlight></codeline>
+<codeline lineno="118"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="119"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>$GPRMB,A,0.66,L,003,004,4917.24,N,12309.57,W,001.3,052.5,000.5,V*20</highlight></codeline>
+<codeline lineno="120"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="121"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>where:</highlight></codeline>
+<codeline lineno="122"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>RMB<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Recommended<sp/>minimum<sp/>navigation<sp/>information</highlight></codeline>
+<codeline lineno="123"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>A<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Data<sp/>status<sp/>A<sp/>=<sp/>OK,<sp/>V<sp/>=<sp/>Void<sp/>(warning)</highlight></codeline>
+<codeline lineno="124"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>0.66,L<sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cross-track<sp/>error<sp/>(nautical<sp/>miles,<sp/>9.99<sp/>max),</highlight></codeline>
+<codeline lineno="125"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>steer<sp/>Left<sp/>to<sp/>correct<sp/>(or<sp/>R<sp/>=<sp/>right)</highlight></codeline>
+<codeline lineno="126"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>003<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Origin<sp/>waypoint<sp/>ID</highlight></codeline>
+<codeline lineno="127"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>004<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Destination<sp/>waypoint<sp/>ID</highlight></codeline>
+<codeline lineno="128"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>4917.24,N<sp/><sp/><sp/><sp/>Destination<sp/>waypoint<sp/>latitude<sp/>49<sp/>deg.<sp/>17.24<sp/>min.<sp/>N</highlight></codeline>
+<codeline lineno="129"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>12309.57,W<sp/><sp/><sp/>Destination<sp/>waypoint<sp/>longitude<sp/>123<sp/>deg.<sp/>09.57<sp/>min.<sp/>W</highlight></codeline>
+<codeline lineno="130"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>001.3<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Range<sp/>to<sp/>destination,<sp/>nautical<sp/>miles<sp/>(999.9<sp/>max)</highlight></codeline>
+<codeline lineno="131"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>052.5<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>True<sp/>bearing<sp/>to<sp/>destination</highlight></codeline>
+<codeline lineno="132"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>000.5<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Velocity<sp/>towards<sp/>destination,<sp/>knots</highlight></codeline>
+<codeline lineno="133"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>V<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Arrival<sp/>alarm<sp/><sp/>A<sp/>=<sp/>arrived,<sp/>V<sp/>=<sp/>not<sp/>arrived</highlight></codeline>
+<codeline lineno="134"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>*20<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>checksum</highlight></codeline>
+<codeline lineno="135"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="class_n_m_e_a__connector_1_1_sentences_navigation_1add9397ee12eede1493d4c70acc887738" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_n_m_e_a__connector_1_1_sentences_navigation_1add9397ee12eede1493d4c70acc887738" kindref="member">CommandRmb</ref>()</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>RTE<sp/>-</highlight></codeline>
+<codeline lineno="143"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>RTE<sp/>is<sp/>sent<sp/>to<sp/>indicate<sp/>the<sp/>names<sp/>of<sp/>the<sp/>waypoints<sp/>used<sp/>in<sp/>an<sp/>active<sp/>route.</highlight></codeline>
+<codeline lineno="144"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>There<sp/>are<sp/>two<sp/>types<sp/>of<sp/>RTE<sp/>sentences.<sp/>This<sp/>route<sp/>sentence<sp/>can<sp/>list<sp/>all<sp/>of</highlight></codeline>
+<codeline lineno="145"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>the<sp/>waypoints<sp/>in<sp/>the<sp/>entire<sp/>route<sp/>or<sp/>it<sp/>can<sp/>list<sp/>only<sp/>those<sp/>still<sp/>ahead.</highlight></codeline>
+<codeline lineno="146"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>Because<sp/>an<sp/>NMEA<sp/>sentence<sp/>is<sp/>limited<sp/>to<sp/>80<sp/>characters<sp/>there<sp/>may<sp/>need<sp/>to<sp/>be</highlight></codeline>
+<codeline lineno="147"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>multiple<sp/>sentences<sp/>to<sp/>identify<sp/>all<sp/>of<sp/>the<sp/>waypoints.<sp/>The<sp/>data<sp/>about<sp/>the</highlight></codeline>
+<codeline lineno="148"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>waypoints<sp/>themselves<sp/>will<sp/>be<sp/>sent<sp/>in<sp/>subsequent<sp/>WPL<sp/>sentences<sp/>which<sp/>will</highlight></codeline>
+<codeline lineno="149"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>be<sp/>sent<sp/>in<sp/>future<sp/>cycles<sp/>of<sp/>the<sp/>NMEA<sp/>data.</highlight></codeline>
+<codeline lineno="150"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="151"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>$GPRTE,2,1,c,0,W3IWI,DRIVWY,32CEDR,32-29,32BKLD,32-I95,32-US1,BW-32,BW-198*69</highlight></codeline>
+<codeline lineno="152"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="153"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>where:</highlight></codeline>
+<codeline lineno="154"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>RTE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Waypoints<sp/>in<sp/>active<sp/>route</highlight></codeline>
+<codeline lineno="155"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>2<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>total<sp/>number<sp/>of<sp/>sentences<sp/>needed<sp/>for<sp/>full<sp/>data</highlight></codeline>
+<codeline lineno="156"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>this<sp/>is<sp/>sentence<sp/>1<sp/>of<sp/>2</highlight></codeline>
+<codeline lineno="157"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>c<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Type<sp/>c<sp/>=<sp/>complete<sp/>list<sp/>of<sp/>waypoints<sp/>in<sp/>this<sp/>route</highlight></codeline>
+<codeline lineno="158"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>w<sp/>=<sp/>first<sp/>listed<sp/>waypoint<sp/>is<sp/>start<sp/>of<sp/>current<sp/>leg</highlight></codeline>
+<codeline lineno="159"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Route<sp/>identifier</highlight></codeline>
+<codeline lineno="160"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>W3IWI,...<sp/><sp/><sp/><sp/>Waypoint<sp/>identifiers<sp/>(names)</highlight></codeline>
+<codeline lineno="161"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>*69<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>checksum</highlight></codeline>
+<codeline lineno="162"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="163" refid="class_n_m_e_a__connector_1_1_sentences_navigation_1a3e3fd2d562ef182b979951f710a29816" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_n_m_e_a__connector_1_1_sentences_navigation_1a3e3fd2d562ef182b979951f710a29816" kindref="member">CommandRte</ref>()</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>XTE<sp/>-<sp/>Measured<sp/>cross<sp/>track<sp/>error</highlight></codeline>
+<codeline lineno="170"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>is<sp/>a<sp/>small<sp/>subset<sp/>of<sp/>the<sp/>RMB<sp/>message<sp/>for<sp/>compatibility<sp/>with<sp/>some<sp/>older</highlight></codeline>
+<codeline lineno="171"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>equipment<sp/>designed<sp/>to<sp/>work<sp/>with<sp/>Loran.<sp/>Note<sp/>that<sp/>the<sp/>same<sp/>limitations</highlight></codeline>
+<codeline lineno="172"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>apply<sp/>to<sp/>this<sp/>message<sp/>as<sp/>the<sp/>ones<sp/>in<sp/>the<sp/>RMB<sp/>since<sp/>it<sp/>is<sp/>expected<sp/>to</highlight></codeline>
+<codeline lineno="173"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>be<sp/>decoded<sp/>by<sp/>an<sp/>autopilot.</highlight></codeline>
+<codeline lineno="174"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="175"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>$GPXTE,A,A,0.67,L,N*6F</highlight></codeline>
+<codeline lineno="176"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="177"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>where:</highlight></codeline>
+<codeline lineno="178"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>XTE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Cross<sp/>track<sp/>error,<sp/>measured</highlight></codeline>
+<codeline lineno="179"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>A<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>General<sp/>warning<sp/>flag<sp/>V<sp/>=<sp/>warning</highlight></codeline>
+<codeline lineno="180"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(Loran-C<sp/>Blink<sp/>or<sp/>SNR<sp/>warning)</highlight></codeline>
+<codeline lineno="181"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>A<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Not<sp/>used<sp/>for<sp/>GPS<sp/>(Loran-C<sp/>cycle<sp/>lock<sp/>flag)</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>0.67<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cross<sp/>track<sp/>error<sp/>distance</highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>L<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Steer<sp/>left<sp/>to<sp/>correct<sp/>error<sp/>(or<sp/>R<sp/>for<sp/>right)</highlight></codeline>
+<codeline lineno="184"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>N<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Distance<sp/>units<sp/>-<sp/>Nautical<sp/>miles</highlight></codeline>
+<codeline lineno="185"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>*6F<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>checksum</highlight></codeline>
+<codeline lineno="186"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="187" refid="class_n_m_e_a__connector_1_1_sentences_navigation_1ac5587b635882517709d63cbce64250a0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_n_m_e_a__connector_1_1_sentences_navigation_1ac5587b635882517709d63cbce64250a0" kindref="member">CommandXte</ref>()</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>WPL<sp/>-<sp/>Waypoint<sp/>Location<sp/>data</highlight></codeline>
+<codeline lineno="194"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>provides<sp/>essential<sp/>waypoint<sp/>data.<sp/>It<sp/>is<sp/>output<sp/>when<sp/>navigating<sp/>to</highlight></codeline>
+<codeline lineno="195"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>indicate<sp/>data<sp/>about<sp/>the<sp/>destination<sp/>and<sp/>is<sp/>sometimes<sp/>supported<sp/>on</highlight></codeline>
+<codeline lineno="196"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>input<sp/>to<sp/>redefine<sp/>a<sp/>waypoint<sp/>location.<sp/>Note<sp/>that<sp/>waypoint<sp/>data<sp/>as</highlight></codeline>
+<codeline lineno="197"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>defined<sp/>in<sp/>the<sp/>standard<sp/>does<sp/>not<sp/>define<sp/>altitude,<sp/>comments,<sp/>or<sp/>icon</highlight></codeline>
+<codeline lineno="198"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>data.<sp/>When<sp/>a<sp/>route<sp/>is<sp/>active,<sp/>this<sp/>sentence<sp/>is<sp/>sent<sp/>once<sp/>for<sp/>each</highlight></codeline>
+<codeline lineno="199"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>waypoint<sp/>in<sp/>the<sp/>route,<sp/>in<sp/>sequence.<sp/>When<sp/>all<sp/>waypoints<sp/>have<sp/>been</highlight></codeline>
+<codeline lineno="200"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>reported,<sp/>the<sp/>RTE<sp/>sentence<sp/>is<sp/>sent<sp/>in<sp/>the<sp/>next<sp/>data<sp/>set.<sp/>In<sp/>any<sp/>group</highlight></codeline>
+<codeline lineno="201"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>of<sp/>sentences,<sp/>only<sp/>one<sp/>WPL<sp/>sentence,<sp/>or<sp/>an<sp/>RTE<sp/>sentence,<sp/>will<sp/>be<sp/>sent.</highlight></codeline>
+<codeline lineno="202"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="203"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>$GPWPL,4807.038,N,01131.000,E,WPTNME*5C</highlight></codeline>
+<codeline lineno="204"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*</highlight></codeline>
+<codeline lineno="205"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>with<sp/>an<sp/>interpretation<sp/>of:</highlight></codeline>
+<codeline lineno="206"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>WPL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Waypoint<sp/>Location</highlight></codeline>
+<codeline lineno="207"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>4807.038,N<sp/><sp/>Latitude</highlight></codeline>
+<codeline lineno="208"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>01131.000,E<sp/>Longitude</highlight></codeline>
+<codeline lineno="209"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>WPTNME<sp/><sp/><sp/><sp/><sp/><sp/>Waypoint<sp/>Name</highlight></codeline>
+<codeline lineno="210"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/><sp/><sp/><sp/><sp/>*5C<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>The<sp/>checksum<sp/>data,<sp/>always<sp/>begins<sp/>with<sp/>*</highlight></codeline>
+<codeline lineno="211"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="212" refid="class_n_m_e_a__connector_1_1_sentences_navigation_1a5a71744113ace9e1be0b28202d5ad7ad" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_n_m_e_a__connector_1_1_sentences_navigation_1a5a71744113ace9e1be0b28202d5ad7ad" kindref="member">CommandWpl</ref>()</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="215"><highlight class="normal"></highlight></codeline>
+<codeline lineno="216"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="217"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/SentencesNavigation.cs"/>
+  </compounddef>
+</doxygen>

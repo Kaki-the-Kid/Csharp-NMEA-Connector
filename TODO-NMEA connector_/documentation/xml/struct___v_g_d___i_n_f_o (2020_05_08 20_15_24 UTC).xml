@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct___v_g_d___i_n_f_o" kind="struct" language="C++" prot="public">
+    <compoundname>_VGD_INFO</compoundname>
+    <includes refid="vgd_8h" local="no">vgd.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct___v_g_d___i_n_f_o_1ab717991fc6c8e4c682410eaf0b3f5b48" prot="public" static="no" mutable="no">
+        <type>DCB</type>
+        <definition>DCB _VGD_INFO::dcb</definition>
+        <argsstring></argsstring>
+        <name>dcb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" line="36" column="8" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___v_g_d___i_n_f_o_1abceb5ef142856499ebd58a2ec75b023a" prot="public" static="no" mutable="no">
+        <type>CRITICAL_SECTION</type>
+        <definition>CRITICAL_SECTION _VGD_INFO::allow_mutex</definition>
+        <argsstring></argsstring>
+        <name>allow_mutex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" line="37" column="25" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___v_g_d___i_n_f_o_1a398ef9e0df9c952d65ef3bf4af33220c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _VGD_INFO::nmea_pack_mask</definition>
+        <argsstring></argsstring>
+        <name>nmea_pack_mask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" line="38" column="25" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___v_g_d___i_n_f_o_1a7be7dd24b10eab02b6386b336e54b31e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _VGD_INFO::flags</definition>
+        <argsstring></argsstring>
+        <name>flags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" line="39" column="25" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___v_g_d___i_n_f_o_1a2421ea523ccac7931ce93d232838263b" prot="public" static="no" mutable="no">
+        <type><ref refid="generator_8h_1a7fdd5e079647c74bef980fd0cfa26f04" kindref="member">nmeaGENERATOR</ref> *</type>
+        <definition>nmeaGENERATOR* _VGD_INFO::nmea_gen</definition>
+        <argsstring></argsstring>
+        <name>nmea_gen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" line="40" column="25" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___v_g_d___i_n_f_o_1a8fa8e705a6be0e26d0bc9fbed725dbae" prot="public" static="no" mutable="no">
+        <type><ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+        <definition>nmeaINFO* _VGD_INFO::nmea_info</definition>
+        <argsstring></argsstring>
+        <name>nmea_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" line="41" column="25" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___v_g_d___i_n_f_o_1ac061a41249394cffbef91319f7ddf5f8" prot="public" static="no" mutable="no">
+        <type>DWORD</type>
+        <definition>DWORD _VGD_INFO::timer_timeout</definition>
+        <argsstring></argsstring>
+        <name>timer_timeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" line="42" column="25" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___v_g_d___i_n_f_o_1a78675b66f6d852e67577b867c3bfd308" prot="public" static="no" mutable="no">
+        <type>HANDLE</type>
+        <definition>HANDLE _VGD_INFO::timer_thread</definition>
+        <argsstring></argsstring>
+        <name>timer_thread</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" line="43" column="25" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___v_g_d___i_n_f_o_1af14960cd8151db7aa6cf37f5aad320f8" prot="public" static="no" mutable="no">
+        <type>HANDLE</type>
+        <definition>HANDLE _VGD_INFO::stop_thread_event</definition>
+        <argsstring></argsstring>
+        <name>stop_thread_event</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" line="44" column="25" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___v_g_d___i_n_f_o_1a3b96b305721510f6e3574c754da2c8e8" prot="public" static="no" mutable="no">
+        <type>HANDLE</type>
+        <definition>HANDLE _VGD_INFO::kill_thread_event</definition>
+        <argsstring></argsstring>
+        <name>kill_thread_event</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" line="45" column="25" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct___v_g_d___i_n_f_o_1a28119deb6aa23798d12f9080b37c814e" prot="public" static="no" mutable="no">
+        <type>INTERRUPT_TYPE</type>
+        <definition>INTERRUPT_TYPE _VGD_INFO::curr_interruptIDs</definition>
+        <argsstring></argsstring>
+        <name>curr_interruptIDs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" line="46" column="25" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="3">
+        <label>_nmeaSATINFO</label>
+        <link refid="struct__nmea_s_a_t_i_n_f_o"/>
+        <childnode refid="4" relation="usage">
+          <edgelabel>sat</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>_nmeaGENERATOR</label>
+        <link refid="struct__nmea_g_e_n_e_r_a_t_o_r"/>
+        <childnode refid="6" relation="usage">
+          <edgelabel>next</edgelabel>
+          <edgelabel>loop_call</edgelabel>
+          <edgelabel>init_call</edgelabel>
+          <edgelabel>destroy_call</edgelabel>
+          <edgelabel>reset_call</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>_nmeaSATELLITE</label>
+        <link refid="struct__nmea_s_a_t_e_l_l_i_t_e"/>
+      </node>
+      <node id="1">
+        <label>_VGD_INFO</label>
+        <link refid="struct___v_g_d___i_n_f_o"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>nmea_info</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>nmea_gen</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>_nmeaTIME</label>
+        <link refid="struct__nmea_t_i_m_e"/>
+      </node>
+      <node id="2">
+        <label>_nmeaINFO</label>
+        <link refid="struct__nmea_i_n_f_o"/>
+        <childnode refid="3" relation="usage">
+          <edgelabel>satinfo</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>utc</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" line="35" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.h" bodystart="34" bodyend="48"/>
+    <listofallmembers>
+      <member refid="struct___v_g_d___i_n_f_o_1abceb5ef142856499ebd58a2ec75b023a" prot="public" virt="non-virtual"><scope>_VGD_INFO</scope><name>allow_mutex</name></member>
+      <member refid="struct___v_g_d___i_n_f_o_1a28119deb6aa23798d12f9080b37c814e" prot="public" virt="non-virtual"><scope>_VGD_INFO</scope><name>curr_interruptIDs</name></member>
+      <member refid="struct___v_g_d___i_n_f_o_1ab717991fc6c8e4c682410eaf0b3f5b48" prot="public" virt="non-virtual"><scope>_VGD_INFO</scope><name>dcb</name></member>
+      <member refid="struct___v_g_d___i_n_f_o_1a7be7dd24b10eab02b6386b336e54b31e" prot="public" virt="non-virtual"><scope>_VGD_INFO</scope><name>flags</name></member>
+      <member refid="struct___v_g_d___i_n_f_o_1a3b96b305721510f6e3574c754da2c8e8" prot="public" virt="non-virtual"><scope>_VGD_INFO</scope><name>kill_thread_event</name></member>
+      <member refid="struct___v_g_d___i_n_f_o_1a2421ea523ccac7931ce93d232838263b" prot="public" virt="non-virtual"><scope>_VGD_INFO</scope><name>nmea_gen</name></member>
+      <member refid="struct___v_g_d___i_n_f_o_1a8fa8e705a6be0e26d0bc9fbed725dbae" prot="public" virt="non-virtual"><scope>_VGD_INFO</scope><name>nmea_info</name></member>
+      <member refid="struct___v_g_d___i_n_f_o_1a398ef9e0df9c952d65ef3bf4af33220c" prot="public" virt="non-virtual"><scope>_VGD_INFO</scope><name>nmea_pack_mask</name></member>
+      <member refid="struct___v_g_d___i_n_f_o_1af14960cd8151db7aa6cf37f5aad320f8" prot="public" virt="non-virtual"><scope>_VGD_INFO</scope><name>stop_thread_event</name></member>
+      <member refid="struct___v_g_d___i_n_f_o_1a78675b66f6d852e67577b867c3bfd308" prot="public" virt="non-virtual"><scope>_VGD_INFO</scope><name>timer_thread</name></member>
+      <member refid="struct___v_g_d___i_n_f_o_1ac061a41249394cffbef91319f7ddf5f8" prot="public" virt="non-virtual"><scope>_VGD_INFO</scope><name>timer_timeout</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

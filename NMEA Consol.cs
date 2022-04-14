@@ -66,12 +66,12 @@ namespace NMEA_connector
             while (keyPressed != 9)
             {
                 Console.Clear();
-                Console.WriteLine(Resources.ConsolUi_ConsolInit_GPS_menu);
-                Console.WriteLine(Resources.ConsolUi_ConsolInit__1__Run_GPS_command);
-                Console.WriteLine(Resources.ConsolUi_ConsolInit__2__Show_GPS_Time);
-                Console.WriteLine(Resources.ConsolUi_ConsolInit__3__Show_GPS_Longitude_Latitude);
-                Console.WriteLine(Resources.ConsolUi_ConsolInit__4__Print_out_GPS_data);
-                Console.WriteLine(Resources.ConsolUi_ConsolInit__9__Exit);
+                Console.WriteLine("GPS Menu");
+                Console.WriteLine("1 Run_GPS_command");
+                Console.WriteLine("2 Show_GPS_Time");
+                Console.WriteLine("3 Show_GPS_Longitude_Latitude");
+                Console.WriteLine("4 Print_out_GPS_data");
+                Console.WriteLine("9 Exit");
 
                 keyPressed = Convert.ToInt32(Console.ReadLine());
 
@@ -122,7 +122,8 @@ namespace NMEA_connector
             //Satellites in View
         }
 
-        int GpsChecksum(string s)
+
+        public int GpsChecksum(string s)
         {
             int checksum = 0;
             int chars = 0;
@@ -135,6 +136,7 @@ namespace NMEA_connector
             return checksum;
         }
 
+
         /* The checksum at the end of each sentence is the XOR of all of the bytes in the sentence,
          * excluding the initial dollar sign. The following C code generates a checksum for the
          * string entered as "mystring" and prints it to the output stream. In the example, a
@@ -146,6 +148,5 @@ namespace NMEA_connector
             Console.WriteLine("Checksum: {0}", GpsChecksum(mystring));
             return 0;
         }
-
     }
 }

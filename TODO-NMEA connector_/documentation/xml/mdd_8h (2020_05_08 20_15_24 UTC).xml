@@ -1,0 +1,789 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="mdd_8h" kind="file" language="C++">
+    <compoundname>mdd.h</compoundname>
+    <includes local="no">serhw.h</includes>
+    <includedby refid="mdd_8c" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.c</includedby>
+    <includedby refid="vgd_8c" local="yes">C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.c</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h</label>
+        <link refid="mdd_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>serhw.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="2">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.c</label>
+        <link refid="mdd_8c"/>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h</label>
+        <link refid="mdd_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/vgd.c</label>
+        <link refid="vgd_8c"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="struct_____c_o_m_m___e_v_e_n_t_s" prot="public">__COMM_EVENTS</innerclass>
+    <innerclass refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o" prot="public">__RX_BUFFER_INFO</innerclass>
+    <innerclass refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o" prot="public">__TX_BUFFER_INFO</innerclass>
+    <innerclass refid="struct_____h_w___i_n_d_e_p___i_n_f_o" prot="public">__HW_INDEP_INFO</innerclass>
+    <innerclass refid="struct_____h_w___o_p_e_n___i_n_f_o" prot="public">__HW_OPEN_INFO</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="mdd_8h_1af20d7b7f53e9eafdb9367c86f2be92aa" prot="public" static="no">
+        <name>RxResetFifo</name>
+        <param><defname>pSH</defname></param>
+        <initializer>pSH-&gt;RxBufferInfo.Write = pSH-&gt;RxBufferInfo.Read = 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="32" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a457ee310a66bcb363737d6565fa5ef65" prot="public" static="no">
+        <name>RxEnterCS</name>
+        <param><defname>pSH</defname></param>
+        <initializer>EnterCriticalSection (&amp;(pSH-&gt;RxBufferInfo.CS))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="33" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a6a416437a9d8b47c45f602d67758e65c" prot="public" static="no">
+        <name>RxLeaveCS</name>
+        <param><defname>pSH</defname></param>
+        <initializer>LeaveCriticalSection (&amp;(pSH-&gt;RxBufferInfo.CS))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="34" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a2d2c67763e56ea58c18d8b47719e5275" prot="public" static="no">
+        <name>RxWrite</name>
+        <param><defname>pSH</defname></param>
+        <initializer>(pSH-&gt;RxBufferInfo.Write)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="35" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a989a3317ba81a2172cc4ee6b9d84073b" prot="public" static="no">
+        <name>RxRead</name>
+        <param><defname>pSH</defname></param>
+        <initializer>(pSH-&gt;RxBufferInfo.Read)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="36" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a25b822c8214a4d4c505ea766017928c7" prot="public" static="no">
+        <name>RxLength</name>
+        <param><defname>pSH</defname></param>
+        <initializer>(pSH-&gt;RxBufferInfo.Length)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="37" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1acbd964415e57fa9ce9108b91620f0d9d" prot="public" static="no">
+        <name>RxBuffWrite</name>
+        <param><defname>pSH</defname></param>
+        <initializer>(pSH-&gt;RxBufferInfo.RxCharBuffer+pSH-&gt;RxBufferInfo.Write)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="43" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a81a09844cd54f443376fb7cff3d97587" prot="public" static="no">
+        <name>RxBuffRead</name>
+        <param><defname>pSH</defname></param>
+        <initializer>(pSH-&gt;RxBufferInfo.RxCharBuffer+pSH-&gt;RxBufferInfo.Read)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="44" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a472e933fda22c512633461c3e6c4accd" prot="public" static="no">
+        <name>TxEnterCS</name>
+        <param><defname>pSH</defname></param>
+        <initializer>EnterCriticalSection (&amp;(pSH-&gt;TxBufferInfo.CS))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="54" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1ab5b1dbcd96eb9c181724373574422eb7" prot="public" static="no">
+        <name>TxLeaveCS</name>
+        <param><defname>pSH</defname></param>
+        <initializer>LeaveCriticalSection (&amp;(pSH-&gt;TxBufferInfo.CS))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="55" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1ad9b20f022e4ec7f244fbef504800f9cf" prot="public" static="no">
+        <name>TxRead</name>
+        <param><defname>pSH</defname></param>
+        <initializer>(pSH-&gt;TxBufferInfo.Read)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="56" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a7d32b2492abbaecf351cb8183bd6b8fb" prot="public" static="no">
+        <name>TxLength</name>
+        <param><defname>pSH</defname></param>
+        <initializer>(pSH-&gt;TxBufferInfo.Length)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="57" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a19cfb18b7b7624d07bad804fde918569" prot="public" static="no">
+        <name>TxBytesAvail</name>
+        <param><defname>pSH</defname></param>
+        <initializer>(<ref refid="mdd_8h_1a7d32b2492abbaecf351cb8183bd6b8fb" kindref="member">TxLength</ref>(pSH)-<ref refid="mdd_8h_1ad9b20f022e4ec7f244fbef504800f9cf" kindref="member">TxRead</ref>(pSH))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="58" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a97452572397273f68c257a74d006d810" prot="public" static="no">
+        <name>TxBuffRead</name>
+        <param><defname>pSH</defname></param>
+        <initializer>(pSH-&gt;TxBufferInfo.TxCharBuffer+pSH-&gt;TxBufferInfo.Read)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="59" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a04f676a7cda264701e5418e8fbbb074d" prot="public" static="no">
+        <name>E_OF_CHAR</name>
+        <initializer>0xd</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="126" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1ae30a37e266dacc29fac2dfb1f8fad3fd" prot="public" static="no">
+        <name>ERROR_CHAR</name>
+        <initializer>0xd</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="127" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a584fad596a0a807ca2594c062880b2ec" prot="public" static="no">
+        <name>BREAK_CHAR</name>
+        <initializer>0xd</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="128" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1af45f70b36f0a24393d7bffecbe8c1d4b" prot="public" static="no">
+        <name>EVENT_CHAR</name>
+        <initializer>0xd</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="129" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a831e820af2c3a04cfd4ec6edc0157098" prot="public" static="no">
+        <name>X_ON_CHAR</name>
+        <initializer>0x11</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="130" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a38f12764c4db54db334bf00f5ce38f04" prot="public" static="no">
+        <name>X_OFF_CHAR</name>
+        <initializer>0x13</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="131" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1ab79360e94c57fe3dfeef0008f20fef06" prot="public" static="no">
+        <name>X_FLOW_CTRL</name>
+        <initializer>0x1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="133" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a0f9f31aa8127e3392e2891566421c6f0" prot="public" static="no">
+        <name>MAX_SERIAL_INDEX</name>
+        <initializer>16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="135" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a739a2a1a0047c98ac1b18ecd25dac092" prot="public" static="no">
+        <name>RX_BUFFER_SIZE</name>
+        <initializer>2048</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="136" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a9a176c550adf8441cb29311e2a8c43a3" prot="public" static="no">
+        <name>COMM_FUNC_SIZE</name>
+        <initializer>16</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="137" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a74e75242132eaabbc1c512488a135926" prot="public" static="no">
+        <name>MIN</name>
+        <param><defname>x</defname></param>
+        <param><defname>y</defname></param>
+        <initializer>((x) &lt; (y) ? (x) : (y))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="149" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1ab0796fe82ce9bc7a1146ec818219d226" prot="public" static="no">
+        <name>COM_INC_USAGE_CNT</name>
+        <param><defname>pOpenHead</defname></param>
+        <initializer>InterlockedIncrement(&amp;(pOpenHead-&gt;StructUsers))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="156" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="mdd_8h_1a5297f1634cd352c1d1405ae209389c7d" prot="public" static="no">
+        <name>COM_DEC_USAGE_CNT</name>
+        <param><defname>pOpenHead</defname></param>
+        <initializer>InterlockedDecrement(&amp;(pOpenHead-&gt;StructUsers))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="159" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="mdd_8h_1a9d883f3ce5b788448b5acfef782a5993" prot="public" static="no">
+        <type>struct <ref refid="struct_____c_o_m_m___e_v_e_n_t_s" kindref="compound">__COMM_EVENTS</ref></type>
+        <definition>typedef struct __COMM_EVENTS COMM_EVENTS</definition>
+        <argsstring></argsstring>
+        <name>COMM_EVENTS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="16" column="13"/>
+      </memberdef>
+      <memberdef kind="typedef" id="mdd_8h_1a23e29049d47b5706a1e67a6e02da74c8" prot="public" static="no">
+        <type>struct <ref refid="struct_____c_o_m_m___e_v_e_n_t_s" kindref="compound">__COMM_EVENTS</ref> *</type>
+        <definition>typedef struct __COMM_EVENTS * PCOMM_EVENTS</definition>
+        <argsstring></argsstring>
+        <name>PCOMM_EVENTS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="16" column="27"/>
+      </memberdef>
+      <memberdef kind="typedef" id="mdd_8h_1aeab1f09be28803c991454860ff7a4feb" prot="public" static="no">
+        <type>struct <ref refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o" kindref="compound">__RX_BUFFER_INFO</ref></type>
+        <definition>typedef struct __RX_BUFFER_INFO RX_BUFFER_INFO</definition>
+        <argsstring></argsstring>
+        <name>RX_BUFFER_INFO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="30" column="16"/>
+      </memberdef>
+      <memberdef kind="typedef" id="mdd_8h_1ae04447a653018d81b61f1cfc88f17f9c" prot="public" static="no">
+        <type>struct <ref refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o" kindref="compound">__RX_BUFFER_INFO</ref> *</type>
+        <definition>typedef struct __RX_BUFFER_INFO * PRX_BUFFER_INFO</definition>
+        <argsstring></argsstring>
+        <name>PRX_BUFFER_INFO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="30" column="33"/>
+      </memberdef>
+      <memberdef kind="typedef" id="mdd_8h_1a502a7a444855ce6229ecda243bb94f54" prot="public" static="no">
+        <type>struct <ref refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o" kindref="compound">__TX_BUFFER_INFO</ref></type>
+        <definition>typedef struct __TX_BUFFER_INFO TX_BUFFER_INFO</definition>
+        <argsstring></argsstring>
+        <name>TX_BUFFER_INFO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="52" column="16"/>
+      </memberdef>
+      <memberdef kind="typedef" id="mdd_8h_1a433e14e7a37886134b6bae8816abae2a" prot="public" static="no">
+        <type>struct <ref refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o" kindref="compound">__TX_BUFFER_INFO</ref> *</type>
+        <definition>typedef struct __TX_BUFFER_INFO * PTX_BUFFER_INFO</definition>
+        <argsstring></argsstring>
+        <name>PTX_BUFFER_INFO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="52" column="33"/>
+      </memberdef>
+      <memberdef kind="typedef" id="mdd_8h_1a571ee1b864e8878e277e7e11d8bf282d" prot="public" static="no">
+        <type>VOID(*</type>
+        <definition>typedef VOID(* COMMFUNC) (PVOID pHead)</definition>
+        <argsstring>)(PVOID pHead)</argsstring>
+        <name>COMMFUNC</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="61" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="mdd_8h_1a9f9979002850555692dcdfe3abc39b68" prot="public" static="no">
+        <type>struct __HWOBJ</type>
+        <definition>typedef struct __HWOBJ HWOBJ</definition>
+        <argsstring></argsstring>
+        <name>HWOBJ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="61" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="mdd_8h_1a2b4cc80621072e9dda16116cca029671" prot="public" static="no">
+        <type>struct __HWOBJ *</type>
+        <definition>typedef struct __HWOBJ * PHWOBJ</definition>
+        <argsstring></argsstring>
+        <name>PHWOBJ</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="64" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="mdd_8h_1a2d897f97c372be7f35772a8c2e26ca5e" prot="public" static="no">
+        <type>struct <ref refid="struct_____h_w___o_p_e_n___i_n_f_o" kindref="compound">__HW_OPEN_INFO</ref></type>
+        <definition>typedef struct __HW_OPEN_INFO HW_OPEN_INFO</definition>
+        <argsstring></argsstring>
+        <name>HW_OPEN_INFO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="64" column="23" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="mdd_8h_1a0b2d0eaf22a1ef6e11edbfe9868d5d89" prot="public" static="no">
+        <type>struct <ref refid="struct_____h_w___o_p_e_n___i_n_f_o" kindref="compound">__HW_OPEN_INFO</ref> *</type>
+        <definition>typedef struct __HW_OPEN_INFO * PHW_OPEN_INFO</definition>
+        <argsstring></argsstring>
+        <name>PHW_OPEN_INFO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="65" column="30" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="mdd_8h_1af57b92b479e189e6b9e39836fb0bf045" prot="public" static="no">
+        <type>struct <ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o" kindref="compound">__HW_INDEP_INFO</ref></type>
+        <definition>typedef struct __HW_INDEP_INFO HW_INDEP_INFO</definition>
+        <argsstring></argsstring>
+        <name>HW_INDEP_INFO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="108" column="15"/>
+      </memberdef>
+      <memberdef kind="typedef" id="mdd_8h_1a7d937545f35a0713652a4face372a53d" prot="public" static="no">
+        <type>struct <ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o" kindref="compound">__HW_INDEP_INFO</ref> *</type>
+        <definition>typedef struct __HW_INDEP_INFO * PHW_INDEP_INFO</definition>
+        <argsstring></argsstring>
+        <name>PHW_INDEP_INFO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="108" column="31"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="mdd_8h_1ab98504d1b78df7355905a79b5b77bc4a" prot="public" static="yes" mutable="no">
+        <type><ref refid="mdd_8h_1a7d937545f35a0713652a4face372a53d" kindref="member">PHW_INDEP_INFO</ref></type>
+        <definition>PHW_INDEP_INFO pGlobalSerialHead[MAX_SERIAL_INDEX]</definition>
+        <argsstring>[MAX_SERIAL_INDEX]</argsstring>
+        <name>pGlobalSerialHead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="139" column="21" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="mdd_8h_1aa650082473b87e2cf243097454e53a9a" prot="public" static="yes" mutable="no">
+        <type>ULONG</type>
+        <definition>ULONG GlobalSerialHeadNumber</definition>
+        <argsstring></argsstring>
+        <name>GlobalSerialHeadNumber</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="140" column="12" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="mdd_8h_1a6eabda22e169f82e780d432ed820b2ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__inline ULONG</type>
+        <definition>__inline ULONG RxBytesAvail</definition>
+        <argsstring>(PHW_INDEP_INFO pSH)</argsstring>
+        <name>RxBytesAvail</name>
+        <param>
+          <type><ref refid="mdd_8h_1a7d937545f35a0713652a4face372a53d" kindref="member">PHW_INDEP_INFO</ref></type>
+          <declname>pSH</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="110" column="17" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" bodystart="110" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="mdd_8h_1a30d5b3ac77e297d46f8189a663109125" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="mdd_8h_1a7d937545f35a0713652a4face372a53d" kindref="member">PHW_INDEP_INFO</ref></type>
+        <definition>static PHW_INDEP_INFO GetSerialHead</definition>
+        <argsstring>(PVOID pHead)</argsstring>
+        <name>GetSerialHead</name>
+        <param>
+          <type>PVOID</type>
+          <declname>pHead</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="144" column="1" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" declline="144" declcolumn="1"/>
+      </memberdef>
+      <memberdef kind="function" id="mdd_8h_1aff0d0406f7e36c041982caab8d702842" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>VOID</type>
+        <definition>VOID SerialEventHandler</definition>
+        <argsstring>(PHW_INDEP_INFO pSerialHead)</argsstring>
+        <name>SerialEventHandler</name>
+        <param>
+          <type><ref refid="mdd_8h_1a7d937545f35a0713652a4face372a53d" kindref="member">PHW_INDEP_INFO</ref></type>
+          <declname>pSerialHead</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" line="163" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.c" bodystart="196" bodyend="398" declfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h" declline="163" declcolumn="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#ifndef<sp/>__MDD_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>__MDD_H__</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>serial<sp/>event<sp/>structure<sp/>contains<sp/>fields<sp/>used<sp/>to<sp/>pass<sp/>serial</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>event<sp/>information<sp/>from<sp/>the<sp/>PDD<sp/>to<sp/>the<sp/>MDD.<sp/><sp/>This<sp/>information</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>is<sp/>passed<sp/>via<sp/>a<sp/>callback,<sp/>so<sp/>the<sp/>scope<sp/>of<sp/>this<sp/>structure<sp/>remains</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>limited<sp/>to<sp/>the<sp/>MDD.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="struct_____c_o_m_m___e_v_e_n_t_s" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_____c_o_m_m___e_v_e_n_t_s" kindref="compound">__COMM_EVENTS</ref><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11" refid="struct_____c_o_m_m___e_v_e_n_t_s_1adbd14a158428fe9c0cdd66ed88a66fa7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>HANDLE<sp/><sp/><ref refid="struct_____c_o_m_m___e_v_e_n_t_s_1adbd14a158428fe9c0cdd66ed88a66fa7" kindref="member">hCommEvent</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Indicates<sp/>serial<sp/>events<sp/>from<sp/>PDD<sp/>to<sp/>MDD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="struct_____c_o_m_m___e_v_e_n_t_s_1a2ce5c949fb81f8514631eac7b78a25d5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><ref refid="struct_____c_o_m_m___e_v_e_n_t_s_1a2ce5c949fb81f8514631eac7b78a25d5" kindref="member">fEventMask</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Event<sp/>Mask<sp/>requestd<sp/>by<sp/>application<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="struct_____c_o_m_m___e_v_e_n_t_s_1a2e18d8541fe7370bbd64d2d11155f4c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><ref refid="struct_____c_o_m_m___e_v_e_n_t_s_1a2e18d8541fe7370bbd64d2d11155f4c7" kindref="member">fEventData</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Event<sp/>Mask<sp/>Flag.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="struct_____c_o_m_m___e_v_e_n_t_s_1ab5c2cb6c2eea78cdb517329a34a4a390" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><ref refid="struct_____c_o_m_m___e_v_e_n_t_s_1ab5c2cb6c2eea78cdb517329a34a4a390" kindref="member">fAbort</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>TRUE<sp/>after<sp/>SetCommMask(<sp/>0<sp/>)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="struct_____c_o_m_m___e_v_e_n_t_s_1a3856cc32be55f0c6853dc62de6c55002" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>CRITICAL_SECTION<sp/><ref refid="struct_____c_o_m_m___e_v_e_n_t_s_1a3856cc32be55f0c6853dc62de6c55002" kindref="member">EventCS</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/><sp/>CommEvent<sp/>access<sp/>and<sp/>related<sp/>sign<sp/>atom</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><ref refid="mdd_8h_1a9d883f3ce5b788448b5acfef782a5993" kindref="member">COMM_EVENTS</ref>,<sp/>*<ref refid="mdd_8h_1a23e29049d47b5706a1e67a6e02da74c8" kindref="member">PCOMM_EVENTS</ref>;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>@doc</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>@struct<sp/>RX_BUFFER_INFO<sp/>|<sp/>Driver<sp/>Receive<sp/>Buffer<sp/>Information.</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o" kindref="compound">__RX_BUFFER_INFO</ref><sp/>{</highlight></codeline>
+<codeline lineno="24" refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o_1af7a4350c0e81d097267984ca8bcc6216" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><ref refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o_1af7a4350c0e81d097267984ca8bcc6216" kindref="member">Read</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>@field<sp/>Current<sp/>Read<sp/>index.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25" refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o_1a1389a7f5f4f372993bde25c38954fdd7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><ref refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o_1a1389a7f5f4f372993bde25c38954fdd7" kindref="member">Write</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>@field<sp/>Current<sp/>Write<sp/>index.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26" refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o_1a054f4f56ebe3a548d88477ccc6e07eaa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><ref refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o_1a054f4f56ebe3a548d88477ccc6e07eaa" kindref="member">Length</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>@field<sp/>Length<sp/>of<sp/>buffer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o_1a46ec6ea4623662cbe31d04f2e68cec27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>BOOL<sp/><sp/><sp/><sp/><ref refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o_1a46ec6ea4623662cbe31d04f2e68cec27" kindref="member">DataAvail</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>@field<sp/>BOOL<sp/>reflecting<sp/>existence<sp/>of<sp/>data.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28" refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o_1af2f619f01a5faea7fb7f37bfc05cc49a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>PUCHAR<sp/><sp/><ref refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o_1af2f619f01a5faea7fb7f37bfc05cc49a" kindref="member">RxCharBuffer</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>@field<sp/>Start<sp/>of<sp/>buffer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o_1a0a0b8480e8876c789be53c3f9886d221" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>CRITICAL_SECTION<sp/><sp/><sp/><sp/><ref refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o_1a0a0b8480e8876c789be53c3f9886d221" kindref="member">CS</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>@field<sp/>Critical<sp/>section<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><ref refid="mdd_8h_1aeab1f09be28803c991454860ff7a4feb" kindref="member">RX_BUFFER_INFO</ref>,<sp/>*<ref refid="mdd_8h_1ae04447a653018d81b61f1cfc88f17f9c" kindref="member">PRX_BUFFER_INFO</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="mdd_8h_1af20d7b7f53e9eafdb9367c86f2be92aa" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RxResetFifo(pSH)<sp/><sp/><sp/>pSH-&gt;RxBufferInfo.Write<sp/>=<sp/>pSH-&gt;RxBufferInfo.Read<sp/>=<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33" refid="mdd_8h_1a457ee310a66bcb363737d6565fa5ef65" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RxEnterCS(pSH)<sp/><sp/><sp/><sp/><sp/>EnterCriticalSection<sp/>(&amp;(pSH-&gt;RxBufferInfo.CS))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34" refid="mdd_8h_1a6a416437a9d8b47c45f602d67758e65c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RxLeaveCS(pSH)<sp/><sp/><sp/><sp/><sp/>LeaveCriticalSection<sp/>(&amp;(pSH-&gt;RxBufferInfo.CS))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="mdd_8h_1a2d2c67763e56ea58c18d8b47719e5275" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RxWrite(pSH)<sp/><sp/><sp/><sp/><sp/><sp/><sp/>(pSH-&gt;RxBufferInfo.Write)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36" refid="mdd_8h_1a989a3317ba81a2172cc4ee6b9d84073b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RxRead(pSH)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(pSH-&gt;RxBufferInfo.Read)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="mdd_8h_1a25b822c8214a4d4c505ea766017928c7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RxLength(pSH)<sp/><sp/><sp/><sp/><sp/><sp/>(pSH-&gt;RxBufferInfo.Length)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Don&apos;t<sp/>use<sp/>the<sp/>power<sp/>of<sp/>2<sp/>trick<sp/>for<sp/>length,<sp/>because<sp/>the<sp/>PDD<sp/>has<sp/>option<sp/>of<sp/>overriding</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="comment">//<sp/>buffer<sp/>length,<sp/>and<sp/>may<sp/>not<sp/>specify<sp/>a<sp/>power<sp/>of<sp/>2.<sp/><sp/>Lets<sp/>be<sp/>more<sp/>flexible<sp/>&amp;<sp/>a<sp/>very</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">//<sp/>little<sp/>bit<sp/>slower.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="comment">//<sp/>#define<sp/>RxBytesAvail(pSH)<sp/><sp/>((RxWrite(pSH)<sp/>-<sp/>RxRead(pSH))<sp/>&amp;<sp/>(RxLength(pSH)<sp/>-<sp/>1))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="mdd_8h_1acbd964415e57fa9ce9108b91620f0d9d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RxBuffWrite(pSH)<sp/><sp/><sp/>(pSH-&gt;RxBufferInfo.RxCharBuffer+pSH-&gt;RxBufferInfo.Write)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44" refid="mdd_8h_1a81a09844cd54f443376fb7cff3d97587" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RxBuffRead(pSH)<sp/><sp/><sp/><sp/>(pSH-&gt;RxBufferInfo.RxCharBuffer+pSH-&gt;RxBufferInfo.Read)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o" kindref="compound">__TX_BUFFER_INFO</ref><sp/>{</highlight></codeline>
+<codeline lineno="47" refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1a9dc9ed79720fe74eb08f637d5a000fc2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/><ref refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1a9dc9ed79720fe74eb08f637d5a000fc2" kindref="member">Permissions</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>@field<sp/>Current<sp/>permissions<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1aac86cd08533dd3ce4df109c1455c9904" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><ref refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1aac86cd08533dd3ce4df109c1455c9904" kindref="member">Read</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>@field<sp/>Current<sp/>Read<sp/>index.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49" refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1abe41a3f81c7e5b95a7de954ea55ec31c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><ref refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1abe41a3f81c7e5b95a7de954ea55ec31c" kindref="member">Length</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>@field<sp/>Length<sp/>of<sp/>buffer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1af00f0a0d0bebd5b410bad453109b5415" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>PUCHAR<sp/><sp/><ref refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1af00f0a0d0bebd5b410bad453109b5415" kindref="member">TxCharBuffer</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>@field<sp/>Start<sp/>of<sp/>buffer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1a997ab1a728309d99a7281c6f8c271720" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>CRITICAL_SECTION<sp/><sp/><sp/><sp/><ref refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o_1a997ab1a728309d99a7281c6f8c271720" kindref="member">CS</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>@field<sp/>Critical<sp/>section<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}<sp/><ref refid="mdd_8h_1a502a7a444855ce6229ecda243bb94f54" kindref="member">TX_BUFFER_INFO</ref>,<sp/>*<ref refid="mdd_8h_1a433e14e7a37886134b6bae8816abae2a" kindref="member">PTX_BUFFER_INFO</ref>;</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54" refid="mdd_8h_1a472e933fda22c512633461c3e6c4accd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TxEnterCS(pSH)<sp/><sp/><sp/><sp/><sp/>EnterCriticalSection<sp/>(&amp;(pSH-&gt;TxBufferInfo.CS))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55" refid="mdd_8h_1ab5b1dbcd96eb9c181724373574422eb7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TxLeaveCS(pSH)<sp/><sp/><sp/><sp/><sp/>LeaveCriticalSection<sp/>(&amp;(pSH-&gt;TxBufferInfo.CS))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56" refid="mdd_8h_1ad9b20f022e4ec7f244fbef504800f9cf" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TxRead(pSH)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(pSH-&gt;TxBufferInfo.Read)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="57" refid="mdd_8h_1a7d32b2492abbaecf351cb8183bd6b8fb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TxLength(pSH)<sp/><sp/><sp/><sp/><sp/><sp/>(pSH-&gt;TxBufferInfo.Length)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="mdd_8h_1a19cfb18b7b7624d07bad804fde918569" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TxBytesAvail(pSH)<sp/><sp/>(TxLength(pSH)-TxRead(pSH))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59" refid="mdd_8h_1a97452572397273f68c257a74d006d810" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TxBuffRead(pSH)<sp/><sp/><sp/><sp/>(pSH-&gt;TxBufferInfo.TxCharBuffer+pSH-&gt;TxBufferInfo.Read)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61" refid="mdd_8h_1a571ee1b864e8878e277e7e11d8bf282d" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>VOID<sp/>(*<ref refid="mdd_8h_1a571ee1b864e8878e277e7e11d8bf282d" kindref="member">COMMFUNC</ref>)(PVOID<sp/><sp/>pHead);</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Forward<sp/>declare<sp/>for<sp/>use<sp/>below</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="mdd_8h_1a2b4cc80621072e9dda16116cca029671" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">__HWOBJ<sp/><ref refid="mdd_8h_1a9f9979002850555692dcdfe3abc39b68" kindref="member">HWOBJ</ref>,<sp/>*<ref refid="mdd_8h_1a2b4cc80621072e9dda16116cca029671" kindref="member">PHWOBJ</ref>;</highlight></codeline>
+<codeline lineno="65" refid="mdd_8h_1a0b2d0eaf22a1ef6e11edbfe9868d5d89" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_____h_w___o_p_e_n___i_n_f_o" kindref="compound">__HW_OPEN_INFO</ref><sp/><ref refid="struct_____h_w___o_p_e_n___i_n_f_o" kindref="compound">HW_OPEN_INFO</ref>,<sp/>*<ref refid="mdd_8h_1a0b2d0eaf22a1ef6e11edbfe9868d5d89" kindref="member">PHW_OPEN_INFO</ref>;</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="comment">//<sp/>@struct<sp/><sp/>HW_INDEP_INFO<sp/>|<sp/>Hardware<sp/>Independent<sp/>Serial<sp/>Driver<sp/>Head<sp/>Information.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="struct_____h_w___i_n_d_e_p___i_n_f_o" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o" kindref="compound">__HW_INDEP_INFO</ref><sp/>{</highlight></codeline>
+<codeline lineno="69" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1ab6af9eef8012ccf68e85081af200cdd2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>CRITICAL_SECTION<sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1ab6af9eef8012ccf68e85081af200cdd2" kindref="member">TransmitCritSec1</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Protects<sp/>tx<sp/>action</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1af0c3a1ddf755418037899b51258b1a73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>CRITICAL_SECTION<sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1af0c3a1ddf755418037899b51258b1a73" kindref="member">ReceiveCritSec1</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Protects<sp/>rx<sp/>action</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1abd9dcf9a3a0d30b1f4252b28737903c7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="mdd_8h_1a2b4cc80621072e9dda16116cca029671" kindref="member">PHWOBJ</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1abd9dcf9a3a0d30b1f4252b28737903c7" kindref="member">pHWObj</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Represents<sp/>PDD<sp/>object.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1af2f342aba6f1f0cd7e79fd7d6599773a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>PVOID<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1af2f342aba6f1f0cd7e79fd7d6599773a" kindref="member">pHWHead</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Device<sp/>context<sp/>for<sp/>PDD.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a600ddee038a53683a8f31febf646c40a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>HANDLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a600ddee038a53683a8f31febf646c40a" kindref="member">hSerialEvent</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Serial<sp/>event,<sp/>both<sp/>rx<sp/>and<sp/>tx</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1af482df826b7892317cf5f834eb904c5b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>HANDLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1af482df826b7892317cf5f834eb904c5b" kindref="member">hReadEvent</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Serial<sp/>event,<sp/>both<sp/>rx<sp/>and<sp/>tx</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="77" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1af37114c30f90dedfa3fc9abb08ddbc6d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>HANDLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1af37114c30f90dedfa3fc9abb08ddbc6d" kindref="member">hKillDispatchThread</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Synchonize<sp/>thread<sp/>end</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="78" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a57d93b92288f5de22b19d3273b61ea4b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>HANDLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a57d93b92288f5de22b19d3273b61ea4b" kindref="member">hTransmitEvent</ref>;<sp/></highlight><highlight class="comment">//<sp/>@field<sp/>transmit<sp/>event,<sp/>both<sp/>rx<sp/>and<sp/>tx</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a5d7ab14bd3742d59b2f49638e5a35d75" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>HANDLE<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a5d7ab14bd3742d59b2f49638e5a35d75" kindref="member">pDispatchThread</ref>;</highlight><highlight class="comment">//<sp/>@field<sp/>ReceiveThread<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="80" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a66259a9f960694896fe2e851052f12f3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a66259a9f960694896fe2e851052f12f3" kindref="member">Priority256</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>CeThreadPriority<sp/>of<sp/>Dispatch<sp/>Thread.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="81" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1ab75a4cc3fd646156fd74e1baf5dc3f69" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1ab75a4cc3fd646156fd74e1baf5dc3f69" kindref="member">DroppedBytesMDD</ref>;</highlight><highlight class="comment">//<sp/>@field<sp/>Record<sp/>of<sp/>bytes<sp/>dropped<sp/>by<sp/>MDD.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1aa0896838c3e1b1617b4fa28aaeb73ae5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1aa0896838c3e1b1617b4fa28aaeb73ae5" kindref="member">DroppedBytesPDD</ref>;</highlight><highlight class="comment">//<sp/>@field<sp/>Record<sp/>of<sp/>bytes<sp/>dropped<sp/>by<sp/>PDD.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a4a28f621791ed5b2f8945ea4bf7e9a79" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a4a28f621791ed5b2f8945ea4bf7e9a79" kindref="member">RxBytes</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Record<sp/>of<sp/>total<sp/>bytes<sp/>received.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="84" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a4e08c1061a980d27c3c26fce26017460" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a4e08c1061a980d27c3c26fce26017460" kindref="member">TxBytes</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Record<sp/>of<sp/>total<sp/>bytes<sp/>transmitted.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="85" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a534610a756b17b98dcdd7fc935a458c5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a534610a756b17b98dcdd7fc935a458c5" kindref="member">TxBytesPending</ref>;<sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Record<sp/>of<sp/>total<sp/>bytes<sp/>awaiting<sp/>transmit.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1ab7d5a5cbc927b6c8505c746c0e58d5a4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1ab7d5a5cbc927b6c8505c746c0e58d5a4" kindref="member">TxBytesSent</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Record<sp/>of<sp/>bytes<sp/>sent<sp/>in<sp/>one<sp/>transmission</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="87" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1acc505fe61c532cb6d8c468d3725ff3ac" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1acc505fe61c532cb6d8c468d3725ff3ac" kindref="member">DCB</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1acc505fe61c532cb6d8c468d3725ff3ac" kindref="member">DCB</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>DCB<sp/>(see<sp/>Win32<sp/>Documentation.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="88" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a61165382e3faef95e29313e2bfbdcc05" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>COMMTIMEOUTS<sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a61165382e3faef95e29313e2bfbdcc05" kindref="member">CommTimeouts</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Time<sp/>control<sp/>field.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="89" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1abde36d66a2fa1088bac253d9216390a2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1abde36d66a2fa1088bac253d9216390a2" kindref="member">OpenCnt</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Protects<sp/>use<sp/>of<sp/>this<sp/>port<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="90" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1ae493e81d52c5850afe67d084aac77d01" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1ae493e81d52c5850afe67d084aac77d01" kindref="member">KillRxThread</ref>:1;<sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Flag<sp/>to<sp/>terminate<sp/>SerialDispatch<sp/>thread.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a44589f14378955069ba4f4138982a1d2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a44589f14378955069ba4f4138982a1d2" kindref="member">XFlow</ref>:1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>True<sp/>if<sp/>Xon/Xoff<sp/>flow<sp/>ctrl.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="92" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1acccbba674dadf1988f0e7b70c3968077" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1acccbba674dadf1988f0e7b70c3968077" kindref="member">StopXmit</ref>:1;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Stop<sp/>transmission<sp/>flag.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1ad9b8fcf83c7ced0af73fcade2730ae2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1ad9b8fcf83c7ced0af73fcade2730ae2c" kindref="member">SentXoff</ref>:1;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>True<sp/>if<sp/>XOFF<sp/>sent.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a36837e1ec96825e5fed451ccacad3b27" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a36837e1ec96825e5fed451ccacad3b27" kindref="member">DtrFlow</ref>:1;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>True<sp/>if<sp/>currently<sp/>DTRFlowed<sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a0ae444123b328c7f7fa92c5b380ffb80" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a0ae444123b328c7f7fa92c5b380ffb80" kindref="member">RtsFlow</ref>:1;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>True<sp/>if<sp/>currently<sp/>RTSFlowed</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="96" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a73b2be619245fc55cf3e2ad11173221b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a73b2be619245fc55cf3e2ad11173221b" kindref="member">fAbortRead</ref>:1;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Used<sp/>for<sp/>PURGE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="97" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a74ad96968f1600840a067f13c553b96a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a74ad96968f1600840a067f13c553b96a" kindref="member">fAbortTransmit</ref>:1;</highlight><highlight class="comment">//<sp/>@field<sp/>Used<sp/>for<sp/>PURGE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a018ce6caf24083e4183b2a22e67582eb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a018ce6caf24083e4183b2a22e67582eb" kindref="member">Reserved</ref>:24;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>remaining<sp/>bits.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="99" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a1f707f4702fc89cf2b46876e4c44f0bc" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ULONG<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a1f707f4702fc89cf2b46876e4c44f0bc" kindref="member">fEventMask</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Sum<sp/>of<sp/>event<sp/>mask<sp/>for<sp/>all<sp/>opens</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a9611b01ac91dd8080cdb0d4a31d425b2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_____r_x___b_u_f_f_e_r___i_n_f_o" kindref="compound">RX_BUFFER_INFO</ref><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a9611b01ac91dd8080cdb0d4a31d425b2" kindref="member">RxBufferInfo</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>rx<sp/>buffer<sp/>info.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="101" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a206fcd2c1f7aface39164ee22c322389" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_____t_x___b_u_f_f_e_r___i_n_f_o" kindref="compound">TX_BUFFER_INFO</ref><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a206fcd2c1f7aface39164ee22c322389" kindref="member">TxBufferInfo</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>tx<sp/>buffer<sp/>info.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="102"><highlight class="normal"></highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a823d6525400b87fa570e9e71ae307424" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>LIST_ENTRY<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a823d6525400b87fa570e9e71ae307424" kindref="member">OpenList</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Head<sp/>of<sp/>linked<sp/>list<sp/>of<sp/>OPEN_INFOs<sp/><sp/><sp/><sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a9582c736567344aaeee840e997e833fe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>CRITICAL_SECTION<sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1a9582c736567344aaeee840e997e833fe" kindref="member">OpenCS</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Protects<sp/>Open<sp/>Linked<sp/>List<sp/>+<sp/>ref<sp/>counts</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107" refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1af87a86713500c44143ba5a7e192b3633" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___o_p_e_n___i_n_f_o" kindref="compound">PHW_OPEN_INFO</ref><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o_1af87a86713500c44143ba5a7e192b3633" kindref="member">pAccessOwner</ref>;<sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Points<sp/>to<sp/>whichever<sp/>open<sp/>has<sp/>acess<sp/>permissions</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="108"><highlight class="normal">}<sp/><ref refid="mdd_8h_1af57b92b479e189e6b9e39836fb0bf045" kindref="member">HW_INDEP_INFO</ref>,<sp/>*<ref refid="mdd_8h_1a7d937545f35a0713652a4face372a53d" kindref="member">PHW_INDEP_INFO</ref>;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="mdd_8h_1a6eabda22e169f82e780d432ed820b2ae" refkind="member"><highlight class="normal">__inline<sp/><sp/>ULONG<sp/><ref refid="mdd_8h_1a6eabda22e169f82e780d432ed820b2ae" kindref="member">RxBytesAvail</ref>(<ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o" kindref="compound">PHW_INDEP_INFO</ref><sp/><sp/>pSH)<sp/>{</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Note:<sp/>We<sp/>have<sp/>to<sp/>copy<sp/>RxRead<sp/>and<sp/>RxWrite<sp/>index<sp/>to<sp/>local<sp/>in<sp/>order<sp/>to<sp/>make<sp/>it<sp/>atomic.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">register</highlight><highlight class="normal"><sp/>DWORD<sp/>RxWIndex=<ref refid="mdd_8h_1a2d2c67763e56ea58c18d8b47719e5275" kindref="member">RxWrite</ref>(pSH),<sp/>RxRIndex=<ref refid="mdd_8h_1a989a3317ba81a2172cc4ee6b9d84073b" kindref="member">RxRead</ref>(pSH);</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(RxWIndex&gt;=RxRIndex?RxWIndex-<sp/>RxRIndex<sp/>:<sp/><ref refid="mdd_8h_1a25b822c8214a4d4c505ea766017928c7" kindref="member">RxLength</ref>(pSH)<sp/>-<sp/>RxRIndex<sp/>+<sp/>RxWIndex<sp/>);</highlight></codeline>
+<codeline lineno="114"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"></highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="comment">//<sp/>@struct<sp/><sp/>HW_OPEN_INFO<sp/>|<sp/>Info<sp/>pertaining<sp/>to<sp/>each<sp/>open<sp/>instance<sp/>of<sp/>a<sp/>device</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117" refid="struct_____h_w___o_p_e_n___i_n_f_o" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="struct_____h_w___o_p_e_n___i_n_f_o" kindref="compound">__HW_OPEN_INFO</ref><sp/>{</highlight></codeline>
+<codeline lineno="118" refid="struct_____h_w___o_p_e_n___i_n_f_o_1ab1c73eff896a882a70fda78ef005213a" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o" kindref="compound">PHW_INDEP_INFO</ref><sp/><sp/><ref refid="struct_____h_w___o_p_e_n___i_n_f_o_1ab1c73eff896a882a70fda78ef005213a" kindref="member">pSerialHead</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Pointer<sp/>back<sp/>to<sp/>our<sp/>HW_INDEP_INFO</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="119" refid="struct_____h_w___o_p_e_n___i_n_f_o_1abc6136b48a9fcf3ae403b3d429a83dec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___o_p_e_n___i_n_f_o_1abc6136b48a9fcf3ae403b3d429a83dec" kindref="member">AccessCode</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>What<sp/>permissions<sp/>was<sp/>this<sp/>opened<sp/>with</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120" refid="struct_____h_w___o_p_e_n___i_n_f_o_1ac347a99835608819dca95a9e4b8b96db" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___o_p_e_n___i_n_f_o_1ac347a99835608819dca95a9e4b8b96db" kindref="member">ShareMode</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>What<sp/>Share<sp/>Mode<sp/>was<sp/>this<sp/>opened<sp/>with</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121" refid="struct_____h_w___o_p_e_n___i_n_f_o_1ab4eb3fbade160c7bcc9a5d1f516b9032" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>DWORD<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___o_p_e_n___i_n_f_o_1ab4eb3fbade160c7bcc9a5d1f516b9032" kindref="member">StructUsers</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Count<sp/>of<sp/>threads<sp/>currently<sp/>using<sp/>struct.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="122" refid="struct_____h_w___o_p_e_n___i_n_f_o_1a62222affff97bee7e78a30e7b1ae101e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_____c_o_m_m___e_v_e_n_t_s" kindref="compound">COMM_EVENTS</ref><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___o_p_e_n___i_n_f_o_1a62222affff97bee7e78a30e7b1ae101e" kindref="member">CommEvents</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Contains<sp/>all<sp/>info<sp/>for<sp/>serial<sp/>event<sp/>handling</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="123" refid="struct_____h_w___o_p_e_n___i_n_f_o_1ae05d6d00e0c169f29a028090ad915184" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>LIST_ENTRY<sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_____h_w___o_p_e_n___i_n_f_o_1ae05d6d00e0c169f29a028090ad915184" kindref="member">llist</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>@field<sp/>Linked<sp/>list<sp/>of<sp/>OPEN_INFOs</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><ref refid="mdd_8h_1a2d897f97c372be7f35772a8c2e26ca5e" kindref="member">HW_OPEN_INFO</ref>,<sp/>*<ref refid="mdd_8h_1a0b2d0eaf22a1ef6e11edbfe9868d5d89" kindref="member">PHW_OPEN_INFO</ref>;</highlight></codeline>
+<codeline lineno="125"><highlight class="normal"></highlight></codeline>
+<codeline lineno="126" refid="mdd_8h_1a04f676a7cda264701e5418e8fbbb074d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>E_OF_CHAR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127" refid="mdd_8h_1ae30a37e266dacc29fac2dfb1f8fad3fd" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ERROR_CHAR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="mdd_8h_1a584fad596a0a807ca2594c062880b2ec" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>BREAK_CHAR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="129" refid="mdd_8h_1af45f70b36f0a24393d7bffecbe8c1d4b" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>EVENT_CHAR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0xd</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130" refid="mdd_8h_1a831e820af2c3a04cfd4ec6edc0157098" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>X_ON_CHAR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x11</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131" refid="mdd_8h_1a38f12764c4db54db334bf00f5ce38f04" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>X_OFF_CHAR<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x13</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="133" refid="mdd_8h_1ab79360e94c57fe3dfeef0008f20fef06" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>X_FLOW_CTRL<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0x1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="134"><highlight class="normal"></highlight></codeline>
+<codeline lineno="135" refid="mdd_8h_1a0f9f31aa8127e3392e2891566421c6f0" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>MAX_SERIAL_INDEX<sp/><sp/><sp/><sp/>16</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="136" refid="mdd_8h_1a739a2a1a0047c98ac1b18ecd25dac092" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>RX_BUFFER_SIZE<sp/><sp/><sp/><sp/><sp/><sp/>2048</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="137" refid="mdd_8h_1a9a176c550adf8441cb29311e2a8c43a3" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>COMM_FUNC_SIZE<sp/><sp/><sp/><sp/><sp/><sp/>16</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><sp/><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o" kindref="compound">PHW_INDEP_INFO</ref><sp/><sp/>pGlobalSerialHead[<ref refid="mdd_8h_1a0f9f31aa8127e3392e2891566421c6f0" kindref="member">MAX_SERIAL_INDEX</ref>];</highlight></codeline>
+<codeline lineno="140"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/><sp/>ULONG<sp/><sp/><sp/><sp/><sp/><sp/><sp/>GlobalSerialHeadNumber<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight></codeline>
+<codeline lineno="142"><highlight class="normal"></highlight><highlight class="keyword">static</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o" kindref="compound">PHW_INDEP_INFO</ref></highlight></codeline>
+<codeline lineno="144"><highlight class="normal">GetSerialHead(</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>PVOID<sp/><sp/><sp/>pHead</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>MIN</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149" refid="mdd_8h_1a74e75242132eaabbc1c512488a135926" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor"><sp/><sp/><sp/><sp/>#define<sp/>MIN(x,y)<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>((x)<sp/>&lt;<sp/>(y)<sp/>?<sp/>(x)<sp/>:<sp/>(y))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="153"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Macros<sp/>to<sp/>maintain<sp/>a<sp/>usage<sp/>count<sp/>for<sp/>a<sp/>particular<sp/>serial<sp/>structure,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="154"><highlight class="normal"></highlight><highlight class="comment">//<sp/>so<sp/>that<sp/>we<sp/>know<sp/>when<sp/>it<sp/>is<sp/>safe<sp/>to<sp/>deallocate<sp/>it.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight><highlight class="comment">//</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="mdd_8h_1ab0796fe82ce9bc7a1146ec818219d226" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>COM_INC_USAGE_CNT(pOpenHead)<sp/><sp/>\</highlight></codeline>
+<codeline lineno="157"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>InterlockedIncrement(&amp;(pOpenHead-&gt;StructUsers))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="158"><highlight class="normal"></highlight></codeline>
+<codeline lineno="159" refid="mdd_8h_1a5297f1634cd352c1d1405ae209389c7d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>COM_DEC_USAGE_CNT(pOpenHead)<sp/><sp/>\</highlight></codeline>
+<codeline lineno="160"><highlight class="preprocessor"><sp/><sp/><sp/><sp/>InterlockedDecrement(&amp;(pOpenHead-&gt;StructUsers))</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="161"><highlight class="normal"></highlight></codeline>
+<codeline lineno="162"><highlight class="normal">VOID</highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><ref refid="mdd_8h_1aff0d0406f7e36c041982caab8d702842" kindref="member">SerialEventHandler</ref>(<ref refid="struct_____h_w___i_n_d_e_p___i_n_f_o" kindref="compound">PHW_INDEP_INFO</ref><sp/>pSerialHead);</highlight></codeline>
+<codeline lineno="164"><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Implemented<sp/>by<sp/>hw<sp/>dependent<sp/>code.</highlight></codeline>
+<codeline lineno="166"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;serhw.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//<sp/>__MDD_H__</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/driver/mdd.h"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct__nmea_g_p_g_s_v" kind="struct" language="C++" prot="public">
+    <compoundname>_nmeaGPGSV</compoundname>
+    <includes refid="sentence_8h" local="no">sentence.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__nmea_g_p_g_s_v_1abd29f3bc841a0b98faa5ca85a5ad7431" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nmeaGPGSV::pack_count</definition>
+        <argsstring></argsstring>
+        <name>pack_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Total number of messages of this type in this cycle </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="76" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_g_s_v_1af5b5942c93ca6cb64650b0f1370d6efa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nmeaGPGSV::pack_index</definition>
+        <argsstring></argsstring>
+        <name>pack_index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Message number </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="77" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_g_s_v_1a0fa41cbaf6569a17a169436103d4b1bc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int _nmeaGPGSV::sat_count</definition>
+        <argsstring></argsstring>
+        <name>sat_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Total number of satellites in view </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="78" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_g_s_v_1a771484f8ccfd9a2a888847241bc6f902" prot="public" static="no" mutable="no">
+        <type><ref refid="info_8h_1aa192b420433240a9c7efd028072de559" kindref="member">nmeaSATELLITE</ref></type>
+        <definition>nmeaSATELLITE _nmeaGPGSV::sat_data[NMEA_SATINPACK]</definition>
+        <argsstring>[NMEA_SATINPACK]</argsstring>
+        <name>sat_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="79" column="19" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>GSV packet information structure (Satellites in view) </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>_nmeaGPGSV</label>
+        <link refid="struct__nmea_g_p_g_s_v"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>sat_data</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>_nmeaSATELLITE</label>
+        <link refid="struct__nmea_s_a_t_e_l_l_i_t_e"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="75" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="74" bodyend="81"/>
+    <listofallmembers>
+      <member refid="struct__nmea_g_p_g_s_v_1abd29f3bc841a0b98faa5ca85a5ad7431" prot="public" virt="non-virtual"><scope>_nmeaGPGSV</scope><name>pack_count</name></member>
+      <member refid="struct__nmea_g_p_g_s_v_1af5b5942c93ca6cb64650b0f1370d6efa" prot="public" virt="non-virtual"><scope>_nmeaGPGSV</scope><name>pack_index</name></member>
+      <member refid="struct__nmea_g_p_g_s_v_1a0fa41cbaf6569a17a169436103d4b1bc" prot="public" virt="non-virtual"><scope>_nmeaGPGSV</scope><name>sat_count</name></member>
+      <member refid="struct__nmea_g_p_g_s_v_1a771484f8ccfd9a2a888847241bc6f902" prot="public" virt="non-virtual"><scope>_nmeaGPGSV</scope><name>sat_data</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

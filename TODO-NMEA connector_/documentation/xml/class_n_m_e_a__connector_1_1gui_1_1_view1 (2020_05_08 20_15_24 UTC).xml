@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_n_m_e_a__connector_1_1gui_1_1_view1" kind="class" language="C#" prot="public">
+    <compoundname>NMEA_connector::gui::View1</compoundname>
+    <basecompoundref refid="class_n_m_e_a__connector_1_1gui_1_1_content_view" prot="public" virt="non-virtual">NMEA_connector.gui.ContentView</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1gui_1_1_view1_1a7043de2e0d3d9842b98e97b58a80c7ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.gui.View1.View1</definition>
+        <argsstring>()</argsstring>
+        <name>View1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/View1.xaml.cs" line="8" column="16" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/View1.xaml.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>NMEA_connector.gui.View1</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_view1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ContentView</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_content_view"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>NMEA_connector.gui.View1</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_view1"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ContentView</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_content_view"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/View1.xaml.cs" line="7" column="1" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/View1.xaml.cs" bodystart="6" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_n_m_e_a__connector_1_1gui_1_1_content_view_1ad18c3ce35240bf6e7abe231f424131b0" prot="public" virt="non-virtual"><scope>NMEA_connector::gui::View1</scope><name>ContentView</name></member>
+      <member refid="class_n_m_e_a__connector_1_1gui_1_1_view1_1a7043de2e0d3d9842b98e97b58a80c7ca" prot="public" virt="non-virtual"><scope>NMEA_connector::gui::View1</scope><name>View1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

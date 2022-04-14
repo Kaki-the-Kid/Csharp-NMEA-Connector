@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_n_m_e_a__connector_1_1library_1_1_nmea_library" kind="class" language="C#" prot="public">
+    <compoundname>NMEA_connector::library::NmeaLibrary</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_n_m_e_a__connector_1_1library_1_1_nmea_library_1a1838a68ebbfe49ca80943123cf0d933b" prot="public" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string NMEA_connector.library.NmeaLibrary.testString</definition>
+        <argsstring></argsstring>
+        <name>testString</name>
+        <initializer>= &quot;GPRMC,092751.000,<ref refid="gpslog_8txt_1a01da122e706492ad4a97164179f02bfa" kindref="member">A</ref>,5321.6802,<ref refid="gpslog_8txt_1a792aa59da0bc18e0a503db64cca3179b" kindref="member">N</ref>,00630.3371,<ref refid="gpslog_8txt_1a59a434b3424cf2c5eaa3551fdc203389" kindref="member">W</ref>,0.06,31.66,280511,,,<ref refid="gpslog_8txt_1a01da122e706492ad4a97164179f02bfa" kindref="member">A</ref>&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" line="90" column="29" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1library_1_1_nmea_library_1a6a6e6938153b4291c0c95d5040908ab6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void NMEA_connector.library.NmeaLibrary.ResolveCommand</definition>
+        <argsstring>(string commandLine=null)</argsstring>
+        <name>ResolveCommand</name>
+        <param>
+          <type>string</type>
+          <declname>commandLine</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" line="25" column="21" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" bodystart="25" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1library_1_1_nmea_library_1af48ee45398b3ffaa9a06c38b6bb83530" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void NMEA_connector.library.NmeaLibrary.TransmitJsonCommand</definition>
+        <argsstring>()</argsstring>
+        <name>TransmitJsonCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" line="81" column="21" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" bodystart="81" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1library_1_1_nmea_library_1a9a87a8cca7899f337d8db6b170cba2b9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void NMEA_connector.library.NmeaLibrary.ReceiveJsonCommand</definition>
+        <argsstring>()</argsstring>
+        <name>ReceiveJsonCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" line="85" column="21" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" bodystart="85" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1library_1_1_nmea_library_1aa4532750356574c121303821b2a9aa73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int NMEA_connector.library.NmeaLibrary.CalculateChecksum</definition>
+        <argsstring>(string nmeaString)</argsstring>
+        <name>CalculateChecksum</name>
+        <param>
+          <type>string</type>
+          <declname>nmeaString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Funktion der beregner og returnerer checksum for samlet NMEA kommando <simplesect kind="author"><para>Kaki </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>nmeaString</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>beregnede checksum af givet NMEA streng </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" line="98" column="20" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" bodystart="98" bodyend="114"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1library_1_1_nmea_library_1afc1421db46d8fcfd28c76a8735242683" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int NMEA_connector.library.NmeaLibrary.ReturnChecksum</definition>
+        <argsstring>(string nmeaString)</argsstring>
+        <name>ReturnChecksum</name>
+        <param>
+          <type>string</type>
+          <declname>nmeaString</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" line="117" column="20" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" bodystart="117" bodyend="122"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" line="19" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" bodystart="18" bodyend="123"/>
+    <listofallmembers>
+      <member refid="class_n_m_e_a__connector_1_1library_1_1_nmea_library_1aa4532750356574c121303821b2a9aa73" prot="public" virt="non-virtual"><scope>NMEA_connector::library::NmeaLibrary</scope><name>CalculateChecksum</name></member>
+      <member refid="class_n_m_e_a__connector_1_1library_1_1_nmea_library_1a9a87a8cca7899f337d8db6b170cba2b9" prot="public" virt="non-virtual"><scope>NMEA_connector::library::NmeaLibrary</scope><name>ReceiveJsonCommand</name></member>
+      <member refid="class_n_m_e_a__connector_1_1library_1_1_nmea_library_1a6a6e6938153b4291c0c95d5040908ab6" prot="public" virt="non-virtual"><scope>NMEA_connector::library::NmeaLibrary</scope><name>ResolveCommand</name></member>
+      <member refid="class_n_m_e_a__connector_1_1library_1_1_nmea_library_1afc1421db46d8fcfd28c76a8735242683" prot="public" virt="non-virtual"><scope>NMEA_connector::library::NmeaLibrary</scope><name>ReturnChecksum</name></member>
+      <member refid="class_n_m_e_a__connector_1_1library_1_1_nmea_library_1a1838a68ebbfe49ca80943123cf0d933b" prot="public" virt="non-virtual"><scope>NMEA_connector::library::NmeaLibrary</scope><name>testString</name></member>
+      <member refid="class_n_m_e_a__connector_1_1library_1_1_nmea_library_1af48ee45398b3ffaa9a06c38b6bb83530" prot="public" virt="non-virtual"><scope>NMEA_connector::library::NmeaLibrary</scope><name>TransmitJsonCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

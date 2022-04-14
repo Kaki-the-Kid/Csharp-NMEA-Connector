@@ -1,0 +1,20 @@
+﻿NMEA connector
+
+
+exe
+C#
+.cs
+C:\Users\krs\OneDrive - AARHUS TECH\Privat mappe\workspace\NMEA connector\obj\Debug\
+NMEA_connector
+none
+false
+DEBUG;TRACE
+
+3-1193609369
+3124971400
+23835797394
+17-2078535470
+gui\NMEA2000 Device List.xaml;gui\NMEA2000_Device Properties.xaml;gui\NMEA_main_window.xaml;
+
+True
+

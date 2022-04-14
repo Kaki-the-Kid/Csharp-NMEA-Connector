@@ -4,16 +4,16 @@
 exe
 C#
 .cs
-C:\Users\krs\OneDrive - AARHUS TECH\Dokumenter\Workspace\Csharp\NMEA connector\obj\Debug\
+G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\
 NMEA_connector
 none
 false
 DEBUG;TRACE
 
 3-1193609369
-3-210091159
-24-6561973
-17342894439
+31082033392
+23199022232
+17-1484275155
 gui\NMEA2000 Device List.xaml;gui\NMEA2000_Device Properties.xaml;gui\NMEA_main_window.xaml;
 
 True

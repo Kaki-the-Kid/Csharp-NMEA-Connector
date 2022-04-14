@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="_main_tab_8cpp" kind="file" language="C++">
+    <compoundname>MainTab.cpp</compoundname>
+    <includes refid="stdafx_8h" local="yes">stdafx.h</includes>
+    <includes refid="upkit_2resource_8h" local="yes">resource.h</includes>
+    <includes refid="_main_tab_8h" local="yes">MainTab.h</includes>
+    <includes refid="_dev_manager_8h" local="yes">DevManager.h</includes>
+    <incdepgraph>
+      <node id="18">
+        <label>iomanip</label>
+      </node>
+      <node id="12">
+        <label>atlframe.h</label>
+      </node>
+      <node id="4">
+        <label>atlapp.h</label>
+      </node>
+      <node id="7">
+        <label>Windows.h</label>
+      </node>
+      <node id="11">
+        <label>atlwin.h</label>
+      </node>
+      <node id="8">
+        <label>shlwapi.h</label>
+      </node>
+      <node id="2">
+        <label>stdafx.h</label>
+        <link refid="stdafx_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>resource.h</label>
+        <link refid="upkit_2resource_8h"/>
+      </node>
+      <node id="24">
+        <label>ddkreg.h</label>
+      </node>
+      <node id="23">
+        <label>DevManager.h</label>
+        <link refid="_dev_manager_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+      </node>
+      <node id="16">
+        <label>string</label>
+      </node>
+      <node id="10">
+        <label>atlmisc.h</label>
+      </node>
+      <node id="5">
+        <label>atlimage.h</label>
+      </node>
+      <node id="9">
+        <label>atlresCE.h</label>
+      </node>
+      <node id="22">
+        <label>MainTab.h</label>
+        <link refid="_main_tab_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="19">
+        <label>vector</label>
+      </node>
+      <node id="17">
+        <label>sstream</label>
+      </node>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainTab.cpp</label>
+        <link refid="_main_tab_8cpp"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="23" relation="include">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>atlbase.h</label>
+      </node>
+      <node id="6">
+        <label>atltime.h</label>
+      </node>
+      <node id="14">
+        <label>atldlgs.h</label>
+      </node>
+      <node id="15">
+        <label>aygshell.h</label>
+      </node>
+      <node id="20">
+        <label>algorithm</label>
+      </node>
+      <node id="13">
+        <label>atlctrls.h</label>
+      </node>
+    </incdepgraph>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>MainTab.cpp<sp/>:<sp/>implementation<sp/>of<sp/>the<sp/>CMainTab<sp/>class</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="stdafx_8h" kindref="compound">stdafx.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="upkit_2resource_8h" kindref="compound">resource.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_main_tab_8h" kindref="compound">MainTab.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="_dev_manager_8h" kindref="compound">DevManager.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="class_c_main_tab_1a301ea379a90c19edbce2c4ff85e442ca" refkind="member"><highlight class="normal">LRESULT<sp/><ref refid="class_c_main_tab_1a301ea379a90c19edbce2c4ff85e442ca" kindref="member">CMainTab::OnInitDialog</ref>(UINT<sp/></highlight><highlight class="comment">/*uMsg*/</highlight><highlight class="normal">,<sp/>WPARAM<sp/></highlight><highlight class="comment">/*wParam*/</highlight><highlight class="normal">,<sp/>LPARAM<sp/></highlight><highlight class="comment">/*lParam*/</highlight><highlight class="normal">,<sp/>BOOL&amp;<sp/></highlight><highlight class="comment">/*bHandled*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>_dev_combo.Attach(GetDlgItem(<ref refid="upkit_2resource_8h_1a9f6a51cc31c4b4bf9b5396b6df5a534c" kindref="member">IDC_DRV_COMBO</ref>));</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>_dev_dectiv.Attach(GetDlgItem(<ref refid="upkit_2resource_8h_1aa13acda7f46c42a83842cc442d2212d0" kindref="member">IDDEACTIVATE</ref>));</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>TRUE;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19" refid="class_c_main_tab_1a3959f0835635ef2facfa4781b5a611fb" refkind="member"><highlight class="normal">LRESULT<sp/><ref refid="class_c_main_tab_1a3959f0835635ef2facfa4781b5a611fb" kindref="member">CMainTab::OnClose</ref>(UINT<sp/></highlight><highlight class="comment">/*uMsg*/</highlight><highlight class="normal">,<sp/>WPARAM<sp/></highlight><highlight class="comment">/*wParam*/</highlight><highlight class="normal">,<sp/>LPARAM<sp/></highlight><highlight class="comment">/*lParam*/</highlight><highlight class="normal">,<sp/>BOOL&amp;<sp/></highlight><highlight class="comment">/*bHandled*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="22"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24" refid="class_c_main_tab_1aa859bb5271d8f16af569586f925a7033" refkind="member"><highlight class="normal">LRESULT<sp/><ref refid="class_c_main_tab_1aa859bb5271d8f16af569586f925a7033" kindref="member">CMainTab::OnActivate</ref>(WORD<sp/></highlight><highlight class="comment">/*wNotifyCode*/</highlight><highlight class="normal">,<sp/>WORD<sp/>wID,<sp/>HWND<sp/></highlight><highlight class="comment">/*hWndCtl*/</highlight><highlight class="normal">,<sp/>BOOL&amp;<sp/></highlight><highlight class="comment">/*bHandled*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="class_dev_manager_1a8f6ed839dffa964799b1c975012b83a2" kindref="member">DevManager::specific</ref>()-&gt;ActivateDevice())</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MessageBox(_T(</highlight><highlight class="stringliteral">&quot;Driver<sp/>activation<sp/>error!&quot;</highlight><highlight class="normal">),<sp/>_T(</highlight><highlight class="stringliteral">&quot;Error&quot;</highlight><highlight class="normal">),<sp/>MB_OK);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32" refid="class_c_main_tab_1a1f6abca5292bdff1f256d24ac93d39d9" refkind="member"><highlight class="normal">LRESULT<sp/><ref refid="class_c_main_tab_1a1f6abca5292bdff1f256d24ac93d39d9" kindref="member">CMainTab::OnDeactivate</ref>(WORD<sp/></highlight><highlight class="comment">/*<sp/>wNotifyCode<sp/>*/</highlight><highlight class="normal">,<sp/>WORD<sp/></highlight><highlight class="comment">/*<sp/>wID<sp/>*/</highlight><highlight class="normal">,<sp/>HWND<sp/></highlight><highlight class="comment">/*hWndCtl*/</highlight><highlight class="normal">,<sp/>BOOL&amp;<sp/></highlight><highlight class="comment">/*bHandled*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!<ref refid="class_dev_manager_1a8f6ed839dffa964799b1c975012b83a2" kindref="member">DevManager::specific</ref>()-&gt;DeactivateDevice())</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>MessageBox(_T(</highlight><highlight class="stringliteral">&quot;Driver<sp/>deactivation<sp/>error!&quot;</highlight><highlight class="normal">),<sp/>_T(</highlight><highlight class="stringliteral">&quot;Error&quot;</highlight><highlight class="normal">),<sp/>MB_OK);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40" refid="class_c_main_tab_1ae2adb0b2750726d2d174c7225f3f01c8" refkind="member"><highlight class="normal">LRESULT<sp/><ref refid="class_c_main_tab_1ae2adb0b2750726d2d174c7225f3f01c8" kindref="member">CMainTab::OnCbnSelchangeDrvCombo</ref>(WORD<sp/></highlight><highlight class="comment">/*<sp/>wNotifyCode<sp/>*/</highlight><highlight class="normal">,<sp/>WORD<sp/></highlight><highlight class="comment">/*<sp/>wID<sp/>*/</highlight><highlight class="normal">,<sp/>HWND<sp/></highlight><highlight class="comment">/*hWndCtl*/</highlight><highlight class="normal">,<sp/>BOOL&amp;<sp/></highlight><highlight class="comment">/*bHandled*/</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>cur<sp/>=<sp/>_dev_combo.GetCurSel();</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="class_dev_manager_1a8f6ed839dffa964799b1c975012b83a2" kindref="member">DevManager::specific</ref>()-&gt;<ref refid="class_dev_manager_1a9d13ca8c315c618b9d9548539cc7b4f0" kindref="member">SetActiveDevice</ref>(cur);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>CMainTab::onDevChange()</highlight></codeline>
+<codeline lineno="48"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>_dev_combo.ResetContent();</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(0<sp/>==<sp/><ref refid="class_dev_manager_1a8f6ed839dffa964799b1c975012b83a2" kindref="member">DevManager::specific</ref>()-&gt;GetDevCount())</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dev_combo.EnableWindow(FALSE);</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dev_dectiv.EnableWindow(FALSE);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dev_combo.SetWindowText(_T(</highlight><highlight class="stringliteral">&quot;&quot;</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dev_combo.EnableWindow(TRUE);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dev_dectiv.EnableWindow(TRUE);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i<sp/>=<sp/>0;<sp/>i<sp/>&lt;<sp/><ref refid="class_dev_manager_1a8f6ed839dffa964799b1c975012b83a2" kindref="member">DevManager::specific</ref>()-&gt;<ref refid="class_dev_manager_1acbad3551c7d3d365078426ca1534d022" kindref="member">GetDevCount</ref>();<sp/>++i)</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dev_combo.InsertString(i,</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(<ref refid="namespacestd_1a18cacf074ba3b0545e391cd7ef0c4334" kindref="member">std::tstring</ref>(_T(</highlight><highlight class="stringliteral">&quot;VirtualGPS<sp/>-<sp/>&quot;</highlight><highlight class="normal">))<sp/>+<sp/><ref refid="class_dev_manager_1a8f6ed839dffa964799b1c975012b83a2" kindref="member">DevManager::specific</ref>()-&gt;GetDevInfo(i)-&gt;port).c_str());</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_dev_combo.SetCurSel(<ref refid="class_dev_manager_1a8f6ed839dffa964799b1c975012b83a2" kindref="member">DevManager::specific</ref>()-&gt;<ref refid="class_dev_manager_1a054d19d115ed63fd917c236cb2903d29" kindref="member">GetActiveDevice</ref>());</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/>_dev_combo.UpdateWindow();</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainTab.cpp"/>
+  </compounddef>
+</doxygen>

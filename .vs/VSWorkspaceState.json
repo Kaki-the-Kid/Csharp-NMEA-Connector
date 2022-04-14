@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\library"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\NMEA Connector.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps" kind="struct" language="C#" prot="public">
+    <compoundname>NMEA_connector::consol::StructGps</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a9f5397b0e7516b705ed809635869f3a5" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.consol.StructGps.GpsTimestamp</definition>
+        <argsstring></argsstring>
+        <name>GpsTimestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="9" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1af93ac4961c8509eca5a541ae5a1ef10a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NMEA_connector.consol.StructGps.GpsLatitudeDegree</definition>
+        <argsstring></argsstring>
+        <name>GpsLatitudeDegree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="11" column="20" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1add9d8315b7131b84a9f2105ba52ca057" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double NMEA_connector.consol.StructGps.GpsLatitudeMins</definition>
+        <argsstring></argsstring>
+        <name>GpsLatitudeMins</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="12" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1ade45dccdd9d780a1c21714ffa1f4bebc" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.consol.StructGps.GpsLatitudeDirection</definition>
+        <argsstring></argsstring>
+        <name>GpsLatitudeDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="13" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a6c8662a93947d1ce6692894b6fada1eb" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NMEA_connector.consol.StructGps.GpsLongitudeDegree</definition>
+        <argsstring></argsstring>
+        <name>GpsLongitudeDegree</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="15" column="20" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1aaba1267a7e549753909d6ede0bc2a0c6" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double NMEA_connector.consol.StructGps.GpsLongitudeMins</definition>
+        <argsstring></argsstring>
+        <name>GpsLongitudeMins</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="16" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a94fd5c2bf01e53837a486050dacd2bc2" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.consol.StructGps.GpsLongitudeDirection</definition>
+        <argsstring></argsstring>
+        <name>GpsLongitudeDirection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="17" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a53936a8ef41c7cbb0ceb34f1149a5bb6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NMEA_connector.consol.StructGps.GpsQuality</definition>
+        <argsstring></argsstring>
+        <name>GpsQuality</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="19" column="20" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a20bb13043eba78f42036872f7d62c83d" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.consol.StructGps.GpsQualityText</definition>
+        <argsstring></argsstring>
+        <name>GpsQualityText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="20" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a004e68e590a0d1427581cee1024a6100" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NMEA_connector.consol.StructGps.GpsNmbSatelites</definition>
+        <argsstring></argsstring>
+        <name>GpsNmbSatelites</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="22" column="20" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a19fa3fb171d858994a5f826edc92792f" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double NMEA_connector.consol.StructGps.GpsHdop</definition>
+        <argsstring></argsstring>
+        <name>GpsHdop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="23" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a1395a4672424b5c5a472051cbb3ef0c3" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double NMEA_connector.consol.StructGps.GpsAntenneAltitude</definition>
+        <argsstring></argsstring>
+        <name>GpsAntenneAltitude</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="24" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1aebda8105b9d8470dd86efb2e978c5c00" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.consol.StructGps.GpsAntennaAltitudemf</definition>
+        <argsstring></argsstring>
+        <name>GpsAntennaAltitudemf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="25" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1aff1fe99ea344061bf6b188871927c6c4" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double NMEA_connector.consol.StructGps.GpsGeoidalSeparation</definition>
+        <argsstring></argsstring>
+        <name>GpsGeoidalSeparation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="26" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a59b9a1af0f59e694b6e8a22e673f5837" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.consol.StructGps.GpsGeoidalSeparationmf</definition>
+        <argsstring></argsstring>
+        <name>GpsGeoidalSeparationmf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="27" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a4832e01187c6f166c43d511c47be3cd7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double NMEA_connector.consol.StructGps.GpsAgeCorrection</definition>
+        <argsstring></argsstring>
+        <name>GpsAgeCorrection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="28" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1aee69104d704b987a068eff2019e245b5" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.consol.StructGps.GpsStationId</definition>
+        <argsstring></argsstring>
+        <name>GpsStationId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="29" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1ad44fc80de446d0cd77b44be55bfabcd9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string NMEA_connector.consol.StructGps.GpsLastChecksum</definition>
+        <argsstring></argsstring>
+        <name>GpsLastChecksum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="30" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" line="4" column="1" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/StructGps.cs" bodystart="3" bodyend="31"/>
+    <listofallmembers>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a4832e01187c6f166c43d511c47be3cd7" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsAgeCorrection</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1aebda8105b9d8470dd86efb2e978c5c00" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsAntennaAltitudemf</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a1395a4672424b5c5a472051cbb3ef0c3" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsAntenneAltitude</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1aff1fe99ea344061bf6b188871927c6c4" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsGeoidalSeparation</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a59b9a1af0f59e694b6e8a22e673f5837" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsGeoidalSeparationmf</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a19fa3fb171d858994a5f826edc92792f" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsHdop</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1ad44fc80de446d0cd77b44be55bfabcd9" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsLastChecksum</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1af93ac4961c8509eca5a541ae5a1ef10a" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsLatitudeDegree</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1ade45dccdd9d780a1c21714ffa1f4bebc" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsLatitudeDirection</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1add9d8315b7131b84a9f2105ba52ca057" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsLatitudeMins</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a6c8662a93947d1ce6692894b6fada1eb" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsLongitudeDegree</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a94fd5c2bf01e53837a486050dacd2bc2" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsLongitudeDirection</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1aaba1267a7e549753909d6ede0bc2a0c6" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsLongitudeMins</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a004e68e590a0d1427581cee1024a6100" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsNmbSatelites</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a53936a8ef41c7cbb0ceb34f1149a5bb6" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsQuality</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a20bb13043eba78f42036872f7d62c83d" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsQualityText</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1aee69104d704b987a068eff2019e245b5" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsStationId</name></member>
+      <member refid="struct_n_m_e_a__connector_1_1consol_1_1_struct_gps_1a9f5397b0e7516b705ed809635869f3a5" prot="public" virt="non-virtual"><scope>NMEA_connector::consol::StructGps</scope><name>GpsTimestamp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

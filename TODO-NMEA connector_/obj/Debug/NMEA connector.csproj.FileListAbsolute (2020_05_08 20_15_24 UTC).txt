@@ -1,0 +1,44 @@
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\workspace\NMEA connector\bin\Debug\NMEA connector.dll
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\workspace\NMEA connector\bin\Debug\NMEA connector.pdb
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\workspace\NMEA connector\obj\Debug\NMEA connector.csprojAssemblyReference.cache
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\workspace\NMEA connector\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\workspace\NMEA connector\obj\Debug\NMEA connector_MarkupCompile.cache
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\workspace\NMEA connector\obj\Debug\NMEA connector_MarkupCompile.lref
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\workspace\NMEA connector\obj\Debug\Themes\Generic.baml
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\workspace\NMEA connector\obj\Debug\NMEA connector.g.resources
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\workspace\NMEA connector\obj\Debug\NMEA_connector.Properties.Resources.resources
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\workspace\NMEA connector\obj\Debug\NMEA connector.csproj.GenerateResource.cache
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\workspace\NMEA connector\obj\Debug\NMEA connector.dll
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\workspace\NMEA connector\obj\Debug\NMEA connector.pdb
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\bin\Debug\NMEA connector.pdb
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\NMEA connector_MarkupCompile.cache
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\NMEA connector_MarkupCompile.lref
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\NMEA connector.g.resources
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\NMEA connector.pdb
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\gui\NMEA_main_window.g.cs
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\bin\Debug\Xamarin.Forms.Core.dll
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\bin\Debug\Xamarin.Forms.Platform.dll
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\bin\Debug\Xamarin.Forms.Xaml.dll
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\bin\Debug\Xamarin.Forms.Core.pdb
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\bin\Debug\Xamarin.Forms.Core.xml
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\bin\Debug\Xamarin.Forms.Xaml.pdb
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\bin\Debug\Xamarin.Forms.Xaml.xml
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\gui\NMEA_main_window.baml
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\XamlC.stamp
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\NMEA Connector.csproj.CopyComplete
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\NMEA Connector.csprojAssemblyReference.cache
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\bin\Debug\NMEA connector.exe
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\NMEA connector_Content.g.cs
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\NMEA connector.exe
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\bin\Debug\NMEA connector.exe.config
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\NMEA_connector.Properties.Resources.resources
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\NMEA Connector.csproj.GenerateResource.cache
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\bin\Debug\x86\sqlite3.dll
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\bin\Debug\x64\sqlite3.dll
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\gui\NMEA2000 Device List.g.cs
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\gui\NMEA2000_Device Properties.g.cs
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\gui\NMEA2000 Device List.baml
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\gui\NMEA2000_Device Properties.baml
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\bin\Debug\da\NMEA connector.resources.dll
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\NMEA_connector.Properties.Resources.da.resources
+C:\Users\krs\Google Drev\ProjectNet\Projekter\NMEA connector\obj\Debug\da\NMEA connector.resources.dll

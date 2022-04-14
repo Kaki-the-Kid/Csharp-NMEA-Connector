@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_n_m_e_a__connector_1_1gui_1_1_n_m_e_a__main__window" kind="class" language="C#" prot="public">
+    <compoundname>NMEA_connector::gui::NMEA_main_window</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1gui_1_1_n_m_e_a__main__window_1ae16eb36665066f4b9c574e14e899c310" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>NMEA_connector.gui.NMEA_main_window.NMEA_main_window</definition>
+        <argsstring>()</argsstring>
+        <name>NMEA_main_window</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/NMEA_main_window.xaml.cs" line="22" column="16" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/NMEA_main_window.xaml.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1gui_1_1_n_m_e_a__main__window_1a59646888b6d2ed286b59ddebe408c316" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.gui.NMEA_main_window.ListBox_SelectionChanged</definition>
+        <argsstring>(object sender, SelectionChangedEventArgs e)</argsstring>
+        <name>ListBox_SelectionChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SelectionChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>[TODO] Her skal NMEA kommadoer indsættes, visuelt for brugeren</para>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/NMEA_main_window.xaml.cs" line="27" column="22" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/NMEA_main_window.xaml.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for NMEA_main_window.xaml </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>NMEA_connector.gui.NMEA_main_window</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_n_m_e_a__main__window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>NMEA_connector.gui.NMEA_main_window</label>
+        <link refid="class_n_m_e_a__connector_1_1gui_1_1_n_m_e_a__main__window"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/NMEA_main_window.xaml.cs" line="21" column="1" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/gui/NMEA_main_window.xaml.cs" bodystart="20" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_n_m_e_a__connector_1_1gui_1_1_n_m_e_a__main__window_1a59646888b6d2ed286b59ddebe408c316" prot="private" virt="non-virtual"><scope>NMEA_connector::gui::NMEA_main_window</scope><name>ListBox_SelectionChanged</name></member>
+      <member refid="class_n_m_e_a__connector_1_1gui_1_1_n_m_e_a__main__window_1ae16eb36665066f4b9c574e14e899c310" prot="public" virt="non-virtual"><scope>NMEA_connector::gui::NMEA_main_window</scope><name>NMEA_main_window</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

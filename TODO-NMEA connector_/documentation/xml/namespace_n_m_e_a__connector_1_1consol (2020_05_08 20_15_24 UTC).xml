@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_n_m_e_a__connector_1_1consol" kind="namespace" language="C#">
+    <compoundname>NMEA_connector::consol</compoundname>
+    <innerclass refid="class_n_m_e_a__connector_1_1consol_1_1_consol_ui" prot="public">NMEA_connector::consol::ConsolUi</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/NMEA Consol.cs" line="8" column="1"/>
+  </compounddef>
+</doxygen>

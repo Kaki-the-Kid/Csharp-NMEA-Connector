@@ -1,0 +1,216 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_c_main_dlg" kind="class" language="C++" prot="public">
+    <compoundname>CMainDlg</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">CDialogImpl&lt; CMainDlg &gt;</basecompoundref>
+    <includes refid="_main_dlg_8h" local="no">MainDlg.h</includes>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_c_main_dlg_1a1012b2ed66796565ea783955ba9b2095" prot="public" static="no" strong="no">
+        <type></type>
+        <name>@0</name>
+        <enumvalue id="class_c_main_dlg_1a1012b2ed66796565ea783955ba9b2095a75f08fe8911ee4f9c647ddae9d37ce11" prot="public">
+          <name>IDD</name>
+          <initializer>= IDD_MAINDLG</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" line="12" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_main_dlg_1a3900557e041547b2e893d9ac125348ee" prot="private" static="no" mutable="no">
+        <type>CTabCtrl</type>
+        <definition>CTabCtrl CMainDlg::_tabctrl</definition>
+        <argsstring></argsstring>
+        <name>_tabctrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" line="27" column="14" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_main_dlg_1a004b42e5a04956a1264f5c8d1be8af79" prot="private" static="no" mutable="no">
+        <type>class <ref refid="class_c_main_tab" kindref="compound">CMainTab</ref> *</type>
+        <definition>class CMainTab* CMainDlg::_main_tab</definition>
+        <argsstring></argsstring>
+        <name>_main_tab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" line="28" column="19" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_main_dlg_1ada917d48197e839a66c5321a88b155ae" prot="private" static="no" mutable="no">
+        <type>class <ref refid="class_c_pos_tab" kindref="compound">CPosTab</ref> *</type>
+        <definition>class CPosTab* CMainDlg::_pos_tab</definition>
+        <argsstring></argsstring>
+        <name>_pos_tab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" line="29" column="18" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_main_dlg_1a77b453e625cd4d96cf7b137ca9f1b2ed" prot="private" static="no" mutable="no">
+        <type>class <ref refid="class_c_signal_tab" kindref="compound">CSignalTab</ref> *</type>
+        <definition>class CSignalTab* CMainDlg::_sig_tab</definition>
+        <argsstring></argsstring>
+        <name>_sig_tab</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" line="30" column="21" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_main_dlg_1a155065255c3ec52a4cb6a37b6747f3bd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LRESULT</type>
+        <definition>LRESULT CMainDlg::OnTcnSelchangeTab</definition>
+        <argsstring>(int, LPNMHDR pNMHDR, BOOL &amp;)</argsstring>
+        <name>OnTcnSelchangeTab</name>
+        <param>
+          <type>int</type>
+          <defname>idCtrl</defname>
+        </param>
+        <param>
+          <type>LPNMHDR</type>
+          <declname>pNMHDR</declname>
+        </param>
+        <param>
+          <type>BOOL &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" line="20" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.cpp" bodystart="82" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_main_dlg_1ae463653f423fa1282b07c6b60cc8e50a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LRESULT</type>
+        <definition>LRESULT CMainDlg::OnInitDialog</definition>
+        <argsstring>(UINT, WPARAM, LPARAM, BOOL &amp;)</argsstring>
+        <name>OnInitDialog</name>
+        <param>
+          <type>UINT</type>
+        </param>
+        <param>
+          <type>WPARAM</type>
+        </param>
+        <param>
+          <type>LPARAM</type>
+        </param>
+        <param>
+          <type>BOOL &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" line="21" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.cpp" bodystart="13" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_main_dlg_1a88731df61c47e84a67514af889bd4d92" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>LRESULT</type>
+        <definition>LRESULT CMainDlg::OnClose</definition>
+        <argsstring>(UINT, WPARAM, LPARAM, BOOL &amp;)</argsstring>
+        <name>OnClose</name>
+        <param>
+          <type>UINT</type>
+        </param>
+        <param>
+          <type>WPARAM</type>
+        </param>
+        <param>
+          <type>LPARAM</type>
+        </param>
+        <param>
+          <type>BOOL &amp;</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" line="22" column="9" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.cpp" bodystart="76" bodyend="80"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_main_dlg_1a6642cec1af0c82318cd293ceef7b0aaf" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void CMainDlg::_selectTab</definition>
+        <argsstring>(int id)</argsstring>
+        <name>_selectTab</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" line="25" column="10" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.cpp" bodystart="89" bodyend="114"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CDialogImpl&lt; CMainDlg &gt;</label>
+      </node>
+      <node id="1">
+        <label>CMainDlg</label>
+        <link refid="class_c_main_dlg"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>CDialogImpl&lt; CMainDlg &gt;</label>
+      </node>
+      <node id="1">
+        <label>CMainDlg</label>
+        <link refid="class_c_main_dlg"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" line="10" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/VirtualGPSJet/vgps/upkit/MainDlg.h" bodystart="9" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_c_main_dlg_1a004b42e5a04956a1264f5c8d1be8af79" prot="private" virt="non-virtual"><scope>CMainDlg</scope><name>_main_tab</name></member>
+      <member refid="class_c_main_dlg_1ada917d48197e839a66c5321a88b155ae" prot="private" virt="non-virtual"><scope>CMainDlg</scope><name>_pos_tab</name></member>
+      <member refid="class_c_main_dlg_1a6642cec1af0c82318cd293ceef7b0aaf" prot="private" virt="non-virtual"><scope>CMainDlg</scope><name>_selectTab</name></member>
+      <member refid="class_c_main_dlg_1a77b453e625cd4d96cf7b137ca9f1b2ed" prot="private" virt="non-virtual"><scope>CMainDlg</scope><name>_sig_tab</name></member>
+      <member refid="class_c_main_dlg_1a3900557e041547b2e893d9ac125348ee" prot="private" virt="non-virtual"><scope>CMainDlg</scope><name>_tabctrl</name></member>
+      <member refid="class_c_main_dlg_1a1012b2ed66796565ea783955ba9b2095a75f08fe8911ee4f9c647ddae9d37ce11" prot="public" virt="non-virtual"><scope>CMainDlg</scope><name>IDD</name></member>
+      <member refid="class_c_main_dlg_1a88731df61c47e84a67514af889bd4d92" prot="public" virt="non-virtual"><scope>CMainDlg</scope><name>OnClose</name></member>
+      <member refid="class_c_main_dlg_1ae463653f423fa1282b07c6b60cc8e50a" prot="public" virt="non-virtual"><scope>CMainDlg</scope><name>OnInitDialog</name></member>
+      <member refid="class_c_main_dlg_1a155065255c3ec52a4cb6a37b6747f3bd" prot="public" virt="non-virtual"><scope>CMainDlg</scope><name>OnTcnSelchangeTab</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

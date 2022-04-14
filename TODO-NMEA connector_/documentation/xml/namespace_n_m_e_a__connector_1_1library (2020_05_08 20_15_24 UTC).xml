@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="namespace_n_m_e_a__connector_1_1library" kind="namespace" language="C#">
+    <compoundname>NMEA_connector::library</compoundname>
+    <innerclass refid="class_n_m_e_a__connector_1_1library_1_1_nmea_library" prot="public">NMEA_connector::library::NmeaLibrary</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/library/NMEALibrary.cs" line="15" column="32"/>
+  </compounddef>
+</doxygen>

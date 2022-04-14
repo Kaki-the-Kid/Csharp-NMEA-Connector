@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="struct__nmea_g_p_v_t_g" kind="struct" language="C++" prot="public">
+    <compoundname>_nmeaGPVTG</compoundname>
+    <includes refid="sentence_8h" local="no">sentence.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct__nmea_g_p_v_t_g_1a5a5e68d54982c0c6d59391c718088176" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _nmeaGPVTG::dir</definition>
+        <argsstring></argsstring>
+        <name>dir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>True track made good (degrees) </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="107" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_v_t_g_1ae72b78f1710bec7bfb3b1e0a1a8639d6" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _nmeaGPVTG::dir_t</definition>
+        <argsstring></argsstring>
+        <name>dir_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fixed text &apos;T&apos; indicates that track made good is relative to true north </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="108" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_v_t_g_1aafeafd27c60cbafa7e734b1b69071deb" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _nmeaGPVTG::dec</definition>
+        <argsstring></argsstring>
+        <name>dec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Magnetic track made good </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="109" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_v_t_g_1aa85d2c5300543217cfd994c786af3397" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _nmeaGPVTG::dec_m</definition>
+        <argsstring></argsstring>
+        <name>dec_m</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fixed text &apos;M&apos; </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="110" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_v_t_g_1a5ecd1e1dfb4224b2f8f55e182b4fc90e" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _nmeaGPVTG::spn</definition>
+        <argsstring></argsstring>
+        <name>spn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ground speed, knots </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="111" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_v_t_g_1a08610e3bfb288266f850017839e8dc26" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _nmeaGPVTG::spn_n</definition>
+        <argsstring></argsstring>
+        <name>spn_n</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fixed text &apos;N&apos; indicates that speed over ground is in knots </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="112" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_v_t_g_1aee9633d69b6aad5c5faeeced3cbbc727" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double _nmeaGPVTG::spk</definition>
+        <argsstring></argsstring>
+        <name>spk</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Ground speed, kilometers per hour </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="113" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct__nmea_g_p_v_t_g_1a009f2038cae07d76e53f55aa49599d1c" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char _nmeaGPVTG::spk_k</definition>
+        <argsstring></argsstring>
+        <name>spk_k</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fixed text &apos;K&apos; indicates that speed over ground is in kilometers/hour </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="114" column="13" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>VTG packet information structure (Track made good and ground speed) </para>
+    </detaileddescription>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" line="106" column="1" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/include/nmea/sentence.h" bodystart="105" bodyend="116"/>
+    <listofallmembers>
+      <member refid="struct__nmea_g_p_v_t_g_1aafeafd27c60cbafa7e734b1b69071deb" prot="public" virt="non-virtual"><scope>_nmeaGPVTG</scope><name>dec</name></member>
+      <member refid="struct__nmea_g_p_v_t_g_1aa85d2c5300543217cfd994c786af3397" prot="public" virt="non-virtual"><scope>_nmeaGPVTG</scope><name>dec_m</name></member>
+      <member refid="struct__nmea_g_p_v_t_g_1a5a5e68d54982c0c6d59391c718088176" prot="public" virt="non-virtual"><scope>_nmeaGPVTG</scope><name>dir</name></member>
+      <member refid="struct__nmea_g_p_v_t_g_1ae72b78f1710bec7bfb3b1e0a1a8639d6" prot="public" virt="non-virtual"><scope>_nmeaGPVTG</scope><name>dir_t</name></member>
+      <member refid="struct__nmea_g_p_v_t_g_1aee9633d69b6aad5c5faeeced3cbbc727" prot="public" virt="non-virtual"><scope>_nmeaGPVTG</scope><name>spk</name></member>
+      <member refid="struct__nmea_g_p_v_t_g_1a009f2038cae07d76e53f55aa49599d1c" prot="public" virt="non-virtual"><scope>_nmeaGPVTG</scope><name>spk_k</name></member>
+      <member refid="struct__nmea_g_p_v_t_g_1a5ecd1e1dfb4224b2f8f55e182b4fc90e" prot="public" virt="non-virtual"><scope>_nmeaGPVTG</scope><name>spn</name></member>
+      <member refid="struct__nmea_g_p_v_t_g_1a08610e3bfb288266f850017839e8dc26" prot="public" virt="non-virtual"><scope>_nmeaGPVTG</scope><name>spn_n</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

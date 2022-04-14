@@ -4,17 +4,17 @@
 exe
 C#
 .cs
-G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\
+D:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\
 NMEA_connector
 none
 false
 DEBUG;TRACE
 
 3-1193609369
-31082033392
-23835797394
-17-1484275155
+3426994977
+221041381599
+17777157754
 gui\NMEA2000 Device List.xaml;gui\NMEA2000_Device Properties.xaml;gui\NMEA_main_window.xaml;
 
-False
+True
 

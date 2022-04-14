@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_n_m_e_a__connector_1_1brands_1_1_brand_pilot_gps" kind="class" language="C#" prot="public">
+    <compoundname>NMEA_connector::brands::BrandPilotGps</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_n_m_e_a__connector_1_1brands_1_1_brand_pilot_gps_1acfe1484755429400bf053f27f33e40cb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>String[]</type>
+        <definition>String [] NMEA_connector.brands.BrandPilotGps.CommandParts</definition>
+        <argsstring></argsstring>
+        <name>CommandParts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/brands/BrandPilotGPS.cs" line="11" column="23" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/brands/BrandPilotGPS.cs" bodystart="12" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1brands_1_1_brand_pilot_gps_1a65407b263be9c00f0320c96976e30bdb" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void NMEA_connector.brands.BrandPilotGps.entryHandleCommand</definition>
+        <argsstring>(string commandLine)</argsstring>
+        <name>entryHandleCommand</name>
+        <param>
+          <type>string</type>
+          <declname>commandLine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/brands/BrandPilotGPS.cs" line="28" column="30" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/brands/BrandPilotGPS.cs" bodystart="28" bodyend="31"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/brands/BrandPilotGPS.cs" line="10" column="1" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/brands/BrandPilotGPS.cs" bodystart="9" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_n_m_e_a__connector_1_1brands_1_1_brand_pilot_gps_1acfe1484755429400bf053f27f33e40cb" prot="public" virt="non-virtual"><scope>NMEA_connector::brands::BrandPilotGps</scope><name>CommandParts</name></member>
+      <member refid="class_n_m_e_a__connector_1_1brands_1_1_brand_pilot_gps_1a65407b263be9c00f0320c96976e30bdb" prot="package" virt="non-virtual"><scope>NMEA_connector::brands::BrandPilotGps</scope><name>entryHandleCommand</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

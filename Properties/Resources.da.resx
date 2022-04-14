@@ -124,12 +124,18 @@
     <value>2. Vis GPS Tid</value>
   </data>
   <data name="ConsolUi_ConsolInit__3__Show_GPS_Longitude_Latitude" xml:space="preserve">
-    <value>3. Show GPS Longitude-Latitude</value>
+    <value>3. Vis GPS Longitude-Latitude</value>
   </data>
   <data name="ConsolUi_ConsolInit__4__Print_out_GPS_data" xml:space="preserve">
     <value>4. Udskriv GPS data</value>
   </data>
   <data name="ConsolUi_ConsolInit__9__Exit" xml:space="preserve">
     <value>9. Afslut</value>
+  </data>
+  <data name="ConsolUi_ConsolInit_NMEA_og_Device_config" xml:space="preserve">
+    <value>5. NMEA og enheds konfiguration</value>
+  </data>
+  <data name="ConsolUi_ConsolInit_GPS_menu" xml:space="preserve">
+    <value>GPS Menu</value>
   </data>
 </root>

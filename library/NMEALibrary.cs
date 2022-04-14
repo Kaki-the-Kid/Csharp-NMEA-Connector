@@ -35,39 +35,39 @@ namespace NMEA_connector.library {
             {
                 brands.BrandGeneric.entryHandleCommand(commandLine);
             } 
-            else if (commandLine.Contains("$PG")) // Garmin proprietary sentences
+            else if (commandLine.Contains("PG")) // Garmin proprietary sentences
             {
                 brands.BrandGarmin.entryHandleCommand(commandLine);
             } 
-            else if (commandLine.Contains("$PS")) // Starlink proprietary sentences
+            else if (commandLine.Contains("PS")) // Starlink proprietary sentences
             {
                 brands.BrandStarlink.entryHandleCommand(commandLine);
             } 
-            else if (commandLine.Contains("$PMG")) // Magellan proprietary sentences
+            else if (commandLine.Contains("PMG")) // Magellan proprietary sentences
             {
                 brands.BrandMagellan.entryHandleCommand(commandLine);
             } 
-            else if (commandLine.Contains("$PM")) // Motorola proprietary sentences
+            else if (commandLine.Contains("PM")) // Motorola proprietary sentences
             {
                 brands.BrandMotorola.entryHandleCommand(commandLine);
             } 
-            else if (commandLine.Contains("$PRWI")) // Rockwell proprietary sentences
+            else if (commandLine.Contains("PRWI")) // Rockwell proprietary sentences
             {
                 brands.BrandRockwell.entryHandleCommand(commandLine);
             } 
-            else if (commandLine.Contains("$PSRF"))  // SiRF Chipset proprietary sentences
+            else if (commandLine.Contains("PSRF"))  // SiRF Chipset proprietary sentences
             {
                 brands.BrandSiRf.EntryHandleCommand(commandLine);
             } 
-            else if (commandLine.Contains("$PMVXG")) // Magnavox system proprietary sentences
+            else if (commandLine.Contains("PMVXG")) // Magnavox system proprietary sentences
             {
                 brands.BrandMagnavox.entryHandleCommand(commandLine);
             } 
-            else if (commandLine.Contains("$PSNY"))  // Sony proprietary sentences
+            else if (commandLine.Contains("PSNY"))  // Sony proprietary sentences
             {
                 brands.BrandSony.entryHandleCommand(commandLine);
             }
-            else if (commandLine.Contains("$PPLT"))  // Pilot proprietary sentences
+            else if (commandLine.Contains("PPLT"))  // Pilot proprietary sentences
             {
                 brands.BrandPilotGPS.entryHandleCommand(commandLine);
             }
@@ -88,6 +88,7 @@ namespace NMEA_connector.library {
 
         // Test streng til beregning af checksum
         public const string testString = "GPRMC,092751.000,A,5321.6802,N,00630.3371,W,0.06,31.66,280511,,,A";
+
 
         /*************************************************************************//**
          * Funktion der beregner og returnerer checksum for samlet NMEA kommando

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="dir_11bc0974ce736ce9a6fadebbeb7a8314" kind="dir">
+    <compoundname>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/gui</compoundname>
+    <innerfile refid="_n_m_e_a2000_01_device_01_list_8xaml_8cs">NMEA2000 Device List.xaml.cs</innerfile>
+    <innerfile refid="_n_m_e_a2000___device_01_properties_8xaml_8cs">NMEA2000_Device Properties.xaml.cs</innerfile>
+    <innerfile refid="_n_m_e_a__main__window_8xaml_8cs">NMEA_main_window.xaml.cs</innerfile>
+    <innerfile refid="_user_control_8xaml_8cs">UserControl.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/gui/"/>
+  </compounddef>
+</doxygen>

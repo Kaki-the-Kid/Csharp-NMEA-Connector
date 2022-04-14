@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="class_n_m_e_a__connector_1_1service_streams" kind="class" language="C#" prot="public">
+    <compoundname>NMEA_connector::serviceStreams</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1service_streams_1a8188e3691b6d01689b7d7fefc73f398b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.serviceStreams.injectTestGarming12</definition>
+        <argsstring>()</argsstring>
+        <name>injectTestGarming12</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" line="38" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" bodystart="38" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1service_streams_1a46ddda774111a7653ca8bf1387877af1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.serviceStreams.injectGarminEtrex</definition>
+        <argsstring>()</argsstring>
+        <name>injectGarminEtrex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" line="70" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" bodystart="70" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1service_streams_1ad5411dadd588847eb00f48fa0a32513b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.serviceStreams.injectGarminetrexVista</definition>
+        <argsstring>()</argsstring>
+        <name>injectGarminetrexVista</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" line="101" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" bodystart="101" bodyend="103"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1service_streams_1a86121bbd77211fd3f62424af237c81c6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.serviceStreams.injectGarminBasicYellow</definition>
+        <argsstring>()</argsstring>
+        <name>injectGarminBasicYellow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" line="125" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" bodystart="125" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1service_streams_1a21a98e789b016090800c33721ee6b790" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.serviceStreams.injectMagellanGPS</definition>
+        <argsstring>()</argsstring>
+        <name>injectMagellanGPS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" line="159" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" bodystart="159" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1service_streams_1a61c9fe65c731f4e8b8f1456dc185479b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.serviceStreams.injectMagellan315</definition>
+        <argsstring>()</argsstring>
+        <name>injectMagellan315</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" line="185" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" bodystart="185" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1service_streams_1a67e51ed082ff77a2b58d0ec56f7ec637" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.serviceStreams.injectRaytheonRN350</definition>
+        <argsstring>()</argsstring>
+        <name>injectRaytheonRN350</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" line="211" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" bodystart="211" bodyend="213"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1service_streams_1a5b81080d77e12b974f93efc85b2353d9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.serviceStreams.injectNavMan3400</definition>
+        <argsstring>()</argsstring>
+        <name>injectNavMan3400</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" line="245" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" bodystart="245" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1service_streams_1af3ee7d0e36370bc3c5a5b9ad0807a4f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.serviceStreams.injectEarthmateSiRF</definition>
+        <argsstring>()</argsstring>
+        <name>injectEarthmateSiRF</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" line="268" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" bodystart="268" bodyend="271"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1service_streams_1ad53a32b9008a547b5c0e3755be866698" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.serviceStreams.injectEvermoreGM305</definition>
+        <argsstring>()</argsstring>
+        <name>injectEvermoreGM305</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" line="291" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" bodystart="291" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1service_streams_1a69ed91c8eda1f3c31c6df14abba193ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.serviceStreams.injectSony</definition>
+        <argsstring>()</argsstring>
+        <name>injectSony</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" line="315" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" bodystart="315" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="class_n_m_e_a__connector_1_1service_streams_1a32cfec8f063b98e36d1e9b1cd1114526" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NMEA_connector.serviceStreams.injectUBlox</definition>
+        <argsstring>()</argsstring>
+        <name>injectUBlox</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" line="337" column="21" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" bodystart="337" bodyend="340"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" line="4" column="1" bodyfile="C:/Users/krs/Google Drev/ProjectNet/Projekter/NMEA connector/serviceStreams.cs" bodystart="3" bodyend="341"/>
+    <listofallmembers>
+      <member refid="class_n_m_e_a__connector_1_1service_streams_1af3ee7d0e36370bc3c5a5b9ad0807a4f5" prot="public" virt="non-virtual"><scope>NMEA_connector::serviceStreams</scope><name>injectEarthmateSiRF</name></member>
+      <member refid="class_n_m_e_a__connector_1_1service_streams_1ad53a32b9008a547b5c0e3755be866698" prot="public" virt="non-virtual"><scope>NMEA_connector::serviceStreams</scope><name>injectEvermoreGM305</name></member>
+      <member refid="class_n_m_e_a__connector_1_1service_streams_1a86121bbd77211fd3f62424af237c81c6" prot="public" virt="non-virtual"><scope>NMEA_connector::serviceStreams</scope><name>injectGarminBasicYellow</name></member>
+      <member refid="class_n_m_e_a__connector_1_1service_streams_1a46ddda774111a7653ca8bf1387877af1" prot="public" virt="non-virtual"><scope>NMEA_connector::serviceStreams</scope><name>injectGarminEtrex</name></member>
+      <member refid="class_n_m_e_a__connector_1_1service_streams_1ad5411dadd588847eb00f48fa0a32513b" prot="public" virt="non-virtual"><scope>NMEA_connector::serviceStreams</scope><name>injectGarminetrexVista</name></member>
+      <member refid="class_n_m_e_a__connector_1_1service_streams_1a61c9fe65c731f4e8b8f1456dc185479b" prot="public" virt="non-virtual"><scope>NMEA_connector::serviceStreams</scope><name>injectMagellan315</name></member>
+      <member refid="class_n_m_e_a__connector_1_1service_streams_1a21a98e789b016090800c33721ee6b790" prot="public" virt="non-virtual"><scope>NMEA_connector::serviceStreams</scope><name>injectMagellanGPS</name></member>
+      <member refid="class_n_m_e_a__connector_1_1service_streams_1a5b81080d77e12b974f93efc85b2353d9" prot="public" virt="non-virtual"><scope>NMEA_connector::serviceStreams</scope><name>injectNavMan3400</name></member>
+      <member refid="class_n_m_e_a__connector_1_1service_streams_1a67e51ed082ff77a2b58d0ec56f7ec637" prot="public" virt="non-virtual"><scope>NMEA_connector::serviceStreams</scope><name>injectRaytheonRN350</name></member>
+      <member refid="class_n_m_e_a__connector_1_1service_streams_1a69ed91c8eda1f3c31c6df14abba193ef" prot="public" virt="non-virtual"><scope>NMEA_connector::serviceStreams</scope><name>injectSony</name></member>
+      <member refid="class_n_m_e_a__connector_1_1service_streams_1a8188e3691b6d01689b7d7fefc73f398b" prot="public" virt="non-virtual"><scope>NMEA_connector::serviceStreams</scope><name>injectTestGarming12</name></member>
+      <member refid="class_n_m_e_a__connector_1_1service_streams_1a32cfec8f063b98e36d1e9b1cd1114526" prot="public" virt="non-virtual"><scope>NMEA_connector::serviceStreams</scope><name>injectUBlox</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

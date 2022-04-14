@@ -1,0 +1,743 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.17">
+  <compounddef id="gmath_8c" kind="file" language="C++">
+    <compoundname>gmath.c</compoundname>
+    <includes refid="gmath_8h" local="yes">nmea/gmath.h</includes>
+    <includes local="no">math.h</includes>
+    <includes local="no">float.h</includes>
+    <incdepgraph>
+      <node id="1">
+        <label>C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c</label>
+        <link refid="gmath_8c"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>assert.h</label>
+      </node>
+      <node id="8">
+        <label>float.h</label>
+      </node>
+      <node id="3">
+        <label>info.h</label>
+        <link refid="info_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>config.h</label>
+        <link refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>math.h</label>
+      </node>
+      <node id="2">
+        <label>nmea/gmath.h</label>
+        <link refid="gmath_8h"/>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>time.h</label>
+        <link refid="time_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="gmath_8c_1a88753990f25503fa054bcbe70adf2bfa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double nmea_degree2radian</definition>
+        <argsstring>(double val)</argsstring>
+        <name>nmea_degree2radian</name>
+        <param>
+          <type>double</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="22" column="8" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="22" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="gmath_8c_1a811f650921a77d6a528678004fc58b3f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double nmea_radian2degree</definition>
+        <argsstring>(double val)</argsstring>
+        <name>nmea_radian2degree</name>
+        <param>
+          <type>double</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="29" column="8" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="29" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="gmath_8c_1af1ca0d6c5a26ac8fec4e3c0219db45b3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double nmea_ndeg2degree</definition>
+        <argsstring>(double val)</argsstring>
+        <name>nmea_ndeg2degree</name>
+        <param>
+          <type>double</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Convert NDEG (NMEA degree) to fractional degree. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="35" column="8" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="35" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="gmath_8c_1a062bc2b58d7efdadbdf87a3a235d2fc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double nmea_degree2ndeg</definition>
+        <argsstring>(double val)</argsstring>
+        <name>nmea_degree2ndeg</name>
+        <param>
+          <type>double</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+<para>Convert fractional degree to NDEG (NMEA degree) </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="45" column="8" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="45" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="gmath_8c_1a8a0bb7fe1385bf47b5cbbb6cafb17dbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double nmea_ndeg2radian</definition>
+        <argsstring>(double val)</argsstring>
+        <name>nmea_ndeg2radian</name>
+        <param>
+          <type>double</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="58" column="8" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="58" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="gmath_8c_1a7ecfc1958374fa19bbec44391400efe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double nmea_radian2ndeg</definition>
+        <argsstring>(double val)</argsstring>
+        <name>nmea_radian2ndeg</name>
+        <param>
+          <type>double</type>
+          <declname>val</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="65" column="8" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="65" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="gmath_8c_1a06643304acf31932fb3a69b4a2c2e575" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double nmea_calc_pdop</definition>
+        <argsstring>(double hdop, double vdop)</argsstring>
+        <name>nmea_calc_pdop</name>
+        <param>
+          <type>double</type>
+          <declname>hdop</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>vdop</declname>
+        </param>
+        <briefdescription>
+<para>Calculate PDOP (Position Dilution Of Precision) factor. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="71" column="8" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="71" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="gmath_8c_1a941a5dfe4dd10d3ea35d8668ff9c2476" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double nmea_dop2meters</definition>
+        <argsstring>(double dop)</argsstring>
+        <name>nmea_dop2meters</name>
+        <param>
+          <type>double</type>
+          <declname>dop</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="76" column="8" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="76" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="gmath_8c_1a1261f4037d976cbf23844b9655f05ef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double nmea_meters2dop</definition>
+        <argsstring>(double meters)</argsstring>
+        <name>nmea_meters2dop</name>
+        <param>
+          <type>double</type>
+          <declname>meters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="79" column="8" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="79" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="gmath_8c_1a2f033e21e246354b02287e44e04c5cc5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double nmea_distance</definition>
+        <argsstring>(const nmeaPOS *from_pos, const nmeaPOS *to_pos)</argsstring>
+        <name>nmea_distance</name>
+        <param>
+          <type>const <ref refid="info_8h_1a15b0aa79e3d81069ac936dcc28ea450a" kindref="member">nmeaPOS</ref> *</type>
+          <declname>from_pos</declname>
+          <briefdescription><para>From position in radians </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>const <ref refid="info_8h_1a15b0aa79e3d81069ac936dcc28ea450a" kindref="member">nmeaPOS</ref> *</type>
+          <declname>to_pos</declname>
+          <briefdescription><para>To position in radians </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+<para>Calculate distance between two points. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Distance in meters </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="86" column="8" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="86" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="gmath_8c_1aeb935f4b386b432e1fd659f18a1544b5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double nmea_distance_ellipsoid</definition>
+        <argsstring>(const nmeaPOS *from_pos, const nmeaPOS *to_pos, double *from_azimuth, double *to_azimuth)</argsstring>
+        <name>nmea_distance_ellipsoid</name>
+        <param>
+          <type>const <ref refid="info_8h_1a15b0aa79e3d81069ac936dcc28ea450a" kindref="member">nmeaPOS</ref> *</type>
+          <declname>from_pos</declname>
+          <briefdescription><para>From position in radians </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>const <ref refid="info_8h_1a15b0aa79e3d81069ac936dcc28ea450a" kindref="member">nmeaPOS</ref> *</type>
+          <declname>to_pos</declname>
+          <briefdescription><para>To position in radians </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>from_azimuth</declname>
+          <briefdescription><para>(O) azimuth at &quot;from&quot; position in radians </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>to_azimuth</declname>
+          <briefdescription><para>(O) azimuth at &quot;to&quot; position in radians </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+<para>Calculate distance between two points This function uses an algorithm for an oblate spheroid earth model. The algorithm is described here: <ulink url="http://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf">http://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf</ulink>. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>Distance in meters </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="105" column="8" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="105" bodyend="215"/>
+      </memberdef>
+      <memberdef kind="function" id="gmath_8c_1abfbbda0483fc8fe0e0f1e4393759a4b9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_move_horz</definition>
+        <argsstring>(const nmeaPOS *start_pos, nmeaPOS *end_pos, double azimuth, double distance)</argsstring>
+        <name>nmea_move_horz</name>
+        <param>
+          <type>const <ref refid="info_8h_1a15b0aa79e3d81069ac936dcc28ea450a" kindref="member">nmeaPOS</ref> *</type>
+          <declname>start_pos</declname>
+          <briefdescription><para>Start position in radians </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a15b0aa79e3d81069ac936dcc28ea450a" kindref="member">nmeaPOS</ref> *</type>
+          <declname>end_pos</declname>
+          <briefdescription><para>Result position in radians </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>azimuth</declname>
+          <briefdescription><para>Azimuth (degree) [0, 359] </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>distance</declname>
+          <briefdescription><para>Distance (km) </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+<para>Horizontal move of point position. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="220" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="220" bodyend="245"/>
+      </memberdef>
+      <memberdef kind="function" id="gmath_8c_1a3aa0082d3d7f10116a6c67764e1abd36" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int nmea_move_horz_ellipsoid</definition>
+        <argsstring>(const nmeaPOS *start_pos, nmeaPOS *end_pos, double azimuth, double distance, double *end_azimuth)</argsstring>
+        <name>nmea_move_horz_ellipsoid</name>
+        <param>
+          <type>const <ref refid="info_8h_1a15b0aa79e3d81069ac936dcc28ea450a" kindref="member">nmeaPOS</ref> *</type>
+          <declname>start_pos</declname>
+          <briefdescription><para>Start position in radians </para>
+</briefdescription>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a15b0aa79e3d81069ac936dcc28ea450a" kindref="member">nmeaPOS</ref> *</type>
+          <declname>end_pos</declname>
+          <briefdescription><para>(O) Result position in radians </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>azimuth</declname>
+          <briefdescription><para>Azimuth in radians </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>distance</declname>
+          <briefdescription><para>Distance (km) </para>
+</briefdescription>
+        </param>
+        <param>
+          <type>double *</type>
+          <declname>end_azimuth</declname>
+          <briefdescription><para>(O) Azimuth at end position in radians </para>
+</briefdescription>
+        </param>
+        <briefdescription>
+<para>Horizontal move of point position This function uses an algorithm for an oblate spheroid earth model. The algorithm is described here: <ulink url="http://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf">http://www.ngs.noaa.gov/PUBS_LIB/inverse.pdf</ulink>. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="253" column="5" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="253" bodyend="359"/>
+      </memberdef>
+      <memberdef kind="function" id="gmath_8c_1a7ae16624d96691eba1d84570e8046dd7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void nmea_info2pos</definition>
+        <argsstring>(const nmeaINFO *info, nmeaPOS *pos)</argsstring>
+        <name>nmea_info2pos</name>
+        <param>
+          <type>const <ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a15b0aa79e3d81069ac936dcc28ea450a" kindref="member">nmeaPOS</ref> *</type>
+          <declname>pos</declname>
+        </param>
+        <briefdescription>
+<para>Convert position from INFO to radians position. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="364" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="364" bodyend="368"/>
+      </memberdef>
+      <memberdef kind="function" id="gmath_8c_1aae885759b3bfecab406ecb8b4c0e351d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="_l_i_c_e_n_s_e_8_t_x_t_1a3b083519fd2b41d83363afcfd5ebad9d" kindref="member">void</ref></type>
+        <definition>void nmea_pos2info</definition>
+        <argsstring>(const nmeaPOS *pos, nmeaINFO *info)</argsstring>
+        <name>nmea_pos2info</name>
+        <param>
+          <type>const <ref refid="info_8h_1a15b0aa79e3d81069ac936dcc28ea450a" kindref="member">nmeaPOS</ref> *</type>
+          <declname>pos</declname>
+        </param>
+        <param>
+          <type><ref refid="info_8h_1a9951025ac55025f037fa3aa327afb0e2" kindref="member">nmeaINFO</ref> *</type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+<para>Convert radians position to INFOs position. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" line="373" column="6" bodyfile="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c" bodystart="373" bodyend="377"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>NMEA<sp/>library</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>URL:<sp/>http://nmea.sourceforge.net</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Tim<sp/>(xtimor@gmail.com)</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>Licence:<sp/>http://www.gnu.org/licenses/lgpl.html</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>$Id:<sp/>gmath.c<sp/>17<sp/>2008-03-11<sp/>11:56:11Z<sp/>xtimor<sp/>$</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="gmath_8h" kindref="compound">nmea/gmath.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;math.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;float.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22" refid="gmath_8c_1a88753990f25503fa054bcbe70adf2bfa" refkind="member"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1a88753990f25503fa054bcbe70adf2bfa" kindref="member">nmea_degree2radian</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>val)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(val<sp/>*<sp/><ref refid="gmath_8h_1a3c641171a15e3832a0b208d0c6211cca" kindref="member">NMEA_PI180</ref>);<sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="gmath_8c_1a811f650921a77d6a528678004fc58b3f" refkind="member"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1a811f650921a77d6a528678004fc58b3f" kindref="member">nmea_radian2degree</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>val)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(val<sp/>/<sp/><ref refid="gmath_8h_1a3c641171a15e3832a0b208d0c6211cca" kindref="member">NMEA_PI180</ref>);<sp/>}</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35" refid="gmath_8c_1af1ca0d6c5a26ac8fec4e3c0219db45b3" refkind="member"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1af1ca0d6c5a26ac8fec4e3c0219db45b3" kindref="member">nmea_ndeg2degree</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>val)</highlight></codeline>
+<codeline lineno="36"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>deg<sp/>=<sp/>((int)(val<sp/>/<sp/>100));</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>val<sp/>=<sp/>deg<sp/>+<sp/>(val<sp/>-<sp/>deg<sp/>*<sp/>100)<sp/>/<sp/>60;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>val;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45" refid="gmath_8c_1a062bc2b58d7efdadbdf87a3a235d2fc9" refkind="member"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1a062bc2b58d7efdadbdf87a3a235d2fc9" kindref="member">nmea_degree2ndeg</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>val)</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>int_part;</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>fra_part;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/>fra_part<sp/>=<sp/>modf(val,<sp/>&amp;int_part);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>val<sp/>=<sp/>int_part<sp/>*<sp/>100<sp/>+<sp/>fra_part<sp/>*<sp/>60;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>val;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58" refid="gmath_8c_1a8a0bb7fe1385bf47b5cbbb6cafb17dbc" refkind="member"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1a8a0bb7fe1385bf47b5cbbb6cafb17dbc" kindref="member">nmea_ndeg2radian</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>val)</highlight></codeline>
+<codeline lineno="59"><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1a88753990f25503fa054bcbe70adf2bfa" kindref="member">nmea_degree2radian</ref>(<ref refid="gmath_8c_1af1ca0d6c5a26ac8fec4e3c0219db45b3" kindref="member">nmea_ndeg2degree</ref>(val));<sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65" refid="gmath_8c_1a7ecfc1958374fa19bbec44391400efe4" refkind="member"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1a7ecfc1958374fa19bbec44391400efe4" kindref="member">nmea_radian2ndeg</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>val)</highlight></codeline>
+<codeline lineno="66"><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1a062bc2b58d7efdadbdf87a3a235d2fc9" kindref="member">nmea_degree2ndeg</ref>(<ref refid="gmath_8c_1a811f650921a77d6a528678004fc58b3f" kindref="member">nmea_radian2degree</ref>(val));<sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="71" refid="gmath_8c_1a06643304acf31932fb3a69b4a2c2e575" refkind="member"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1a06643304acf31932fb3a69b4a2c2e575" kindref="member">nmea_calc_pdop</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>hdop,<sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>vdop)</highlight></codeline>
+<codeline lineno="72"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>sqrt(pow(hdop,<sp/>2)<sp/>+<sp/>pow(vdop,<sp/>2));</highlight></codeline>
+<codeline lineno="74"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="gmath_8c_1a941a5dfe4dd10d3ea35d8668ff9c2476" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1a941a5dfe4dd10d3ea35d8668ff9c2476" kindref="member">nmea_dop2meters</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dop)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(dop<sp/>*<sp/><ref refid="gmath_8h_1a7265e602e56b73fbc451ed8b0b49fc88" kindref="member">NMEA_DOP_FACTOR</ref>);<sp/>}</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"></highlight></codeline>
+<codeline lineno="79" refid="gmath_8c_1a1261f4037d976cbf23844b9655f05ef3" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1a1261f4037d976cbf23844b9655f05ef3" kindref="member">nmea_meters2dop</ref>(</highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>meters)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>(meters<sp/>/<sp/><ref refid="gmath_8h_1a7265e602e56b73fbc451ed8b0b49fc88" kindref="member">NMEA_DOP_FACTOR</ref>);<sp/>}</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86" refid="gmath_8c_1a2f033e21e246354b02287e44e04c5cc5" refkind="member"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1a2f033e21e246354b02287e44e04c5cc5" kindref="member">nmea_distance</ref>(</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct__nmea_p_o_s" kindref="compound">nmeaPOS</ref><sp/>*from_pos,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct__nmea_p_o_s" kindref="compound">nmeaPOS</ref><sp/>*to_pos<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="90"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>dist<sp/>=<sp/>((double)<ref refid="gmath_8h_1af6771a02b058d9960856843bc20427f6" kindref="member">NMEA_EARTHRADIUS_M</ref>)<sp/>*<sp/>acos(</highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sin(to_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>)<sp/>*<sp/>sin(from_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>)<sp/>+</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cos(to_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>)<sp/>*<sp/>cos(from_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>)<sp/>*<sp/>cos(to_pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref><sp/>-<sp/>from_pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref>)</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>dist;</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"></highlight></codeline>
+<codeline lineno="105" refid="gmath_8c_1aeb935f4b386b432e1fd659f18a1544b5" refkind="member"><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1aeb935f4b386b432e1fd659f18a1544b5" kindref="member">nmea_distance_ellipsoid</ref>(</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct__nmea_p_o_s" kindref="compound">nmeaPOS</ref><sp/>*from_pos,<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct__nmea_p_o_s" kindref="compound">nmeaPOS</ref><sp/>*to_pos,<sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*from_azimuth,<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*to_azimuth<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="111"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>All<sp/>variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>f,<sp/>a,<sp/>b,<sp/>sqr_a,<sp/>sqr_b;</highlight></codeline>
+<codeline lineno="114"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>L,<sp/>phi1,<sp/>phi2,<sp/>U1,<sp/>U2,<sp/>sin_U1,<sp/>sin_U2,<sp/>cos_U1,<sp/>cos_U2;</highlight></codeline>
+<codeline lineno="115"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sigma,<sp/>sin_sigma,<sp/>cos_sigma,<sp/>cos_2_sigmam,<sp/>sqr_cos_2_sigmam,<sp/>sqr_cos_alpha,<sp/>lambda,<sp/>sin_lambda,<sp/>cos_lambda,<sp/>delta_lambda;</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>remaining_steps;<sp/></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sqr_u,<sp/><ref refid="gpslog_8txt_1a01da122e706492ad4a97164179f02bfa" kindref="member">A</ref>,<sp/>B,<sp/>delta_sigma;</highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight></codeline>
+<codeline lineno="119"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Check<sp/>input<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" kindref="member">NMEA_ASSERT</ref>(from_pos<sp/>!=<sp/>0);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" kindref="member">NMEA_ASSERT</ref>(to_pos<sp/>!=<sp/>0);</highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>((from_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref><sp/>==<sp/>to_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>)<sp/>&amp;&amp;<sp/>(from_pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref><sp/>==<sp/>to_pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref>))</highlight></codeline>
+<codeline lineno="124"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="comment">/*<sp/>Identical<sp/>points<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="125"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>from_azimuth<sp/>!=<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="126"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*from_azimuth<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="127"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>to_azimuth<sp/>!=<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="128"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*to_azimuth<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="129"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;<sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">/*<sp/>Identical<sp/>points<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Earth<sp/>geometry<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"><sp/><sp/><sp/><sp/>f<sp/>=<sp/><ref refid="gmath_8h_1a83e99136f262c814400243d355c423e6" kindref="member">NMEA_EARTH_FLATTENING</ref>;</highlight></codeline>
+<codeline lineno="134"><highlight class="normal"><sp/><sp/><sp/><sp/>a<sp/>=<sp/><ref refid="gmath_8h_1a83d3c541023d9190398c72caa8637962" kindref="member">NMEA_EARTH_SEMIMAJORAXIS_M</ref>;</highlight></codeline>
+<codeline lineno="135"><highlight class="normal"><sp/><sp/><sp/><sp/>b<sp/>=<sp/>(1<sp/>-<sp/>f)<sp/>*<sp/>a;</highlight></codeline>
+<codeline lineno="136"><highlight class="normal"><sp/><sp/><sp/><sp/>sqr_a<sp/>=<sp/>a<sp/>*<sp/>a;</highlight></codeline>
+<codeline lineno="137"><highlight class="normal"><sp/><sp/><sp/><sp/>sqr_b<sp/>=<sp/>b<sp/>*<sp/>b;</highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Calculation<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="140"><highlight class="normal"><sp/><sp/><sp/><sp/>L<sp/>=<sp/>to_pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref><sp/>-<sp/>from_pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref>;</highlight></codeline>
+<codeline lineno="141"><highlight class="normal"><sp/><sp/><sp/><sp/>phi1<sp/>=<sp/>from_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>;</highlight></codeline>
+<codeline lineno="142"><highlight class="normal"><sp/><sp/><sp/><sp/>phi2<sp/>=<sp/>to_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>;</highlight></codeline>
+<codeline lineno="143"><highlight class="normal"><sp/><sp/><sp/><sp/>U1<sp/>=<sp/>atan((1<sp/>-<sp/>f)<sp/>*<sp/>tan(phi1));</highlight></codeline>
+<codeline lineno="144"><highlight class="normal"><sp/><sp/><sp/><sp/>U2<sp/>=<sp/>atan((1<sp/>-<sp/>f)<sp/>*<sp/>tan(phi2));</highlight></codeline>
+<codeline lineno="145"><highlight class="normal"><sp/><sp/><sp/><sp/>sin_U1<sp/>=<sp/>sin(U1);</highlight></codeline>
+<codeline lineno="146"><highlight class="normal"><sp/><sp/><sp/><sp/>sin_U2<sp/>=<sp/>sin(U2);</highlight></codeline>
+<codeline lineno="147"><highlight class="normal"><sp/><sp/><sp/><sp/>cos_U1<sp/>=<sp/>cos(U1);</highlight></codeline>
+<codeline lineno="148"><highlight class="normal"><sp/><sp/><sp/><sp/>cos_U2<sp/>=<sp/>cos(U2);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Initialize<sp/>iteration<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"><sp/><sp/><sp/><sp/>sigma<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="152"><highlight class="normal"><sp/><sp/><sp/><sp/>sin_sigma<sp/>=<sp/>sin(sigma);</highlight></codeline>
+<codeline lineno="153"><highlight class="normal"><sp/><sp/><sp/><sp/>cos_sigma<sp/>=<sp/>cos(sigma);</highlight></codeline>
+<codeline lineno="154"><highlight class="normal"><sp/><sp/><sp/><sp/>cos_2_sigmam<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="155"><highlight class="normal"><sp/><sp/><sp/><sp/>sqr_cos_2_sigmam<sp/>=<sp/>cos_2_sigmam<sp/>*<sp/>cos_2_sigmam;</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"><sp/><sp/><sp/><sp/>sqr_cos_alpha<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="157"><highlight class="normal"><sp/><sp/><sp/><sp/>lambda<sp/>=<sp/>L;</highlight></codeline>
+<codeline lineno="158"><highlight class="normal"><sp/><sp/><sp/><sp/>sin_lambda<sp/>=<sp/>sin(lambda);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="159"><highlight class="normal"><sp/><sp/><sp/><sp/>cos_lambda<sp/>=<sp/>cos(lambda);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="160"><highlight class="normal"><sp/><sp/><sp/><sp/>delta_lambda<sp/>=<sp/>lambda;</highlight></codeline>
+<codeline lineno="161"><highlight class="normal"><sp/><sp/><sp/><sp/>remaining_steps<sp/>=<sp/>20;<sp/></highlight></codeline>
+<codeline lineno="162"><highlight class="normal"></highlight></codeline>
+<codeline lineno="163"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>((delta_lambda<sp/>&gt;<sp/>1e-12)<sp/>&amp;&amp;<sp/>(remaining_steps<sp/>&gt;<sp/>0))<sp/></highlight></codeline>
+<codeline lineno="164"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="comment">/*<sp/>Iterate<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="165"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="166"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tmp1,<sp/>tmp2,<sp/>tan_sigma,<sp/>sin_alpha,<sp/>cos_alpha,<sp/>C,<sp/>lambda_prev;<sp/></highlight></codeline>
+<codeline lineno="167"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Calculation<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp1<sp/>=<sp/>cos_U2<sp/>*<sp/>sin_lambda;</highlight></codeline>
+<codeline lineno="170"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tmp2<sp/>=<sp/>cos_U1<sp/>*<sp/>sin_U2<sp/>-<sp/>sin_U1<sp/>*<sp/>cos_U2<sp/>*<sp/>cos_lambda;<sp/><sp/></highlight></codeline>
+<codeline lineno="171"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sin_sigma<sp/>=<sp/>sqrt(tmp1<sp/>*<sp/>tmp1<sp/>+<sp/>tmp2<sp/>*<sp/>tmp2);<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cos_sigma<sp/>=<sp/>sin_U1<sp/>*<sp/>sin_U2<sp/>+<sp/>cos_U1<sp/>*<sp/>cos_U2<sp/>*<sp/>cos_lambda;<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="173"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>tan_sigma<sp/>=<sp/>sin_sigma<sp/>/<sp/>cos_sigma;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="174"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sin_alpha<sp/>=<sp/>cos_U1<sp/>*<sp/>cos_U2<sp/>*<sp/>sin_lambda<sp/>/<sp/>sin_sigma;<sp/><sp/></highlight></codeline>
+<codeline lineno="175"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cos_alpha<sp/>=<sp/>cos(asin(sin_alpha));<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sqr_cos_alpha<sp/>=<sp/>cos_alpha<sp/>*<sp/>cos_alpha;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cos_2_sigmam<sp/>=<sp/>cos_sigma<sp/>-<sp/>2<sp/>*<sp/>sin_U1<sp/>*<sp/>sin_U2<sp/>/<sp/>sqr_cos_alpha;</highlight></codeline>
+<codeline lineno="178"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sqr_cos_2_sigmam<sp/>=<sp/>cos_2_sigmam<sp/>*<sp/>cos_2_sigmam;<sp/></highlight></codeline>
+<codeline lineno="179"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>C<sp/>=<sp/>f<sp/>/<sp/>16<sp/>*<sp/>sqr_cos_alpha<sp/>*<sp/>(4<sp/>+<sp/>f<sp/>*<sp/>(4<sp/>-<sp/>3<sp/>*<sp/>sqr_cos_alpha));</highlight></codeline>
+<codeline lineno="180"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lambda_prev<sp/>=<sp/>lambda;<sp/></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sigma<sp/>=<sp/>asin(sin_sigma);<sp/></highlight></codeline>
+<codeline lineno="182"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>lambda<sp/>=<sp/>L<sp/>+<sp/></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>-<sp/>C)<sp/>*<sp/>f<sp/>*<sp/>sin_alpha</highlight></codeline>
+<codeline lineno="184"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>(sigma<sp/>+<sp/>C<sp/>*<sp/>sin_sigma<sp/>*<sp/>(cos_2_sigmam<sp/>+<sp/>C<sp/>*<sp/>cos_sigma<sp/>*<sp/>(-1<sp/>+<sp/>2<sp/>*<sp/>sqr_cos_2_sigmam)));<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="185"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delta_lambda<sp/>=<sp/>lambda_prev<sp/>-<sp/>lambda;<sp/></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>delta_lambda<sp/>&lt;<sp/>0<sp/>)<sp/>delta_lambda<sp/>=<sp/>-delta_lambda;<sp/></highlight></codeline>
+<codeline lineno="187"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sin_lambda<sp/>=<sp/>sin(lambda);</highlight></codeline>
+<codeline lineno="188"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cos_lambda<sp/>=<sp/>cos(lambda);</highlight></codeline>
+<codeline lineno="189"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>remaining_steps--;<sp/></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/><sp/></highlight><highlight class="comment">/*<sp/>Iterate<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>More<sp/>calculation<sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="193"><highlight class="normal"><sp/><sp/><sp/><sp/>sqr_u<sp/>=<sp/>sqr_cos_alpha<sp/>*<sp/>(sqr_a<sp/>-<sp/>sqr_b)<sp/>/<sp/>sqr_b;<sp/></highlight></codeline>
+<codeline lineno="194"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="gpslog_8txt_1a01da122e706492ad4a97164179f02bfa" kindref="member">A</ref><sp/>=<sp/>1<sp/>+<sp/>sqr_u<sp/>/<sp/>16384<sp/>*<sp/>(4096<sp/>+<sp/>sqr_u<sp/>*<sp/>(-768<sp/>+<sp/>sqr_u<sp/>*<sp/>(320<sp/>-<sp/>175<sp/>*<sp/>sqr_u)));</highlight></codeline>
+<codeline lineno="195"><highlight class="normal"><sp/><sp/><sp/><sp/>B<sp/>=<sp/>sqr_u<sp/>/<sp/>1024<sp/>*<sp/>(256<sp/>+<sp/>sqr_u<sp/>*<sp/>(-128<sp/>+<sp/>sqr_u<sp/>*<sp/>(74<sp/>-<sp/>47<sp/>*<sp/>sqr_u)));</highlight></codeline>
+<codeline lineno="196"><highlight class="normal"><sp/><sp/><sp/><sp/>delta_sigma<sp/>=<sp/>B<sp/>*<sp/>sin_sigma<sp/>*<sp/>(<sp/></highlight></codeline>
+<codeline lineno="197"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cos_2_sigmam<sp/>+<sp/>B<sp/>/<sp/>4<sp/>*<sp/>(<sp/></highlight></codeline>
+<codeline lineno="198"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cos_sigma<sp/>*<sp/>(-1<sp/>+<sp/>2<sp/>*<sp/>sqr_cos_2_sigmam)<sp/>-</highlight></codeline>
+<codeline lineno="199"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>B<sp/>/<sp/>6<sp/>*<sp/>cos_2_sigmam<sp/>*<sp/>(-3<sp/>+<sp/>4<sp/>*<sp/>sin_sigma<sp/>*<sp/>sin_sigma)<sp/>*<sp/>(-3<sp/>+<sp/>4<sp/>*<sp/>sqr_cos_2_sigmam)</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>));</highlight></codeline>
+<codeline lineno="201"><highlight class="normal"></highlight></codeline>
+<codeline lineno="202"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Calculate<sp/>result<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="203"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>from_azimuth<sp/>!=<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="204"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="205"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tan_alpha_1<sp/>=<sp/>cos_U2<sp/>*<sp/>sin_lambda<sp/>/<sp/>(cos_U1<sp/>*<sp/>sin_U2<sp/>-<sp/>sin_U1<sp/>*<sp/>cos_U2<sp/>*<sp/>cos_lambda);</highlight></codeline>
+<codeline lineno="206"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*from_azimuth<sp/>=<sp/>atan(tan_alpha_1);</highlight></codeline>
+<codeline lineno="207"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="208"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>to_azimuth<sp/>!=<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="209"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="210"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tan_alpha_2<sp/>=<sp/>cos_U1<sp/>*<sp/>sin_lambda<sp/>/<sp/>(-sin_U1<sp/>*<sp/>cos_U2<sp/>+<sp/>cos_U1<sp/>*<sp/>sin_U2<sp/>*<sp/>cos_lambda);</highlight></codeline>
+<codeline lineno="211"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*to_azimuth<sp/>=<sp/>atan(tan_alpha_2);</highlight></codeline>
+<codeline lineno="212"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="213"><highlight class="normal"></highlight></codeline>
+<codeline lineno="214"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>b<sp/>*<sp/><ref refid="gpslog_8txt_1a01da122e706492ad4a97164179f02bfa" kindref="member">A</ref><sp/>*<sp/>(sigma<sp/>-<sp/>delta_sigma);</highlight></codeline>
+<codeline lineno="215"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="220" refid="gmath_8c_1abfbbda0483fc8fe0e0f1e4393759a4b9" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1abfbbda0483fc8fe0e0f1e4393759a4b9" kindref="member">nmea_move_horz</ref>(</highlight></codeline>
+<codeline lineno="221"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct__nmea_p_o_s" kindref="compound">nmeaPOS</ref><sp/>*start_pos,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="222"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__nmea_p_o_s" kindref="compound">nmeaPOS</ref><sp/>*end_pos,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="223"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>azimuth,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="224"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>distance<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="225"><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="226"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="227"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__nmea_p_o_s" kindref="compound">nmeaPOS</ref><sp/>p1<sp/>=<sp/>*start_pos;</highlight></codeline>
+<codeline lineno="228"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>RetVal<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="229"><highlight class="normal"></highlight></codeline>
+<codeline lineno="230"><highlight class="normal"><sp/><sp/><sp/><sp/>distance<sp/>/=<sp/><ref refid="gmath_8h_1a837a8521dcccea742d7813a1cf6ad565" kindref="member">NMEA_EARTHRADIUS_KM</ref>;<sp/></highlight><highlight class="comment">/*<sp/>Angular<sp/>distance<sp/>covered<sp/>on<sp/>earth&apos;s<sp/>surface<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="231"><highlight class="normal"><sp/><sp/><sp/><sp/>azimuth<sp/>=<sp/><ref refid="gmath_8c_1a88753990f25503fa054bcbe70adf2bfa" kindref="member">nmea_degree2radian</ref>(azimuth);</highlight></codeline>
+<codeline lineno="232"><highlight class="normal"></highlight></codeline>
+<codeline lineno="233"><highlight class="normal"><sp/><sp/><sp/><sp/>end_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref><sp/>=<sp/>asin(</highlight></codeline>
+<codeline lineno="234"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sin(p1.<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>)<sp/>*<sp/>cos(distance)<sp/>+<sp/>cos(p1.<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>)<sp/>*<sp/>sin(distance)<sp/>*<sp/>cos(azimuth));</highlight></codeline>
+<codeline lineno="235"><highlight class="normal"><sp/><sp/><sp/><sp/>end_pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref><sp/>=<sp/>p1.<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref><sp/>+<sp/>atan2(</highlight></codeline>
+<codeline lineno="236"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sin(azimuth)<sp/>*<sp/>sin(distance)<sp/>*<sp/>cos(p1.<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>),<sp/>cos(distance)<sp/>-<sp/>sin(p1.<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>)<sp/>*<sp/>sin(end_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>));</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="238"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a79f906d9809192a5437c04f7aa5f8075" kindref="member">NMEA_POSIX</ref>(isnan)(end_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>)<sp/>||<sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a79f906d9809192a5437c04f7aa5f8075" kindref="member">NMEA_POSIX</ref>(isnan)(end_pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref>))</highlight></codeline>
+<codeline lineno="239"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="240"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>end_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref><sp/>=<sp/>0;<sp/>end_pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="241"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>RetVal<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="242"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="243"><highlight class="normal"></highlight></codeline>
+<codeline lineno="244"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>RetVal;</highlight></codeline>
+<codeline lineno="245"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="246"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253" refid="gmath_8c_1a3aa0082d3d7f10116a6c67764e1abd36" refkind="member"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1a3aa0082d3d7f10116a6c67764e1abd36" kindref="member">nmea_move_horz_ellipsoid</ref>(</highlight></codeline>
+<codeline lineno="254"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct__nmea_p_o_s" kindref="compound">nmeaPOS</ref><sp/>*start_pos,<sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="255"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct__nmea_p_o_s" kindref="compound">nmeaPOS</ref><sp/>*end_pos,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="256"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>azimuth,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>distance,<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="258"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>*end_azimuth<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="259"><highlight class="normal"><sp/><sp/><sp/><sp/>)</highlight></codeline>
+<codeline lineno="260"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="261"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="262"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>f,<sp/>a,<sp/>b,<sp/>sqr_a,<sp/>sqr_b;</highlight></codeline>
+<codeline lineno="263"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>phi1,<sp/>tan_U1,<sp/>sin_U1,<sp/>cos_U1,<sp/>s,<sp/>alpha1,<sp/>sin_alpha1,<sp/>cos_alpha1;</highlight></codeline>
+<codeline lineno="264"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tan_sigma1,<sp/>sigma1,<sp/>sin_alpha,<sp/>cos_alpha,<sp/>sqr_cos_alpha,<sp/>sqr_u,<sp/><ref refid="gpslog_8txt_1a01da122e706492ad4a97164179f02bfa" kindref="member">A</ref>,<sp/>B;</highlight></codeline>
+<codeline lineno="265"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>sigma_initial,<sp/>sigma,<sp/>sigma_prev,<sp/>sin_sigma,<sp/>cos_sigma,<sp/>cos_2_sigmam,<sp/>sqr_cos_2_sigmam,<sp/>delta_sigma;</highlight></codeline>
+<codeline lineno="266"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>remaining_steps;</highlight></codeline>
+<codeline lineno="267"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">double</highlight><highlight class="normal"><sp/>tmp1,<sp/>phi2,<sp/>lambda,<sp/>C,<sp/>L;</highlight></codeline>
+<codeline lineno="268"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="269"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Check<sp/>input<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="270"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" kindref="member">NMEA_ASSERT</ref>(start_pos<sp/>!=<sp/>0);</highlight></codeline>
+<codeline lineno="271"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a83f28c50de1883a2558d68f793b1429e" kindref="member">NMEA_ASSERT</ref>(end_pos<sp/>!=<sp/>0);</highlight></codeline>
+<codeline lineno="272"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="273"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(fabs(distance)<sp/>&lt;<sp/>1e-12)</highlight></codeline>
+<codeline lineno="274"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="comment">/*<sp/>No<sp/>move<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="275"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*end_pos<sp/>=<sp/>*start_pos;</highlight></codeline>
+<codeline lineno="276"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>end_azimuth<sp/>!=<sp/>0<sp/>)<sp/>*end_azimuth<sp/>=<sp/>azimuth;</highlight></codeline>
+<codeline lineno="277"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!<sp/>(<ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a79f906d9809192a5437c04f7aa5f8075" kindref="member">NMEA_POSIX</ref>(isnan)(end_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>)<sp/>||<sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a79f906d9809192a5437c04f7aa5f8075" kindref="member">NMEA_POSIX</ref>(isnan)(end_pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref>));</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">/*<sp/>No<sp/>move<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="279"><highlight class="normal"></highlight></codeline>
+<codeline lineno="280"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Earth<sp/>geometry<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="281"><highlight class="normal"><sp/><sp/><sp/><sp/>f<sp/>=<sp/><ref refid="gmath_8h_1a83e99136f262c814400243d355c423e6" kindref="member">NMEA_EARTH_FLATTENING</ref>;</highlight></codeline>
+<codeline lineno="282"><highlight class="normal"><sp/><sp/><sp/><sp/>a<sp/>=<sp/><ref refid="gmath_8h_1a83d3c541023d9190398c72caa8637962" kindref="member">NMEA_EARTH_SEMIMAJORAXIS_M</ref>;</highlight></codeline>
+<codeline lineno="283"><highlight class="normal"><sp/><sp/><sp/><sp/>b<sp/>=<sp/>(1<sp/>-<sp/>f)<sp/>*<sp/>a;</highlight></codeline>
+<codeline lineno="284"><highlight class="normal"><sp/><sp/><sp/><sp/>sqr_a<sp/>=<sp/>a<sp/>*<sp/>a;</highlight></codeline>
+<codeline lineno="285"><highlight class="normal"><sp/><sp/><sp/><sp/>sqr_b<sp/>=<sp/>b<sp/>*<sp/>b;</highlight></codeline>
+<codeline lineno="286"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="287"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Calculation<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="288"><highlight class="normal"><sp/><sp/><sp/><sp/>phi1<sp/>=<sp/>start_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>;</highlight></codeline>
+<codeline lineno="289"><highlight class="normal"><sp/><sp/><sp/><sp/>tan_U1<sp/>=<sp/>(1<sp/>-<sp/>f)<sp/>*<sp/>tan(phi1);</highlight></codeline>
+<codeline lineno="290"><highlight class="normal"><sp/><sp/><sp/><sp/>cos_U1<sp/>=<sp/>1<sp/>/<sp/>sqrt(1<sp/>+<sp/>tan_U1<sp/>*<sp/>tan_U1);</highlight></codeline>
+<codeline lineno="291"><highlight class="normal"><sp/><sp/><sp/><sp/>sin_U1<sp/>=<sp/>tan_U1<sp/>*<sp/>cos_U1;</highlight></codeline>
+<codeline lineno="292"><highlight class="normal"><sp/><sp/><sp/><sp/>s<sp/>=<sp/>distance;</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"><sp/><sp/><sp/><sp/>alpha1<sp/>=<sp/>azimuth;</highlight></codeline>
+<codeline lineno="294"><highlight class="normal"><sp/><sp/><sp/><sp/>sin_alpha1<sp/>=<sp/>sin(alpha1);</highlight></codeline>
+<codeline lineno="295"><highlight class="normal"><sp/><sp/><sp/><sp/>cos_alpha1<sp/>=<sp/>cos(alpha1);</highlight></codeline>
+<codeline lineno="296"><highlight class="normal"><sp/><sp/><sp/><sp/>tan_sigma1<sp/>=<sp/>tan_U1<sp/>/<sp/>cos_alpha1;</highlight></codeline>
+<codeline lineno="297"><highlight class="normal"><sp/><sp/><sp/><sp/>sigma1<sp/>=<sp/>atan2(tan_U1,<sp/>cos_alpha1);</highlight></codeline>
+<codeline lineno="298"><highlight class="normal"><sp/><sp/><sp/><sp/>sin_alpha<sp/>=<sp/>cos_U1<sp/>*<sp/>sin_alpha1;</highlight></codeline>
+<codeline lineno="299"><highlight class="normal"><sp/><sp/><sp/><sp/>sqr_cos_alpha<sp/>=<sp/>1<sp/>-<sp/>sin_alpha<sp/>*<sp/>sin_alpha;</highlight></codeline>
+<codeline lineno="300"><highlight class="normal"><sp/><sp/><sp/><sp/>cos_alpha<sp/>=<sp/>sqrt(sqr_cos_alpha);</highlight></codeline>
+<codeline lineno="301"><highlight class="normal"><sp/><sp/><sp/><sp/>sqr_u<sp/>=<sp/>sqr_cos_alpha<sp/>*<sp/>(sqr_a<sp/>-<sp/>sqr_b)<sp/>/<sp/>sqr_b;<sp/></highlight></codeline>
+<codeline lineno="302"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="gpslog_8txt_1a01da122e706492ad4a97164179f02bfa" kindref="member">A</ref><sp/>=<sp/>1<sp/>+<sp/>sqr_u<sp/>/<sp/>16384<sp/>*<sp/>(4096<sp/>+<sp/>sqr_u<sp/>*<sp/>(-768<sp/>+<sp/>sqr_u<sp/>*<sp/>(320<sp/>-<sp/>175<sp/>*<sp/>sqr_u)));</highlight></codeline>
+<codeline lineno="303"><highlight class="normal"><sp/><sp/><sp/><sp/>B<sp/>=<sp/>sqr_u<sp/>/<sp/>1024<sp/>*<sp/>(256<sp/>+<sp/>sqr_u<sp/>*<sp/>(-128<sp/>+<sp/>sqr_u<sp/>*<sp/>(74<sp/>-<sp/>47<sp/>*<sp/>sqr_u)));</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="305"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Initialize<sp/>iteration<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="306"><highlight class="normal"><sp/><sp/><sp/><sp/>sigma_initial<sp/>=<sp/>s<sp/>/<sp/>(b<sp/>*<sp/><ref refid="gpslog_8txt_1a01da122e706492ad4a97164179f02bfa" kindref="member">A</ref>);</highlight></codeline>
+<codeline lineno="307"><highlight class="normal"><sp/><sp/><sp/><sp/>sigma<sp/>=<sp/>sigma_initial;</highlight></codeline>
+<codeline lineno="308"><highlight class="normal"><sp/><sp/><sp/><sp/>sin_sigma<sp/>=<sp/>sin(sigma);</highlight></codeline>
+<codeline lineno="309"><highlight class="normal"><sp/><sp/><sp/><sp/>cos_sigma<sp/>=<sp/>cos(sigma);</highlight></codeline>
+<codeline lineno="310"><highlight class="normal"><sp/><sp/><sp/><sp/>cos_2_sigmam<sp/>=<sp/>cos(2<sp/>*<sp/>sigma1<sp/>+<sp/>sigma);</highlight></codeline>
+<codeline lineno="311"><highlight class="normal"><sp/><sp/><sp/><sp/>sqr_cos_2_sigmam<sp/>=<sp/>cos_2_sigmam<sp/>*<sp/>cos_2_sigmam;</highlight></codeline>
+<codeline lineno="312"><highlight class="normal"><sp/><sp/><sp/><sp/>delta_sigma<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="313"><highlight class="normal"><sp/><sp/><sp/><sp/>sigma_prev<sp/>=<sp/>2<sp/>*<sp/><ref refid="gmath_8h_1a560bd48d0792d5239cb6bf9c873821c5" kindref="member">NMEA_PI</ref>;</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"><sp/><sp/><sp/><sp/>remaining_steps<sp/>=<sp/>20;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal"></highlight></codeline>
+<codeline lineno="316"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>((fabs(sigma<sp/>-<sp/>sigma_prev)<sp/>&gt;<sp/>1e-12)<sp/>&amp;&amp;<sp/>(remaining_steps<sp/>&gt;<sp/>0))</highlight></codeline>
+<codeline lineno="317"><highlight class="normal"><sp/><sp/><sp/><sp/>{<sp/></highlight><highlight class="comment">/*<sp/>Iterate<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="318"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cos_2_sigmam<sp/>=<sp/>cos(2<sp/>*<sp/>sigma1<sp/>+<sp/>sigma);</highlight></codeline>
+<codeline lineno="319"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sqr_cos_2_sigmam<sp/>=<sp/>cos_2_sigmam<sp/>*<sp/>cos_2_sigmam;</highlight></codeline>
+<codeline lineno="320"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sin_sigma<sp/>=<sp/>sin(sigma);</highlight></codeline>
+<codeline lineno="321"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cos_sigma<sp/>=<sp/>cos(sigma);</highlight></codeline>
+<codeline lineno="322"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>delta_sigma<sp/>=<sp/>B<sp/>*<sp/>sin_sigma<sp/>*<sp/>(<sp/></highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cos_2_sigmam<sp/>+<sp/>B<sp/>/<sp/>4<sp/>*<sp/>(<sp/></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cos_sigma<sp/>*<sp/>(-1<sp/>+<sp/>2<sp/>*<sp/>sqr_cos_2_sigmam)<sp/>-<sp/></highlight></codeline>
+<codeline lineno="325"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>B<sp/>/<sp/>6<sp/>*<sp/>cos_2_sigmam<sp/>*<sp/>(-3<sp/>+<sp/>4<sp/>*<sp/>sin_sigma<sp/>*<sp/>sin_sigma)<sp/>*<sp/>(-3<sp/>+<sp/>4<sp/>*<sp/>sqr_cos_2_sigmam)</highlight></codeline>
+<codeline lineno="326"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>));</highlight></codeline>
+<codeline lineno="327"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sigma_prev<sp/>=<sp/>sigma;</highlight></codeline>
+<codeline lineno="328"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sigma<sp/>=<sp/>sigma_initial<sp/>+<sp/>delta_sigma;</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>remaining_steps<sp/>--;</highlight></codeline>
+<codeline lineno="330"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/></highlight><highlight class="comment">/*<sp/>Iterate<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="331"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Calculate<sp/>result<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="333"><highlight class="normal"><sp/><sp/><sp/><sp/>tmp1<sp/>=<sp/>(sin_U1<sp/>*<sp/>sin_sigma<sp/>-<sp/>cos_U1<sp/>*<sp/>cos_sigma<sp/>*<sp/>cos_alpha1);</highlight></codeline>
+<codeline lineno="334"><highlight class="normal"><sp/><sp/><sp/><sp/>phi2<sp/>=<sp/>atan2(</highlight></codeline>
+<codeline lineno="335"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sin_U1<sp/>*<sp/>cos_sigma<sp/>+<sp/>cos_U1<sp/>*<sp/>sin_sigma<sp/>*<sp/>cos_alpha1,</highlight></codeline>
+<codeline lineno="336"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>-<sp/>f)<sp/>*<sp/>sqrt(sin_alpha<sp/>*<sp/>sin_alpha<sp/>+<sp/>tmp1<sp/>*<sp/>tmp1)</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"><sp/><sp/><sp/><sp/>lambda<sp/>=<sp/>atan2(</highlight></codeline>
+<codeline lineno="339"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sin_sigma<sp/>*<sp/>sin_alpha1,</highlight></codeline>
+<codeline lineno="340"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>cos_U1<sp/>*<sp/>cos_sigma<sp/>-<sp/>sin_U1<sp/>*<sp/>sin_sigma<sp/>*<sp/>cos_alpha1</highlight></codeline>
+<codeline lineno="341"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/>C<sp/>=<sp/>f<sp/>/<sp/>16<sp/>*<sp/>sqr_cos_alpha<sp/>*<sp/>(4<sp/>+<sp/>f<sp/>*<sp/>(4<sp/>-<sp/>3<sp/>*<sp/>sqr_cos_alpha));</highlight></codeline>
+<codeline lineno="343"><highlight class="normal"><sp/><sp/><sp/><sp/>L<sp/>=<sp/>lambda<sp/>-</highlight></codeline>
+<codeline lineno="344"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(1<sp/>-<sp/>C)<sp/>*<sp/>f<sp/>*<sp/>sin_alpha<sp/>*<sp/>(</highlight></codeline>
+<codeline lineno="345"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sigma<sp/>+<sp/>C<sp/>*<sp/>sin_sigma<sp/>*</highlight></codeline>
+<codeline lineno="346"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(cos_2_sigmam<sp/>+<sp/>C<sp/>*<sp/>cos_sigma<sp/>*<sp/>(-1<sp/>+<sp/>2<sp/>*<sp/>sqr_cos_2_sigmam))</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Result<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="350"><highlight class="normal"><sp/><sp/><sp/><sp/>end_pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref><sp/>=<sp/>start_pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref><sp/>+<sp/>L;</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"><sp/><sp/><sp/><sp/>end_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref><sp/>=<sp/>phi2;</highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>(<sp/>end_azimuth<sp/>!=<sp/>0<sp/>)</highlight></codeline>
+<codeline lineno="353"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="354"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*end_azimuth<sp/>=<sp/>atan2(</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sin_alpha,<sp/>-sin_U1<sp/>*<sp/>sin_sigma<sp/>+<sp/>cos_U1<sp/>*<sp/>cos_sigma<sp/>*<sp/>cos_alpha1</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>);</highlight></codeline>
+<codeline lineno="357"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>!<sp/>(<ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a79f906d9809192a5437c04f7aa5f8075" kindref="member">NMEA_POSIX</ref>(isnan)(end_pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>)<sp/>||<sp/><ref refid="nmealib-0_85_83_2nmealib_2include_2nmea_2config_8h_1a79f906d9809192a5437c04f7aa5f8075" kindref="member">NMEA_POSIX</ref>(isnan)(end_pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref>));</highlight></codeline>
+<codeline lineno="359"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="360"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364" refid="gmath_8c_1a7ae16624d96691eba1d84570e8046dd7" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1a7ae16624d96691eba1d84570e8046dd7" kindref="member">nmea_info2pos</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info,<sp/><ref refid="struct__nmea_p_o_s" kindref="compound">nmeaPOS</ref><sp/>*pos)</highlight></codeline>
+<codeline lineno="365"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/>pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref><sp/>=<sp/><ref refid="gmath_8c_1a8a0bb7fe1385bf47b5cbbb6cafb17dbc" kindref="member">nmea_ndeg2radian</ref>(info-&gt;<ref refid="struct__nmea_i_n_f_o_1aa7d809bffd657065584e1cad6d1ea011" kindref="member">lat</ref>);</highlight></codeline>
+<codeline lineno="367"><highlight class="normal"><sp/><sp/><sp/><sp/>pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref><sp/>=<sp/><ref refid="gmath_8c_1a8a0bb7fe1385bf47b5cbbb6cafb17dbc" kindref="member">nmea_ndeg2radian</ref>(info-&gt;<ref refid="struct__nmea_i_n_f_o_1af3c4466635ab0245751e639bab174f1f" kindref="member">lon</ref>);</highlight></codeline>
+<codeline lineno="368"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="369"><highlight class="normal"></highlight></codeline>
+<codeline lineno="373" refid="gmath_8c_1aae885759b3bfecab406ecb8b4c0e351d" refkind="member"><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="gmath_8c_1aae885759b3bfecab406ecb8b4c0e351d" kindref="member">nmea_pos2info</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct__nmea_p_o_s" kindref="compound">nmeaPOS</ref><sp/>*pos,<sp/><ref refid="struct__nmea_i_n_f_o" kindref="compound">nmeaINFO</ref><sp/>*info)</highlight></codeline>
+<codeline lineno="374"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;<ref refid="struct__nmea_i_n_f_o_1aa7d809bffd657065584e1cad6d1ea011" kindref="member">lat</ref><sp/>=<sp/><ref refid="gmath_8c_1a7ecfc1958374fa19bbec44391400efe4" kindref="member">nmea_radian2ndeg</ref>(pos-&gt;<ref refid="struct__nmea_p_o_s_1a7460c3b73b0bc478183580d62ac90275" kindref="member">lat</ref>);</highlight></codeline>
+<codeline lineno="376"><highlight class="normal"><sp/><sp/><sp/><sp/>info-&gt;<ref refid="struct__nmea_i_n_f_o_1af3c4466635ab0245751e639bab174f1f" kindref="member">lon</ref><sp/>=<sp/><ref refid="gmath_8c_1a7ecfc1958374fa19bbec44391400efe4" kindref="member">nmea_radian2ndeg</ref>(pos-&gt;<ref refid="struct__nmea_p_o_s_1aa90c327fd33606667ceef90f636e03a0" kindref="member">lon</ref>);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/karst/Google Drive/ProjectNet/Projekter/NMEA connector/Inspiration/nmealib-0.5.3/nmealib/src/gmath.c"/>
+  </compounddef>
+</doxygen>

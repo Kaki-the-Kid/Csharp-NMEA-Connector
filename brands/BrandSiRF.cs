@@ -126,7 +126,7 @@ namespace NMEA_connector.brands
          * 00         mode, 0=set rate, 1=query
          * 01         rate in seconds, 0-255
          * 01         checksum 0=no, 1=yes
-         * 20        checksum
+         * 20         checksum
          ****************************************************************************/
         public void SiRfNMEACommand103()
         {

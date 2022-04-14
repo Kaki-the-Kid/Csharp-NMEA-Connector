@@ -20,6 +20,7 @@ namespace NMEA_connector
         public string NMEA2000DeviceModelVersion { get; set; }//model_version
         public string NMEA2000DeviceModelId { get; set; }//model_id
         public string NMEA2000DeviceFirmware { get; set; }//software_version,// Device firmware like: 1.41 16/03/2018
+        public string NMEA2000DeviceStandard { get; set; }
         public string NMEA2000DeviceSerial { get; set; }//serial // Device serial like: 00001657
         public string NMEA2000DeviceCertification { get; set; } //certification
         public string NMEA2000DeviceLen_mA { get; set; } //len_ma
@@ -47,7 +48,8 @@ namespace NMEA_connector
             string manufaturer, 
             string funtion,
             string serial,
-            string firmware
+            string firmware,
+            string nmeaStandard = ""
             )
         {
             NMEA2000_Device addDevice = new NMEA2000_Device();
@@ -57,6 +59,7 @@ namespace NMEA_connector
             addDevice.NMEA2000DeviceFunction = funtion;
             addDevice.NMEA2000DeviceSerial = serial;
             addDevice.NMEA2000DeviceFirmware = firmware;
+            addDevice.NMEA2000DeviceStandard = nmesStandard;
 
             this.NMEADevices.Add(addDevice);
         }

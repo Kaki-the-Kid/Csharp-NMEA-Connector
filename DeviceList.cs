@@ -59,7 +59,7 @@ namespace NMEA_connector
             addDevice.NMEA2000DeviceFunction = funtion;
             addDevice.NMEA2000DeviceSerial = serial;
             addDevice.NMEA2000DeviceFirmware = firmware;
-            addDevice.NMEA2000DeviceStandard = nmesStandard;
+            addDevice.NMEA2000DeviceStandard = nmeaStandard;
 
             this.NMEADevices.Add(addDevice);
         }

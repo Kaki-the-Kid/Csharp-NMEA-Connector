@@ -107,3 +107,13 @@ G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\da\NMEA connector.resource
 G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\NMEA Connector.csproj.CopyComplete
 G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\NMEA connector.exe
 G:\Mit drev\Workspace\Csharp\NMEA-connector\obj\Debug\NMEA connector.pdb
+G:\Mit drev\Workspace\Csharp\Csharp-NMEA-Connector\obj\Debug\NMEA Connector.csproj.AssemblyReference.cache
+G:\Mit drev\Workspace\Csharp\Csharp-NMEA-Connector\obj\Debug\NMEA Connector.csproj.SuggestedBindingRedirects.cache
+G:\Mit drev\Workspace\Csharp\Csharp-NMEA-Connector\obj\Debug\gui\NMEA2000 Device List.g.cs
+G:\Mit drev\Workspace\Csharp\Csharp-NMEA-Connector\obj\Debug\gui\NMEA2000_Device Properties.g.cs
+G:\Mit drev\Workspace\Csharp\Csharp-NMEA-Connector\obj\Debug\gui\NMEA_main_window.g.cs
+G:\Mit drev\Workspace\Csharp\Csharp-NMEA-Connector\obj\Debug\NMEA connector_Content.g.cs
+G:\Mit drev\Workspace\Csharp\Csharp-NMEA-Connector\obj\Debug\NMEA connector_MarkupCompile.cache
+G:\Mit drev\Workspace\Csharp\Csharp-NMEA-Connector\obj\Debug\NMEA connector_MarkupCompile.lref
+G:\Mit drev\Workspace\Csharp\Csharp-NMEA-Connector\obj\Debug\NMEA connector.exe
+G:\Mit drev\Workspace\Csharp\Csharp-NMEA-Connector\obj\Debug\NMEA connector.pdb

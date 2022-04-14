@@ -356,5 +356,3 @@ namespace NMEA_connector.testsuite
         };
     }
 }
- 
- 

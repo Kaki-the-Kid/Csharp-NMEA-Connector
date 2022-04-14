@@ -4,7 +4,6 @@ using System.Linq;
 
 namespace NMEA_connector.brands
 {
-    
     public class BrandGarmin
     {
         public String[] CommandParts

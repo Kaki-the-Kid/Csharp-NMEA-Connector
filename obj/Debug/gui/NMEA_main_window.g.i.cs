@@ -93,3 +93,10 @@ namespace NMEA_connector.gui {
             
             #line default
             #line hidden
+            return;
+            }
+            this._contentLoaded = true;
+        }
+    }
+}
+

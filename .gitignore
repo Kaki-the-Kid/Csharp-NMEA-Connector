@@ -1,0 +1,8 @@
+.vs/*
+.idea/*
+.vscode/*
+
+obj/*
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+.vs/Csharp-NMEA-Connector/v17/*

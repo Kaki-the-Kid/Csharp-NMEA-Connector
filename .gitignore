@@ -6,3 +6,4 @@ obj/*
 .vs/slnx.sqlite
 .vs/VSWorkspaceState.json
 .vs/Csharp-NMEA-Connector/v17/*
+bin/Debug/NMEA connector.pdb

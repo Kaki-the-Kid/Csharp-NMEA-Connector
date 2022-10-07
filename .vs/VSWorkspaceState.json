@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\brands"
   ],
-  "SelectedNode": "\\NMEA Connector.sln",
+  "SelectedNode": "\\brands\\BrandGarmin.cs",
   "PreviewInSolutionExplorer": false
 }

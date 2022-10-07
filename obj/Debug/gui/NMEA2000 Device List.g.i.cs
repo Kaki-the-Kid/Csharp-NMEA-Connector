@@ -95,17 +95,4 @@ namespace NMEA_connector.gui {
             #line default
             #line hidden
             return;
-            case 4:
-            
-            #line 49 "..\..\..\gui\NMEA2000 Device List.xaml"
-            ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Firmware);
-            
-            #line default
-            #line hidden
-            return;
-            }
-            this._contentLoaded = true;
-        }
-    }
-}
-
+            c

@@ -14,3 +14,18 @@ bin/Debug/NMEA connector.pdb
 .vs/Csharp-NMEA-Connector/v17/workspaceFileList.bin
 bin/Debug/NMEA connector.exe
 bin/Debug/NMEA connector.pdb
+obj/Debug/NMEA Connector.csproj.AssemblyReference.cache
+obj/Debug/gui/NMEA2000_Device Properties.g.i.cs
+*.cache
+obj/Debug/NMEA connector.csproj.FileListAbsolute.txt
+obj/Debug/gui/NMEA2000_Device Properties.g.i.cs
+obj/Release/NMEA connector_MarkupCompile.lref
+obj/Release/NMEA connector_MarkupCompile.cache
+obj/Release/gui/NMEA2000_Device Properties.g.cs
+obj/Debug/NMEA connector_MarkupCompile.lref
+obj/Debug/NMEA connector_MarkupCompile.cache
+obj/Debug/NMEA connector.pdb
+obj/Debug/NMEA connector.g.resources
+obj/Debug/NMEA Connector.csproj.AssemblyReference.cache
+obj/Debug/NMEA Connector.csproj.CoreCompileInputs.cache
+# *.txt
